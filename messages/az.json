@@ -1,0 +1,58 @@
+{
+  "Header": {
+    "phone": "Əlaqə - (+22) 123 456 7890",
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "services": "Servislər",
+    "contact": "Əlaqə",
+    "reservation": "Rezervasiya"
+  },
+  "Main": {
+    "text": "Beautyness-ə xoş gəlmisiniz!!!",
+    "title": "Gözəllik gücdür, təbəssüm onun qılıncıdır.",
+    "secontext": "'Ipsum' olan keçidlərin bir çox variantı mövcuddur, əksəriyyəti müəyyən formada dəyişikliyə məruz qalmışdır.",
+    "button": "Rezervasiya edin"
+  },
+  "MainSection": {
+    "SectionFirstTexts": {
+      "sectionTitle": "Spa & Masaj",
+      "sectionText": "Lorem Ipsum təklif edən bir keçiddən istifadə edəcəksinizsə, mətnin ortasında gizləndiyinə əmin olmalısınız.",
+      "sectionLink": "Daha Ətraflı"
+    },
+    "SectionSecondTexts": {
+      "sectionTitle": "Saç & Gözəllik",
+      "sectionText": "Lorem Ipsum təklif edən bir keçiddən istifadə edəcəksinizsə, mətnin ortasında gizləndiyinə əmin olmalısınız.",
+      "sectionLink": "Daha Ətraflı"
+    },
+    "SectionThirdTexts": {
+      "sectionTitle": "Bədən müalicələri",
+      "sectionText": "Lorem Ipsum təklif edən bir keçiddən istifadə edəcəksinizsə, mətnin ortasında gizləndiyinə əmin olmalısınız.",
+      "sectionLink": "Daha Ətraflı"
+    }
+  },
+  "Article": {
+    "articleText": "Haqqımızda",
+    "articleTitle": "Gözəllik öz dərinizdə rahat hiss etməkdir!",
+    "articleSeconText": "Lorem Ipsum-dan bir çox keçid dəyişikliyi mövcuddur, lakin əksəriyyəti bir çox masa üstü nəşr paketinə bənzəməyən yumor və ya təsadüfi sözlər daxil olmaqla bir növ dəyişikliyə məruz qalmışdır.",
+    "iconsFirstText": "Gözəllik mütəxəssisləri",
+    "iconsSecondText": "Əla xidmətlər",
+    "iconsThirdText": "100% orijinal"
+  },
+  "ourSection": {
+    "textOne": "XİDMƏTLƏRİMİZ",
+    "titleOne": "Sizi çox gözəl etmək üçün təcrübəmiz var",
+    "Services": {
+      "titleOne": "Üz maskaları ....................................... 48.00$-dan",
+      "textOne": "Versiyalar bəzən təsadüfən zamanla inkişaf etmişdir.",
+      "titleTwo": "Tam bədən masajı ............................. 54.00$-dan",
+      "titleThird": "Geotermal spa ................................. 54.00$-dan",
+      "titleFour": "Sauna rahatlığı ....................................... 73.00$-dan",
+      "link": "RANDEVU ALIN"
+    }
+  },
+  "Testimonials": {
+    "sectionText": "tövsiyələr",
+    "sectionTitle": "Müştərilərimizin rəyləri...",
+    "cardText": "Oxucunun tərtibinə baxarsa, səhifənin oxunaqlı məzmunu ilə diqqəti yayındıracağı çoxdan müəyyən edilmiş bir həqiqətdir. Lorem of distribution istifadə etməyin mənası, oxunaqlı ingilis dilinə bənzəməsidir."
+  }
+}

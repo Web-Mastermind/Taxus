@@ -1,0 +1,58 @@
+{
+  "Header": {
+    "phone": "Call Us - (+22) 123 456 7890",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "reservation": "Reservation"
+  },
+  "Main": {
+    "text": "Welcome to Beautyness!!!",
+    "title": "Beauty is power a smile is its sword.",
+    "secontext": "There are many variation of passages are Ipsum available, majority have suffered alteration in some form.",
+    "button": "Make a reservation"
+  },
+  "MainSection": {
+    "SectionFirstTexts": {
+      "sectionTitle": "Spa & Massage",
+      "sectionText": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.",
+      "sectionLink": "READ MORE"
+    },
+    "SectionSecondTexts": {
+      "sectionTitle": "Hair & Beauty",
+      "sectionText": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.",
+      "sectionLink": "READ MORE"
+    },
+    "SectionThirdTexts": {
+      "sectionTitle": "Body Treatments",
+      "sectionText": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.",
+      "sectionLink": "READ MORE"
+    }
+  },
+  "Article": {
+    "articleText": "About Us",
+    "articleTitle": "The Beauty is about being Comfortable in your own skin!",
+    "articleSeconText": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words which don't look even many desktop publishing packages.",
+    "iconsFirstText": "Beauty Experts",
+    "iconsSecondText": "Great Services",
+    "iconsThirdText": "100% Genuine"
+  },
+  "ourSection": {
+    "textOne": "Our Services",
+    "titleOne": "We are Experienced in making you very Beautiful",
+    "Services": {
+      "titleOne": "Face masks   ....................................... from $48.00",
+      "textOne": "The versions have evolved over the sometimes by accident.",
+      "titleTwo": "Full body massage  ............................. from $54.00",
+      "titleThird": "Geothermal spa  ................................. from $54.00",
+      "titleFour": "Sauna relax  ....................................... from $73.00",
+      "link": "GET AN APPOINTMENT"
+    }
+  },
+  "Testimonials": {
+    "sectionText": "Testimonials",
+    "sectionTitle": "What our Customers says...",
+    "cardText": "“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “"
+  }
+}

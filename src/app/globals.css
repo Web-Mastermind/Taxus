@@ -1,0 +1,80 @@
+:root {
+  --primary: #c94d00;
+} 
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: min(100% - 15px, 1210px);
+  margin-inline: auto;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../../public/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../../public/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../../public/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(../../public/assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url(../../public/assets/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Prata-Regular";
+  src: url(../../public/assets/fonts/Prata-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../../public/assets/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url(../../public/assets/fonts/Raleway-Bold.ttf);
+}
