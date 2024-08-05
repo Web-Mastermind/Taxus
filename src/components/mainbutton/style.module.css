@@ -1,0 +1,8 @@
+.contactUs {
+  color: #fff;
+  background: var(--primary, #c94d00);
+  font: 1rem "Montserrat-Medium", sans-serif;
+  border: 1px solid var(--primary, #c94d00);
+  border-radius: 5px;
+  padding: 17px 40px;
+}
