@@ -1,17 +1,18 @@
 {
   "Header": {
-    "phone": "Əlaqə - (+22) 123 456 7890",
-    "home": "Ana Səhifə",
+    "services": "Xidmətlər",
+    "banking": "Bankçılıq",
     "about": "Haqqımızda",
-    "services": "Servislər",
+    "blog": "Blog",
     "contact": "Əlaqə",
-    "reservation": "Rezervasiya"
+    "login": "Daxil ol"
   },
   "Main": {
-    "text": "Beautyness-ə xoş gəlmisiniz!!!",
-    "title": "Gözəllik gücdür, təbəssüm onun qılıncıdır.",
-    "secontext": "'Ipsum' olan keçidlərin bir çox variantı mövcuddur, əksəriyyəti müəyyən formada dəyişikliyə məruz qalmışdır.",
-    "button": "Rezervasiya edin"
+    "title": "Etibarlı",
+    "subtitle": "Öz biznesinizi",
+    "text": "Genişləndirin",
+    "secontext": "Taxus fərdiləşdirilmiş biznes İT həlləri təminatçınızdır. Hüquq, maliyyə və marketinq təcrübəsinin ən yaxşı sinerjisi! Biz şirkətin qeydiyyatından müqavilənin tərtib edilməsinə qədər hərtərəfli xidmətlər təqdim edirik",
+    "button": "Müraciət et"
   },
   "MainSection": {
     "SectionFirstTexts": {
