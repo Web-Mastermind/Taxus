@@ -1,17 +1,18 @@
 {
   "Header": {
-    "phone": "Call Us - (+22) 123 456 7890",
-    "home": "Home",
-    "about": "About",
     "services": "Services",
-    "contact": "Contact",
-    "reservation": "Reservation"
+    "banking": "Banking",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "login": "Log in"
   },
   "Main": {
-    "text": "Welcome to Beautyness!!!",
-    "title": "Beauty is power a smile is its sword.",
-    "secontext": "There are many variation of passages are Ipsum available, majority have suffered alteration in some form.",
-    "button": "Make a reservation"
+    "title": "Dedicated",
+    "subtitle": "to expanding",
+    "text": "your business",
+    "secontext": "Taxus is your provider of bespoke business solutions for IT. The best synergy of legal, financial, and marketing expertise! We provide a one-stop-shop service from company registration to contract drafting",
+    "button": "Contact us"
   },
   "MainSection": {
     "SectionFirstTexts": {
