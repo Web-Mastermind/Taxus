@@ -1,0 +1,36 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 1.5rem;
+}
+
+.headerItems,
+.headerLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerTitleItem {
+  color: var(--primary, #c94d00);
+  font: 1.4rem "Prata-Regular", sans-serif;
+}
+
+.fonts {
+  font: 1rem "Montserrat-Regular";
+  color: #fff;
+}
+
+.headerLinksItem,
+.logInLink
+{
+  margin-right: 1.875rem;
+}
+
+.logInLink {
+  font-size: 0.875rem;
+  padding: 7px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
