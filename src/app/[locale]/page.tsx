@@ -23,20 +23,20 @@ const page = () => {
           </div>
           <div className={styles.rightContainer}>
             <div className={styles.mainRightItems}>
-              <p className={styles.mainRightTitle}>10+ Years</p>
-              <p className={styles.mainRightText}>of experience with IT</p>
+              <p className={styles.mainRightTitle}>{t("years")}</p>
+              <p className={styles.mainRightText}>{t("yearsText")}</p>
             </div>
             <div className={styles.mainRightItems}>
-              <p className={styles.mainRightTitle}>&gt; 250</p>
-              <p className={styles.mainRightText}>partners in the network</p>
+              <p className={styles.mainRightTitle}>{t("network")}</p>
+              <p className={styles.mainRightText}>{t("networkText")}</p>
             </div>
             <div className={styles.mainRightItems}>
-              <p className={styles.mainRightTitle}>&gt; 230</p>
-              <p className={styles.mainRightText}>clients worldwide</p>
+              <p className={styles.mainRightTitle}>{t("clients")}</p>
+              <p className={styles.mainRightText}>{t("clientsText")}</p>
             </div>
             <div className={styles.mainRightItems}>
-              <p className={styles.mainRightTitle}>&gt; 150</p>
-              <p className={styles.mainRightText}>projects launched</p>
+              <p className={styles.mainRightTitle}>{t("project")}</p>
+              <p className={styles.mainRightText}>{t("projectText")}</p>
             </div>
           </div>
         </div>
