@@ -1,0 +1,40 @@
+.main {
+  background: url(../../../public/assets/img/HeroImage.png) no-repeat center top/ cover;
+  min-height: 100vh;
+  padding-top: 12rem;
+}
+
+.mainTitle {
+  font: 3.5rem "Prata-Regular", sans-serif;
+  color: var(--primary, #c94d00);
+}
+
+.mainTexts {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.mainIcon {
+  margin-right: 2.8rem;
+}
+
+.mainSubTitle,
+.mainSubSecondTitle {
+  color: #fff;
+  font: 4.25rem "Montserrat-Bold", sans-serif;
+}
+
+.mainSubSecondTitle {
+  margin-bottom: 37px;
+}
+
+.mainTextItem {
+  color: #6b6b6b;
+  max-width: 30rem;
+  font: 1.125rem/140% "Montserrat-Regular", sans-serif;
+}
+
+.buttonContainer {
+  margin: 5rem 0 0 3.9rem;
+}
