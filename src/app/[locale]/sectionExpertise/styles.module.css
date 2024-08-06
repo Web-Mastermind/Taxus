@@ -1,0 +1,43 @@
+.expertiseSection {
+  background-color: #1a1a1a;
+  padding: 7rem 0;
+}
+
+.sectionItems {
+  color: #FFF;
+  text-align: center;
+}
+
+.expertiseText {
+  font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.expertiseTitle {
+  color: #c94d00;
+  font: 2.875rem/140% "Montserrat-Regular", sans-serif;
+}
+
+.sectionSecondItemsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionSecondItems {
+  max-width: 15rem;
+}
+
+.sectionicons {
+  margin: 5rem 0 1.875rem;
+}
+
+.sectionSubTitle {
+  color: #fff;
+  font: 2rem "Montserrat-ExtraBold", sans-serif;
+  margin-bottom: 1.875rem;;
+}
+
+.sectionSubText {
+  color: #6b6b6b;
+  font: 1rem/140% "Montserrat-Regular", sans-serif;
+}
