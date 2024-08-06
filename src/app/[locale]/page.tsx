@@ -2,9 +2,12 @@ import Image from "next/image"
 import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
 import ContactUs from "@/components/mainbutton/ContactUs"
-import Expertise from "./sectionExpertise/Expertise"
+import Expertise from "../../components/sectionExpertise/Expertise"
+import { experience } from "@/links/Links"
+import Serve from "@/components/sectionServer/Serve"
 
 const page = () => {
+  const exp = experience();
   const t = useTranslations("Main")
   return (
     <>
@@ -24,22 +27,16 @@ const page = () => {
               </div>
             </div>
             <div className={styles.rightContainer}>
-              <div className={styles.mainRightItems}>
-                <p className={styles.mainRightTitle}>{t("years")}</p>
-                <p className={styles.mainRightText}>{t("yearsText")}</p>
-              </div>
-              <div className={styles.mainRightItems}>
-                <p className={styles.mainRightTitle}>{t("network")}</p>
-                <p className={styles.mainRightText}>{t("networkText")}</p>
-              </div>
-              <div className={styles.mainRightItems}>
-                <p className={styles.mainRightTitle}>{t("clients")}</p>
-                <p className={styles.mainRightText}>{t("clientsText")}</p>
-              </div>
-              <div className={styles.mainRightItems}>
-                <p className={styles.mainRightTitle}>{t("project")}</p>
-                <p className={styles.mainRightText}>{t("projectText")}</p>
-              </div>
+              {
+                exp.map(({ id, text, subTexts }) => {
+                  return (
+                    <div key={id} className={styles.mainRightItems}>
+                      <p className={styles.mainRightTitle}>{text}</p>
+                      <p className={styles.mainRightText}>{subTexts}</p>
+                    </div>
+                  )
+                })
+              }
             </div>
           </div>
         </div>
@@ -80,6 +77,7 @@ const page = () => {
         </div>
       </main>
       <Expertise />
+      <Serve />
     </>
   )
 }
