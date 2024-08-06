@@ -31,21 +31,24 @@
   "Components": {
     "button": "Contact us"
   },
-  "MainSection": {
+  "expertiseSection": {
     "SectionFirstTexts": {
-      "sectionTitle": "Spa & Massage",
-      "sectionText": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.",
-      "sectionLink": "READ MORE"
+      "expertiseMainText": "Expertise",
+      "expertiseMainTitle": "Our expertise includes",
+      "expertiseTitle": "Corporate Law",
+      "expertiseText": "We help businesses with company formation, mergers and acquisitions, contract drafting and review, and other corporate matters. We have a deep understanding of the legal and regulatory frameworks in various countries and provide our clients with advice on the best course of action."
     },
     "SectionSecondTexts": {
-      "sectionTitle": "Hair & Beauty",
-      "sectionText": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.",
-      "sectionLink": "READ MORE"
+      "expertiseTitle": "Intellectual Property",
+      "expertiseText": "We help IT businesses protect their intellectual property rights, including trademarks, patents, and copyrights. We also provide guidance on licensing and franchising agreements, and other IP-related matters."
     },
     "SectionThirdTexts": {
-      "sectionTitle": "Body Treatments",
-      "sectionText": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.",
-      "sectionLink": "READ MORE"
+      "expertiseTitle": "Banking and Finance",
+      "expertiseText": "We help businesses navigate the complex world of banking and finance, including opening current and merchant accounts, alternative payment methos (APMs), crypto payments, and other financial matters."
+    },
+    "SectionFourTexts": {
+      "expertiseTitle": "International Business",
+      "expertiseText": "We help IT businesses expand their operations internationally, including setting up subsidiaries, joint ventures, and other business structures. We provide advice on regulatory compliance, tax planning, and other international business matters."
     }
   },
   "Article": {

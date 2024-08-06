@@ -31,21 +31,24 @@
   "Components": {
     "button": "Müraciət et"
   },
-  "MainSection": {
+  "expertiseSection": {
     "SectionFirstTexts": {
-      "sectionTitle": "Spa & Masaj",
-      "sectionText": "Lorem Ipsum təklif edən bir keçiddən istifadə edəcəksinizsə, mətnin ortasında gizləndiyinə əmin olmalısınız.",
-      "sectionLink": "Daha Ətraflı"
+      "expertiseMainText": "Təcrübə",
+      "expertiseMainTitle": "Bizim təcrübəmizə daxildir",
+      "expertiseTitle": "Korporativ hüquq",
+      "expertiseText": "Biz şirkətlərə şirkətlərin yaradılması, birləşmə və satınalmalar, müqavilələrin hazırlanması və nəzərdən keçirilməsi və digər korporativ məsələlərdə kömək edirik. Biz müxtəlif ölkələrdə hüquqi və tənzimləyici bazaları dərindən başa düşürük və müştərilərimizə ən yaxşı fəaliyyət kursu ilə bağlı məsləhətlər veririk."
     },
     "SectionSecondTexts": {
-      "sectionTitle": "Saç & Gözəllik",
-      "sectionText": "Lorem Ipsum təklif edən bir keçiddən istifadə edəcəksinizsə, mətnin ortasında gizləndiyinə əmin olmalısınız.",
-      "sectionLink": "Daha Ətraflı"
+      "expertiseTitle": "Əqli mülkiyyət",
+      "expertiseText": "İt şirkətlərinə ticarət nişanları, patentlər və müəllif hüquqları da daxil olmaqla əqli mülkiyyət hüquqlarını qorumağa kömək edirik. Lisenziyalaşdırma və françayzinq müqavilələri və digər əqli mülkiyyət məsələləri ilə bağlı tövsiyələr də veririk."
     },
     "SectionThirdTexts": {
-      "sectionTitle": "Bədən müalicələri",
-      "sectionText": "Lorem Ipsum təklif edən bir keçiddən istifadə edəcəksinizsə, mətnin ortasında gizləndiyinə əmin olmalısınız.",
-      "sectionLink": "Daha Ətraflı"
+      "expertiseTitle": "Bankçılıq və maliyyə",
+      "expertiseText": "Şirkətlərə cari və ticarət hesabları, alternativ ödəmə üsulları (APM), kripto ödəmələri və digər maliyyə məsələləri daxil olmaqla mürəkkəb bankçılıq və maliyyə dünyasında gəzməyə kömək edirik."
+    },
+    "SectionFourTexts": {
+      "expertiseTitle": "Beynəlxalq biznes",
+      "expertiseText": "Biz İT şirkətlərinə törəmə müəssisələrin, birgə müəssisələrin və digər biznes strukturlarının yaradılması da daxil olmaqla beynəlxalq miqyasda əməliyyatlarını genişləndirməyə kömək edirik. Biz normativlərə uyğunluq, vergi planlaşdırması və digər beynəlxalq biznes məsələləri üzrə məsləhətlər veririk."
     }
   },
   "Article": {
