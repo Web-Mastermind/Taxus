@@ -41,6 +41,41 @@ const page = () => {
           </div>
         </div>
       </div>
+      <div className={styles.logos}>
+        <div className={styles.logosSlide}>
+          <p>{t("registration")}</p>
+          <p>&bull;</p>
+          <p>{t("accaunts")}</p>
+          <p>&bull;</p>
+          <p>{t("license")}</p>
+          <p>&bull;</p>
+          <p>{t("payment")}</p>
+          <p>&bull;</p>
+          <p>{t("audit")}</p>
+          <p>&bull;</p>
+          <p>{t("drafting")}</p>
+          <p>&bull;</p>
+          <p>{t("corporate")}</p>
+          <p>&bull;</p>
+        </div>
+
+        <div className={styles.logosSlide}>
+          <p>{t("registration")}</p>
+          <p>&bull;</p>
+          <p>{t("accaunts")}</p>
+          <p>&bull;</p>
+          <p>{t("license")}</p>
+          <p>&bull;</p>
+          <p>{t("payment")}</p>
+          <p>&bull;</p>
+          <p>{t("audit")}</p>
+          <p>&bull;</p>
+          <p>{t("drafting")}</p>
+          <p>&bull;</p>
+          <p>{t("corporate")}</p>
+          <p>&bull;</p>
+        </div>
+      </div>
     </main>
   )
 }

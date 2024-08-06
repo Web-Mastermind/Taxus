@@ -19,7 +19,14 @@
     "clients": "> 230",
     "clientsText": "dünya üzrə müştərilər",
     "project": "> 150",
-    "projectText": "layihələrə start verilib"
+    "projectText": "layihələrə start verilib",
+    "registration": "Şirkətin qeydiyyatı",
+    "accaunts": "Korporativ hesablar",
+    "license": "Lisenziyaların əldə edilməsi",
+    "payment": "Ödəniş Prosesi",
+    "audit": "Mühasibat Uçotu və Audit",
+    "drafting": "Müqavilənin nəzərdən keçirilməsi və tərtib edilməsi",
+    "corporate": "Korporativ Strukturlaşdırma"
   },
   "Components": {
     "button": "Müraciət et"

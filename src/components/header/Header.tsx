@@ -10,7 +10,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className="container">
         <div className={styles.headerItems}>
-          <Image className={styles.logo} src="/assets/icons/SiteLogo.svg" alt="Site Logo" width={163} height={47.13} />
+          <Link className={styles.siteLogoLink} href="/"><Image className={styles.logo} src="/assets/icons/SiteLogo.svg" alt="Site Logo" width={163} height={47.13} /></Link>
           <ul className={styles.headerLinks}>
             <li className={styles.headerLinkItems}>
               <Link className={`${styles.headerLinksItem} ${styles.fonts}`} href="/">{t("services")}</Link>
