@@ -34,17 +34,21 @@ export const expertise = () => {
   ];
 };
 
-export const serveSection = [
-  { id: 1, icon: "◆", text: "Software development companies" },
-  { id: 2, icon: "◆", text: "E-commerce platforms" },
-  { id: 3, icon: "◆", text: "Fintech projects" },
-  { id: 4, icon: "◆", text: "Payment processing providers" },
-  { id: 5, icon: "◆", text: "Cryptocurrency exchanges" },
-  { id: 6, icon: "◆", text: "White Label" },
-  { id: 7, icon: "◆", text: "IT out staff and outsource companies" },
-  { id: 8, icon: "◆", text: "Social Networks" },
-  { id: 9, icon: "◆", text: "Startups" },
-  { id: 10, icon: "◆", text: "Mobile Apps" },
-  { id: 11, icon: "◆", text: "Gaming & Gambling business" },
-  { id: 12, icon: "◆", text: "Marketing platforms" }
-];
+export const serveSection = () => {
+  const t = useTranslations("serveSection");
+
+  return [
+    { id: 1, icon: "◆", text: t("SectionSecondTexts.text1") },
+    { id: 2, icon: "◆", text: t("SectionSecondTexts.text2") },
+    { id: 3, icon: "◆", text: t("SectionSecondTexts.text3") },
+    { id: 4, icon: "◆", text: t("SectionSecondTexts.text4") },
+    { id: 5, icon: "◆", text: t("SectionSecondTexts.text5") },
+    { id: 6, icon: "◆", text: t("SectionSecondTexts.text6") },
+    { id: 7, icon: "◆", text: t("SectionSecondTexts.text7") },
+    { id: 8, icon: "◆", text: t("SectionSecondTexts.text8") },
+    { id: 9, icon: "◆", text: t("SectionSecondTexts.text9") },
+    { id: 10, icon: "◆", text: t("SectionSecondTexts.text10") },
+    { id: 11, icon: "◆", text: t("SectionSecondTexts.text11") },
+    { id: 12, icon: "◆", text: t("SectionSecondTexts.text12") }
+  ];
+};
