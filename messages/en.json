@@ -51,13 +51,25 @@
       "expertiseText": "We help IT businesses expand their operations internationally, including setting up subsidiaries, joint ventures, and other business structures. We provide advice on regulatory compliance, tax planning, and other international business matters."
     }
   },
-  "Article": {
-    "articleText": "About Us",
-    "articleTitle": "The Beauty is about being Comfortable in your own skin!",
-    "articleSeconText": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words which don't look even many desktop publishing packages.",
-    "iconsFirstText": "Beauty Experts",
-    "iconsSecondText": "Great Services",
-    "iconsThirdText": "100% Genuine"
+  "serveSection": {
+    "firstTexts": {
+      "serveMainText": "Who we serve",
+      "serveMainTitle": "The areas of our expertise are as diverse as the verticals of IT business are"
+    },
+    "SectionSecondTexts": {
+      "text1": "Software development companies",
+      "text2": "E-commerce platforms",
+      "text3": "Fintech projects",
+      "text4": "Payment processing providers",
+      "text5": "Cryptocurrency exchanges",
+      "text6": "White Label",
+      "text7": "IT out staff and outsource companies",
+      "text8": "Social Networks",
+      "text9": "Startups",
+      "text10": "Mobile Apps",
+      "text11": "Gaming & Gambling business",
+      "text12": "Marketing platforms"
+    }
   },
   "ourSection": {
     "textOne": "Our Services",

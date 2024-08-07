@@ -51,13 +51,25 @@
       "expertiseText": "Biz İT şirkətlərinə törəmə müəssisələrin, birgə müəssisələrin və digər biznes strukturlarının yaradılması da daxil olmaqla beynəlxalq miqyasda əməliyyatlarını genişləndirməyə kömək edirik. Biz normativlərə uyğunluq, vergi planlaşdırması və digər beynəlxalq biznes məsələləri üzrə məsləhətlər veririk."
     }
   },
-  "Article": {
-    "articleText": "Haqqımızda",
-    "articleTitle": "Gözəllik öz dərinizdə rahat hiss etməkdir!",
-    "articleSeconText": "Lorem Ipsum-dan bir çox keçid dəyişikliyi mövcuddur, lakin əksəriyyəti bir çox masa üstü nəşr paketinə bənzəməyən yumor və ya təsadüfi sözlər daxil olmaqla bir növ dəyişikliyə məruz qalmışdır.",
-    "iconsFirstText": "Gözəllik mütəxəssisləri",
-    "iconsSecondText": "Əla xidmətlər",
-    "iconsThirdText": "100% orijinal"
+  "serveSection": {
+    "firstTexts": {
+      "serveMainText": "Kimə xidmət edirik",
+      "serveMainTitle": "Bizim təcrübəmizin sahələri İT biznesinin zirvələri qədər müxtəlifdir"
+    },
+    "SectionSecondTexts": {
+      "text1": "Proqram təminatı inkişaf etdirən şirkətlər",
+      "text2": "Elektron ticarət platformaları",
+      "text3": "Fintech layihələri",
+      "text4": "Ödəniş emal təminatçıları",
+      "text5": "Kriptovalyuta birjaları",
+      "text6": "Ağ etiket",
+      "text7": "İT işçiləri və xarici şirkətlər",
+      "text8": "Sosial şəbəkələr",
+      "text9": "Startaplar",
+      "text10": "Mobil Proqramlar",
+      "text11": "Oyun və Qumar biznesi",
+      "text12": "Marketinq platformaları"
+    }
   },
   "ourSection": {
     "textOne": "XİDMƏTLƏRİMİZ",
