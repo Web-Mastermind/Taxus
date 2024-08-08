@@ -71,16 +71,29 @@
       "text12": "Marketinq platformaları"
     }
   },
-  "ourSection": {
-    "textOne": "XİDMƏTLƏRİMİZ",
-    "titleOne": "Sizi çox gözəl etmək üçün təcrübəmiz var",
+  "servicesSection": {
+    "sectionText": "Xidmətlər",
+    "sectionTitle": "Biz sizin İT biznes ideyanızı hüquqi və maliyyə strukturunda reallaşdırırıq",
     "Services": {
-      "titleOne": "Üz maskaları ....................................... 48.00$-dan",
-      "textOne": "Versiyalar bəzən təsadüfən zamanla inkişaf etmişdir.",
-      "titleTwo": "Tam bədən masajı ............................. 54.00$-dan",
-      "titleThird": "Geotermal spa ................................. 54.00$-dan",
-      "titleFour": "Sauna rahatlığı ....................................... 73.00$-dan",
-      "link": "RANDEVU ALIN"
+      "title1": "Şirkətlərin qeydiyyatları",
+      "text1": "Biz şirkətin yaradılması və saxlanması, eləcə də yerli kadrların axtarışı, hazır şirkətlərin satışı, ləğvetmə proseslərini təmin edirik.",
+      "title2": "Korporativ hesablar",
+      "text2": "Biz həm bank, həm də EMI hesablarının açılmasına, eləcə də investorlar üçün korporativ kartların və hətta LEI nömrələrinin alınmasına kömək edirik.",
+      "title3": "Lisenziyaların alınması",
+      "text3": "Bəzi müəssisələr xüsusi dövlət qaydaları altındadır. Oyun lisenziyaları, EMI lisenziyaları və Kripto lisenziyaları əldə edərkən sizi müşayiət edirik.",
+      "title4": "Ödənişin işlənməsi",
+      "text4": "Etibarlı ödəniş sistemləri, PCI DSS sertifikatları, geri ödənişin qarşısının alınması və son istifadəçiləriniz üçün KYC yoxlamaları ilə tacir hesabının açılması ilə bağlı xidmətlərin tam həcmi.",
+      "title5": "Mühasibat Uçotu və Audit",
+      "text5": "Biz hesabatların hazırlanması və təqdim edilməsi, mühasibat uçotu və audit prosedurlarının bütün əngəllərini öz üzərimizə götürürük. Diqqətinizi işinizə yönəltmək üçün ƏDV, OSS və VIES dövrləri üçün son tarixlərə diqqət yetiririk.",
+      "title6": "Müqaviləyə baxılması və tərtib edilməsi",
+      "text6": "Heç bir iş hər bir aspekt üzrə müvafiq müqavilələr olmadan fəaliyyət göstərə bilməz - Vebsaytlar üçün Sənədlər, NDA, Marketinq Müqavilələr, Məsləhət Müqavilələri, Proqram Təminatlarının İnkişafı Müqavilələri, Lisenziya Müqavilələri və s.",
+      "title7": "Korporativ Strukturlaşdırma",
+      "text7": "Biz sizin cari korporativ strukturunuzu təkmilləşdirə və vergi planlaması və aktivlərin qorunması tədbirləri təklif edə bilərik.",
+      "title8": "IP və TM qeydiyyatı",
+      "text8": "İntellektual mülkiyyət istənilən İT şirkəti üçün qiymətli varlıqdır. Bizim köməyimizlə siz öz ölkənizdə və ya bütün dünyada ticarət nişanınızı və ya loqotipinizi qoruya bilərsiniz.",
+      "servicesLink": "Ətraflı",
+      "businessTitle": "Biznesinizi növbəti səviyyəyə qaldırmaq istəyirsiniz?",
+      "businessText": "Təcrübəmizdən bilirik ki, yüksək keyfiyyətli və vaxtında xidmət göstərmək üçün sorğunuzu aydın şəkildə formalaşdırmaq vacibdir."
     }
   },
   "Testimonials": {

@@ -71,16 +71,29 @@
       "text12": "Marketing platforms"
     }
   },
-  "ourSection": {
-    "textOne": "Our Services",
-    "titleOne": "We are Experienced in making you very Beautiful",
+  "servicesSection": {
+    "sectionText": "Services",
+    "sectionTitle": "We realize your IT business idea in legal and financial structure",
     "Services": {
-      "titleOne": "Face masks   ....................................... from $48.00",
-      "textOne": "The versions have evolved over the sometimes by accident.",
-      "titleTwo": "Full body massage  ............................. from $54.00",
-      "titleThird": "Geothermal spa  ................................. from $54.00",
-      "titleFour": "Sauna relax  ....................................... from $73.00",
-      "link": "GET AN APPOINTMENT"
+      "title1": "Company registration",
+      "text1": "We ensure the processes of setting up and maintenance of a company, as well as search for local personnel, sale of ready-made companies, and liquidations.",
+      "title2": "Corporate accounts",
+      "text2": "We assist in opening both bank and EMI accounts, as well as getting corporate cards and even LEI numbers for investors.",
+      "title3": "Obtaining Licenses",
+      "text3": "Some businesses are under specific state regulations. We accompany you while getting Gaming licenses, EMI licenses and Crypto licenses.",
+      "title4": "Payment processing",
+      "text4": "The full scope of services relating to merchant account opening with reliable payment systems, PCI DSS certifications, chargeback prevention and KYC verifications for your end-users.",
+      "title5": "Accounting & Audit",
+      "text5": "We take all the hassle of preparation and submission of reports, accounting, and audit procedures. We keep an eye on deadlines for VAT, OSS, and VIES periods to let you concentrate on business.",
+      "title6": "Contract review and drafting",
+      "text6": "No business can operate without proper contracts for every aspect – Documents for Websites, NDA, Marketing Agreements, Consulting Agreements, Software Development Agreements, License Agreements, etc.",
+      "title7": "Corporate Structuring",
+      "text7": "We can enhance your current corporate structure and offer tax planning & asset protection measures.",
+      "title8": "IP & TM registration",
+      "text8": "Intellectual property is a valuable asset for any IT company. With our help, you can protect your trademark or logo in your country or around the world.",
+      "servicesLink": "More",
+      "businessTitle": "Do you want to take your business to the next level?",
+      "businessText": "We know from experience that it is important to clearly define the request -to provide the highest quality and timely service."
     }
   },
   "Testimonials": {
