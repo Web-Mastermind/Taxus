@@ -4,7 +4,8 @@ import { useTranslations } from "next-intl"
 import ContactUs from "@/components/mainbutton/ContactUs"
 import Expertise from "../../components/sectionExpertise/Expertise"
 import { experience } from "@/links/Links"
-import Serve from "@/components/sectionServer/Serve"
+import Serve from "@/components/sectionServe/Serve"
+import Services from "@/components/sectionServices/Services"
 
 const page = () => {
   const exp = experience();
@@ -78,6 +79,7 @@ const page = () => {
       </main>
       <Expertise />
       <Serve />
+      <Services />
     </>
   )
 }
