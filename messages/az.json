@@ -96,9 +96,13 @@
       "businessText": "Təcrübəmizdən bilirik ki, yüksək keyfiyyətli və vaxtında xidmət göstərmək üçün sorğunuzu aydın şəkildə formalaşdırmaq vacibdir."
     }
   },
-  "Testimonials": {
-    "sectionText": "tövsiyələr",
-    "sectionTitle": "Müştərilərimizin rəyləri...",
-    "cardText": "Oxucunun tərtibinə baxarsa, səhifənin oxunaqlı məzmunu ilə diqqəti yayındıracağı çoxdan müəyyən edilmiş bir həqiqətdir. Lorem of distribution istifadə etməyin mənası, oxunaqlı ingilis dilinə bənzəməsidir."
+  "bankingSection": {
+    "sectionText": "Taxus bankçılığı",
+    "sectionTitle": "Təkmilləşdirilmiş Bank Partnyorunuz",
+    "subText1": "Biznes hesabı",
+    "subText2": "Biznes ödənişləri",
+    "subText3": "Biznes əmanəti",
+    "subText4": "Biznes Müştəriləri üçün Eksklüziv Təklif",
+    "bankingLink": "Ətraflı məlumat"
   }
 }

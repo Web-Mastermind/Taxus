@@ -96,9 +96,13 @@
       "businessText": "We know from experience that it is important to clearly define the request -to provide the highest quality and timely service."
     }
   },
-  "Testimonials": {
-    "sectionText": "Testimonials",
-    "sectionTitle": "What our Customers says...",
-    "cardText": "“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “"
+  "bankingSection": {
+    "sectionText": "Taxus Banking",
+    "sectionTitle": "Your streamlined Banking Partner",
+    "subText1": "Business Account",
+    "subText2": "Business Payments",
+    "subText3": "Business Escrow",
+    "subText4": "Exclusive Offer for Business Clients",
+    "bankingLink": "Learn more"
   }
 }
