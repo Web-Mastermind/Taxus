@@ -78,3 +78,14 @@ export const servicesSection = () => {
     { id: 8, title: t("Services.title8"), text: t("Services.text8"), to: "/" }
   ];
 };
+
+export const bankingSection = () => {
+  const t = useTranslations("bankingSection")
+
+  return [
+    { id: 1, icon: "◆", text: t("subText1") },
+    { id: 2, icon: "◆", text: t("subText2") },
+    { id: 3, icon: "◆", text: t("subText3") },
+    { id: 4, icon: "◆", text: t("subText4") }
+  ]
+} 
