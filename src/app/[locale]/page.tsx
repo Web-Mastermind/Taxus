@@ -6,6 +6,7 @@ import Expertise from "../../components/sectionExpertise/Expertise"
 import { experience } from "@/links/Links"
 import Serve from "@/components/sectionServe/Serve"
 import Services from "@/components/sectionServices/Services"
+import Banking from "@/components/sectionBanking/Banking"
 
 const page = () => {
   const exp = experience();
@@ -80,6 +81,7 @@ const page = () => {
       <Expertise />
       <Serve />
       <Services />
+      <Banking />
     </>
   )
 }
