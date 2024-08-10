@@ -7,6 +7,8 @@ import { experience } from "@/links/Links"
 import Serve from "@/components/sectionServe/Serve"
 import Services from "@/components/sectionServices/Services"
 import Banking from "@/components/sectionBanking/Banking"
+import Platform from "@/components/sectionPlatform/Platform"
+import Process from "@/components/sectionProcess/Process"
 
 const page = () => {
   const exp = experience();
@@ -82,6 +84,8 @@ const page = () => {
       <Serve />
       <Services />
       <Banking />
+      <Platform />
+      <Process />
     </>
   )
 }
