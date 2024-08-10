@@ -51,13 +51,13 @@ body {
 }
 
 @font-face {
-  font-family: "Montserrat-Bold";
-  src: url(../../public/assets/fonts/Montserrat-Bold.ttf);
+  font-family: "Montserrat-SemiBold";
+  src: url(../../public/assets/fonts/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
-  font-family: "Montserrat-SemiBold";
-  src: url(../../public/assets/fonts/Montserrat-SemiBold.ttf);
+  font-family: "Montserrat-Bold";
+  src: url(../../public/assets/fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
