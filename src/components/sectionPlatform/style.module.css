@@ -1,0 +1,53 @@
+.sectionPlatform {
+  position: relative;
+  padding: 7rem 0;
+  background-color: #1a1a1a;
+  z-index: 2;
+}
+
+.sectionPlatform::after {
+  position: absolute;
+  content: '';
+  background: url("../../../public/assets/img/ServicesTriangle.png") no-repeat center right/ cover;
+  width: 63%;
+  height: 45rem;
+  right: -29rem;
+  top: 0rem;
+  z-index: -1;
+}
+
+.sectionItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionTexts {
+  max-width: 36.25rem;
+}
+
+.platformText {
+  color: #fff;
+  font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
+}
+
+.platformTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin: 1rem 0 4rem;
+}
+
+.platformSubText {
+  color: #fff;
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+}
+
+.platformLinkItem {
+  color: #fff;
+  font: 1rem "Montserrat-Medium", sans-serif;
+  border: 1px solid #FFF;
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin-top: 3rem;
+  display: inline-block;
+}

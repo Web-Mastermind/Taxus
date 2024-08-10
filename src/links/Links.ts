@@ -88,4 +88,17 @@ export const bankingSection = () => {
     { id: 3, icon: "◆", text: t("subText3") },
     { id: 4, icon: "◆", text: t("subText4") }
   ]
-} 
+};
+
+export const processSection = () => {
+  const t = useTranslations("processSection");
+
+  return [
+    { id: 1, count: "1", title: t("process.title1"), text: t("process.text1"), to: "/" },
+    { id: 2, count: "2", title: t("process.title2"), text: t("process.text2"), to: "/" },
+    { id: 3, count: "3", title: t("process.title3"), text: t("process.text3"), to: "/" },
+    { id: 4, count: "4", title: t("process.title4"), text: t("process.text4"), to: "/" },
+    { id: 5, count: "5", title: t("process.title5"), text: t("process.text5"), to: "/" },
+    { id: 6, count: "6", title: t("process.title6"), text: t("process.text6"), to: "/" }
+  ];
+};

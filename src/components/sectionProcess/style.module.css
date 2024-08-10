@@ -1,0 +1,70 @@
+.sectionProcess {
+  padding: 7rem 0;
+}
+
+.sectionItems,
+.rightContainerItems {
+  display: flex;
+}
+
+.sectionLeftContainer {
+  width: 36.875rem;
+}
+
+.sectionText {
+  color: #1a1a1a;
+  font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin: 1rem 0 3rem;
+}
+
+.sectionRightContainer {
+  margin-left: 7.375rem;
+}
+
+.rightContainerItems{
+  position: relative;
+}
+
+.rightContainerItems:not(:last-child)::after {
+  position: absolute;
+  content: '';
+  width: 2.5px;
+  height: 110px;
+  background: #1a1a1a;
+  bottom: 0;
+  left: 28px;
+}
+
+.rightContainerTexts {
+  width: 29rem;
+}
+
+.sectionSpan {
+  color: #fff;
+  font: 1.875rem "Montserrat-Regular", sans-serif;
+  background: #1a1a1a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.286rem 5.75rem 0;
+  width: 60px;
+  height: 60px;
+}
+
+.rightContainerItemTitle {
+  color: #1a1a1a;
+  font: 1.5rem/140% "Montserrat-ExtraBold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.rightContainerItemText {
+  color: #1a1a1a;
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  width: 30rem;
+}
