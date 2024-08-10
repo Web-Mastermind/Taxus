@@ -9,6 +9,7 @@ import Services from "@/components/sectionServices/Services"
 import Banking from "@/components/sectionBanking/Banking"
 import Platform from "@/components/sectionPlatform/Platform"
 import Process from "@/components/sectionProcess/Process"
+import Benefits from "@/components/sectionBenefits/Benefits"
 
 const page = () => {
   const exp = experience();
@@ -86,6 +87,7 @@ const page = () => {
       <Banking />
       <Platform />
       <Process />
+      <Benefits />
     </>
   )
 }

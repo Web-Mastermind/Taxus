@@ -102,3 +102,14 @@ export const processSection = () => {
     { id: 6, count: "6", title: t("process.title6"), text: t("process.text6"), to: "/" }
   ];
 };
+
+export const benefitsSection = () => {
+  const t = useTranslations("benefitsSection");
+
+  return [
+    { id: 1, img: "/assets/icons/TeamIcon.svg", title: t("Benefits.title1"), text: t("Benefits.text1") },
+    { id: 2, img: "/assets/icons/StrategyIcon.svg", title: t("Benefits.title2"), text: t("Benefits.text2") },
+    { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: t("Benefits.title3"), text: t("Benefits.text3") },
+    { id: 4, img: "/assets/icons/TargetIcon.svg", title: t("Benefits.title4"), text: t("Benefits.text4") }
+  ]
+};
