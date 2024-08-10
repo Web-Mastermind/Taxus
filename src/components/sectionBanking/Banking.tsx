@@ -26,7 +26,7 @@ const Banking = () => {
                 )
               })
             }
-            <Link className={styles.bankinLinkItem} href="/">{t("bankingLink")} &rarr;</Link>
+            <Link className={styles.bankingLinkItem} href="/">{t("bankingLink")} &rarr;</Link>
           </div>
         </div>
       </div>
