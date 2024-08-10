@@ -104,5 +104,29 @@
     "subText3": "Business Escrow",
     "subText4": "Exclusive Offer for Business Clients",
     "bankingLink": "Learn more"
+  },
+  "platformSection": {
+    "sectionText": "Taxus Administrative Platform",
+    "sectionTitle": "Easily track the process of creating and processing your tasks",
+    "subText": "Legal and financial health of your business at your finger TAPs. The one platform to manage and track all corporate and financial tasks of your business. Our solution helps organize all your corporate structures, documents, invoices, deadlines and alerts into one place.",
+    "bankingLink": "Learn more"
+  },
+  "processSection": {
+    "sectionText": "Process",
+    "sectionTitle": "How our process works",
+    "process": {
+      "title1": "Business consulting",
+      "text1": "We are open for a call or a chat session. It is important for us to immerse ourselves in the needs of your business.",
+      "title2": "Offers with bespoke solutions",
+      "text2": "Each offer is done with an individual approach and attention to your budget and time estimates",
+      "title3": "Clear project road map",
+      "text3": "You may count on transparent information about further steps and an action plan.",
+      "title4": "Fast and efficient communication",
+      "text4": "Of course, we would need your engagement in the project, but we are going to take the hassle and minimize your attention and time required for that.",
+      "title5": "You get the full kit in full confidentiality",
+      "text5": "We send you all the documents and information required for your business strictly according to your instructions",
+      "title6": "Ongoing project support",
+      "text6": "We're here to help once you have any legal or financial questions. Our team can be outsourced as your in-house legal department."
+    }
   }
 }

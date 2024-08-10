@@ -104,5 +104,29 @@
     "subText3": "Biznes əmanəti",
     "subText4": "Biznes Müştəriləri üçün Eksklüziv Təklif",
     "bankingLink": "Ətraflı məlumat"
+  },
+  "platformSection": {
+    "sectionText": "Taxus İnzibati Platforması",
+    "sectionTitle": "Tapşırıqlarınızı yaratmaq və emal etmək prosesini asanlıqla izləyin",
+    "subText": "Biznesinizin hüquqi və maliyyə sağlamlığı barmağınızda TAP-larda. Biznesinizin bütün korporativ və maliyyə tapşırıqlarını idarə etmək və izləmək üçün tək platforma. Bizim həllimiz bütün korporativ strukturlarınızı, sənədlərinizi, fakturalarınızı, son tarixlərinizi və xəbərdarlıqlarınızı bir yerdə təşkil etməyə kömək edir.",
+    "paltformLink": "Ətraflı məlumat"
+  },
+  "processSection": {
+    "sectionText": "Proses",
+    "sectionTitle": "Bizim proses necə işləyir",
+    "process": {
+      "title1": "Biznes məsləhəti",
+      "text1": "Zəng və ya söhbət seansına açığıq. Biznesinizin ehtiyaclarına özümüzü qərq etmək bizim üçün vacibdir.",
+      "title2": "Sifarişli həllər ilə təkliflər",
+      "text2": "Hər bir təklif fərdi yanaşma və büdcənizə və vaxt hesablamalarınıza diqqət yetirməklə həyata keçirilir",
+      "title3": "Təmiz layihə yol xəritəsi",
+      "text3": "Siz gələcək addımlar və fəaliyyət planı haqqında şəffaf məlumata arxalana bilərsiniz.",
+      "title4": "Sürətli və səmərəli ünsiyyət",
+      "text4": "Əlbəttə ki, layihədə iştirakınıza ehtiyacımız olacaq, lakin biz əngəli öz öhdəsinə götürüb, diqqətinizi və bunun üçün tələb olunan vaxtınızı minimuma endirəcəyik.",
+      "title5": "Siz tam məxfilik şəraitində tam dəsti əldə edirsiniz",
+      "text5": "Biz biznesiniz üçün tələb olunan bütün sənədləri və məlumatları göstərişlərinizə uyğun olaraq göndəririk",
+      "title6": "Davamlı layihə dəstəyi",
+      "text6": "Hər hansı hüquqi və ya maliyyə sualınız olduqda kömək etmək üçün buradayıq. Komandamız daxili hüquq departamentiniz kimi autsorsinqə verilə bilər."
+    }
   }
 }
