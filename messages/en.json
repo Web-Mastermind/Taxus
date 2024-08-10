@@ -128,5 +128,19 @@
       "title6": "Ongoing project support",
       "text6": "We're here to help once you have any legal or financial questions. Our team can be outsourced as your in-house legal department."
     }
+  },
+  "benefitsSection": {
+    "sectionText": "Benefits",
+    "sectionTitle": "What makes us stand out",
+    "Benefits": {
+      "title1": "Experienced professionals",
+      "text1": "Our team has an extensive experience with legal and financial structuring of IT businesses, so you can trust us to provide expert guidance and support",
+      "title2": "Customized solutions",
+      "text2": "We understand that every IT business is unique, which is why we offer customized solutions tailored to your specific needs and goals.",
+      "title3": "Cost-effective",
+      "text3": "We believe that starting a business shouldn't break the bank, which is why we offer affordable pricing options",
+      "title4": "Results-driven",
+      "text4": "We're dedicated to achieving results for our clients, whether that means successfully registering a company or protecting your IP from infringement"
+    }
   }
 }

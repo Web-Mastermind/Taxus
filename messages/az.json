@@ -128,5 +128,19 @@
       "title6": "Davamlı layihə dəstəyi",
       "text6": "Hər hansı hüquqi və ya maliyyə sualınız olduqda kömək etmək üçün buradayıq. Komandamız daxili hüquq departamentiniz kimi autsorsinqə verilə bilər."
     }
+  },
+  "benefitsSection": {
+    "sectionText": "Üstünlüklər",
+    "sectionTitle": "Bizi fərqləndirən nədir",
+    "Benefits": {
+      "title1": "Təcrübəli mütəxəssislər",
+      "text1": "Komandamız İT bizneslərinin hüquqi və maliyyə strukturu ilə bağlı geniş təcrübəyə malikdir, ona görə də ekspert rəhbərliyi və dəstəyi təmin etmək üçün bizə etibar edə bilərsiniz.",
+      "title2": "Fərdiləşdirilmiş həllər",
+      "text2": "Biz başa düşürük ki, hər bir İT biznesi unikaldır, buna görə də biz sizin xüsusi ehtiyaclarınıza və məqsədlərinizə uyğunlaşdırılmış fərdi həllər təklif edirik.",
+      "title3": "Xərc baxımından qənaətcil",
+      "text3": "Biz hesab edirik ki, biznesə başlamaq dağıdıcı olmamalıdır, ona görə də sərfəli qiymətlər təklif edirik.",
+      "title4": "Nəticələrə əsaslanan",
+      "text4": "Müştərilərimiz üçün nəticələr əldə etməyə sadiqik, bu, şirkətin uğurla qeydiyyatdan keçməsi və ya IP-nizi pozuntudan qorumaq deməkdir"
+    }
   }
 }
