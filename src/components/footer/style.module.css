@@ -1,0 +1,64 @@
+.footer {
+  padding: 6rem 0 0;
+  background-color: #1a1a1a;
+}
+
+.footerItems,
+.footerRightItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerFont {
+  color: #808080;
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+}
+
+.footerMail {
+  margin: 2rem 0 0.625rem;
+}
+
+.footerAdress {
+  width: 23.813rem;
+  margin-bottom: 2.5rem;
+}
+
+.footerSocLink:not(:last-child) {
+  margin-right: 1.563rem;
+}
+
+.footerRightItemsTexts:not(:last-child) {
+  margin-right: 2.75rem;
+}
+
+.footerRightItemsTexts:last-child {
+  margin-left: 7rem;
+}
+
+.footerLinks {
+  color: #fff;
+  font: 1rem "Montserrat-SemiBold", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+.footerServicesItems {
+  color: #808080;
+  font: 0.875rem "Montserrat-Regular", sans-serif;
+  display: block;
+}
+
+.linksMain:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.copyright {
+  background-color: #131313;
+  padding: 1.563rem 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.copyrightText {
+  color: #fff;
+  font: 1rem "Montserrat-Regular", sans-serif;
+}
