@@ -153,5 +153,30 @@
       "text2": "Great communication, great quality of work. Very good understanding of legal issues cross border especially regarding International e-commerce businesses",
       "text3": "Outstanding and highly recommended! We were able to accomplish exactly what we needed, in a short time period. Above and beyond, exceeded our expectations. AAA+++"
     }
+  },
+  "footer": {
+    "services": {
+      "Title": "Services",
+      "text1": "Company Registration",
+      "text2": "Payment solution",
+      "text3": "Gaming licenses",
+      "text4": "Contract Drafting",
+      "text5": "TM registration"
+    },
+    "company": {
+      "Title": "Company",
+      "text1": "About Us",
+      "text2": "Taxus AP",
+      "text3": "Cases",
+      "text4": "Our Team",
+      "text5": "Blog",
+      "text6": "FAQ"
+    },
+    "legal": {
+      "Title": "Legal",
+      "text1": "Cookie Policy",
+      "text2": "Terms of Use",
+      "text3": "Privacy Police"
+    }
   }
 }
