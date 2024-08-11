@@ -113,3 +113,13 @@ export const benefitsSection = () => {
     { id: 4, img: "/assets/icons/TargetIcon.svg", title: t("Benefits.title4"), text: t("Benefits.text4") }
   ]
 };
+
+export const reviewsSection = () => {
+  const t = useTranslations("reviewSection");
+
+  return [
+    { id: 1, text: t("Benefits.text1"), name: "Elena S.", job: "CLO" },
+    { id: 2, text: t("Benefits.text2"), name: "Jason C.", job: "Co-founder" },
+    { id: 3, text: t("Benefits.text3"), name: "Denys V.", job: "CEO" },
+  ]
+};
