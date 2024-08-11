@@ -123,3 +123,32 @@ export const reviewsSection = () => {
     { id: 3, text: t("Benefits.text3"), name: "Denys V.", job: "CEO" },
   ]
 };
+
+export const footer = () => {
+  const t = useTranslations("footer");
+
+  return {
+    footerItems: {
+      Services: [
+        { id: 1, text: t("services.text1"), to: "/" },
+        { id: 2, text: t("services.text2"), to: "/" },
+        { id: 3, text: t("services.text3"), to: "/" },
+        { id: 4, text: t("services.text4"), to: "/" },
+        { id: 5, text: t("services.text5"), to: "/" }
+      ],
+      Company: [
+        { id: 1, text: t("company.text1"), to: "/" },
+        { id: 2, text: t("company.text2"), to: "/" },
+        { id: 3, text: t("company.text3"), to: "/" },
+        { id: 4, text: t("company.text4"), to: "/" },
+        { id: 5, text: t("company.text5"), to: "/" },
+        { id: 6, text: t("company.text6"), to: "/" }
+      ],
+      Legal: [
+        { id: 1, text: t("legal.text1"), to: "/" },
+        { id: 2, text: t("legal.text2"), to: "/" },
+        { id: 3, text: t("legal.text3"), to: "/" },
+      ]
+    }
+  };
+}
