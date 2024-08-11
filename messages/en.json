@@ -142,5 +142,16 @@
       "title4": "Results-driven",
       "text4": "We're dedicated to achieving results for our clients, whether that means successfully registering a company or protecting your IP from infringement"
     }
+  },
+  "reviewSection": {
+    "sectionText": "Reviews",
+    "sectionTitle": "Our customers say about us",
+    "sectionTitle2": "Looking for Custom pricing?",
+    "sectionText2": "We know from experience that it is important to plan the budget both for IT startups and big stable businesses.",
+    "Benefits": {
+      "text1": "Great company. The best service. I have been working with this company for 2 years and I am always satisfied. Thank you Taxus for an amazing experience and great service.",
+      "text2": "Great communication, great quality of work. Very good understanding of legal issues cross border especially regarding International e-commerce businesses",
+      "text3": "Outstanding and highly recommended! We were able to accomplish exactly what we needed, in a short time period. Above and beyond, exceeded our expectations. AAA+++"
+    }
   }
 }
