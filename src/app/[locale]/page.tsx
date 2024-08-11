@@ -10,6 +10,7 @@ import Banking from "@/components/sectionBanking/Banking"
 import Platform from "@/components/sectionPlatform/Platform"
 import Process from "@/components/sectionProcess/Process"
 import Benefits from "@/components/sectionBenefits/Benefits"
+import Reviews from "@/components/sectionReviews/Reviews"
 
 const page = () => {
   const exp = experience();
@@ -88,6 +89,7 @@ const page = () => {
       <Platform />
       <Process />
       <Benefits />
+      <Reviews />
     </>
   )
 }
