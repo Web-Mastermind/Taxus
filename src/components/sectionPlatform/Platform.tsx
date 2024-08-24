@@ -13,7 +13,7 @@ const Platform = () => {
             <p className={styles.platformText}>{t("sectionText")}</p>
             <h2 className={styles.platformTitle}>{t("sectionTitle")}</h2>
             <p className={styles.platformSubText}>{t("subText")}</p>
-            <Link className={styles.platformLinkItem} href="/">{t("paltformLink")} &rarr;</Link>
+            <Link className={styles.platformLinkItem} href="/">{t("platformLink")} &rarr;</Link>
           </div>
           <div className={styles.sectionImage}>
             <Image className={styles.platformImage} src="/assets/img/PlatformSectionImg.png" alt="young woman image" width={536} height={480} />
