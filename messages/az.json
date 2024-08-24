@@ -109,7 +109,7 @@
     "sectionText": "Taxus İnzibati Platforması",
     "sectionTitle": "Tapşırıqlarınızı yaratmaq və emal etmək prosesini asanlıqla izləyin",
     "subText": "Biznesinizin hüquqi və maliyyə sağlamlığı barmağınızda TAP-larda. Biznesinizin bütün korporativ və maliyyə tapşırıqlarını idarə etmək və izləmək üçün tək platforma. Bizim həllimiz bütün korporativ strukturlarınızı, sənədlərinizi, fakturalarınızı, son tarixlərinizi və xəbərdarlıqlarınızı bir yerdə təşkil etməyə kömək edir.",
-    "paltformLink": "Ətraflı məlumat"
+    "platformLink": "Ətraflı məlumat"
   },
   "processSection": {
     "sectionText": "Proses",
@@ -177,6 +177,20 @@
       "text1": "Cookie siyasəti",
       "text2": "İstifadə şərtləri",
       "text3": "Məxfilik"
+    }
+  },
+  "aboutPage": {
+    "pageText": "Haqqımızda",
+    "pageTitle": "İT sənayesi üçün sifarişli biznes həllərində etibarlı tərəfdaşınız olan Taxus-a xoş gəlmisiniz",
+    "pageSubText": "Hüquq, maliyyə və marketinq təcrübəsinin mükəmməl qarışığı ilə biz şirkət qeydiyyatından tutmuş müqavilələrin tərtib edilməsinə qədər bir pəncərədən xidmət təklif edirik.",
+    "pageEndText": "Beynəlxalq biznesin sadə təşkili üçün yolunuz",
+    "pageSubItems": {
+      "title1": "Bizim təcrübəmiz",
+      "text1": "Bizim təcrübəmiz korporativ hüquq, əqli mülkiyyət, bank və maliyyə və beynəlxalq İT biznesi daxil olmaqla, geniş sahələri əhatə edir.",
+      "title2": "Komandamız",
+      "text2": "Komandamız hüquqşünaslar, biznes məsləhətçiləri və maliyyə ekspertləri də daxil olmaqla müxtəlif mənşəli peşəkarlardan ibarətdir. Bu multidissiplinar yanaşma bizə müştərilərimizə hərtərəfli və inteqrasiya olunmuş xidmət göstərməyə imkan verir.",
+      "title3": "Müştərilərimiz",
+      "text3": "Biz startaplardan tutmuş çoxmillətli korporasiyalara qədər bütün ölçülü bizneslərlə işləyirik və onların xüsusi ehtiyaclarını qarşılamaq üçün fərdi həllər təqdim edirik."
     }
   }
 }

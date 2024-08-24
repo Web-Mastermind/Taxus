@@ -109,7 +109,7 @@
     "sectionText": "Taxus Administrative Platform",
     "sectionTitle": "Easily track the process of creating and processing your tasks",
     "subText": "Legal and financial health of your business at your finger TAPs. The one platform to manage and track all corporate and financial tasks of your business. Our solution helps organize all your corporate structures, documents, invoices, deadlines and alerts into one place.",
-    "bankingLink": "Learn more"
+    "platformLink": "Learn more"
   },
   "processSection": {
     "sectionText": "Process",
@@ -177,6 +177,20 @@
       "text1": "Cookie Policy",
       "text2": "Terms of Use",
       "text3": "Privacy Police"
+    }
+  },
+  "aboutPage": {
+    "pageText": "About Us",
+    "pageTitle": "Welcome to Taxus, your trusted partner in bespoke business solutions for the IT industry",
+    "pageSubText": "With a perfect blend of legal, financial, and marketing expertise, we offer a one-stop-shop service that ranges from company registration to contract drafting.",
+    "pageEndText": "Your gateway to easy international business set up",
+    "pageSubItems": {
+      "title1": "Our expertise",
+      "text1": "Our expertise covers a broad range of areas, including corporate law, intellectual property, banking and finance, and international IT business.",
+      "title2": "Our team",
+      "text2": "Our team is composed of professionals with diverse backgrounds, including lawyers, business consultants, and finance experts. This multidisciplinary approach allows us to provide a comprehensive and integrated service to our clients.",
+      "title3": "Our clients",
+      "text3": "We work with businesses of all sizes, from startups to multinational corporations, and provide customized solutions to meet their specific needs."
     }
   }
 }
