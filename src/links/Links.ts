@@ -153,12 +153,6 @@ export const footer = () => {
   };
 }
 
-// export const aboutPage = [
-//   { id: 1, title: "Our expertise", text: "Our expertise covers a broad range of areas, including corporate law, intellectual property, banking and finance, and international IT business." },
-//   { id: 2, title: "Our team", text: "Our team is composed of professionals with diverse backgrounds, including lawyers, business consultants, and finance experts. This multidisciplinary approach allows us to provide a comprehensive and integrated service to our clients." },
-//   { id: 3, title: "Our clients", text: "We work with businesses of all sizes, from startups to multinational corporations, and provide customized solutions to meet their specific needs." }
-// ]
-
 export const aboutPage = () => {
   const t = useTranslations("aboutPage");
 
@@ -168,3 +162,14 @@ export const aboutPage = () => {
     { id: 3, title: t("pageSubItems.title3"), text: t("pageSubItems.text3") }
   ]
 };
+
+export const aboutSectionIndustries = () => {
+  const t = useTranslations("aboutSectionIndustries")
+
+  return [
+    { id: 1, title: t("IndustriesSubItems.title1"), text: t("IndustriesSubItems.text1") },
+    { id: 2, title: t("IndustriesSubItems.title2"), text: t("IndustriesSubItems.text2") },
+    { id: 3, title: t("IndustriesSubItems.title3"), text: t("IndustriesSubItems.text3") },
+    { id: 4, title: t("IndustriesSubItems.title4"), text: t("IndustriesSubItems.text4") }
+  ]
+}
