@@ -192,5 +192,20 @@
       "title3": "Müştərilərimiz",
       "text3": "Biz startaplardan tutmuş çoxmillətli korporasiyalara qədər bütün ölçülü bizneslərlə işləyirik və onların xüsusi ehtiyaclarını qarşılamaq üçün fərdi həllər təqdim edirik."
     }
+  },
+  "aboutSectionIndustries": {
+    "IndustriesText": "Sənayelər",
+    "IndustriesTitle": "Kimə xidmət edirik",
+    "IndustriesSubText": "Taxus-da biz başa düşürük ki, hər bir İT biznesi unikaldır və buna görə də biz müştərilərimizin ehtiyaclarına mükəmməl uyğun gələn fərdi həllər təqdim edirik.",
+    "IndustriesSubItems": {
+      "title1": "Elektron ticarət",
+      "text1": "E-ticarət sənayesindəki müştərilər tez-tez şirkətin yaradılması, ödəniş emal sistemlərinin qurulması, müddəa və şərtlərin hazırlanması və istehlakçıların müdafiəsi qanunlarının idarə edilməsi ilə bağlı yardıma ehtiyac duyurlar.",
+      "title2": "Fintech",
+      "text2": "Fintech müştəriləri tez-tez şirkətin yaradılması, lisenziyalaşdırma və tənzimləmə qaydalarına uyğunluq və əqli mülkiyyətin qorunması ilə bağlı yardım tələb edirlər. Onlar həmçinin müqavilənin tərtib edilməsi və danışıqların aparılması, habelə maliyyə vəsaitlərinin toplanması və investisiya məsləhətləri ilə bağlı yardıma ehtiyac duya bilərlər.",
+      "title3": "Proqram təminatının inkişafı",
+      "text3": "Proqram təminatının hazırlanması sənayesindəki müştərilər tez-tez əqli mülkiyyətin qorunması, lisenziya müqavilələri və müqavilə danışıqları ilə bağlı yardım tələb edirlər. Onlar həmçinin şirkətin yaradılması və biznes hesabının açılması ilə bağlı yardıma ehtiyac duya bilərlər.",
+      "title4": "Kriptovalyuta",
+      "text4": "Kriptovalyuta sənayesindəki müştərilər lisenziyalaşdırma, normativlərə uyğunluq, əqli mülkiyyətin qorunması və müqavilə danışıqları ilə bağlı yardım tələb edir. Onlar həmçinin şirkət yaratmaq və pul yığma məsləhətləri ilə bağlı köməyə ehtiyac duya bilərlər."
+    }
   }
 }

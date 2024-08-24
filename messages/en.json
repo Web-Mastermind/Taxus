@@ -192,5 +192,20 @@
       "title3": "Our clients",
       "text3": "We work with businesses of all sizes, from startups to multinational corporations, and provide customized solutions to meet their specific needs."
     }
+  },
+  "aboutSectionIndustries": {
+    "IndustriesText": "Industries",
+    "IndustriesTitle": "Who we serve",
+    "IndustriesSubText": "At Taxus, we understand that every IT business is unique, and that’s why we provide tailor-made solutions that perfectly fit the needs of our clients",
+    "IndustriesSubItems": {
+      "title1": "E-commerce",
+      "text1": "Clients in the e-commerce industry often need assistance with company formation, setting up payment processing systems, drafting terms and conditions, and navigating consumer protection laws.",
+      "title2": "Fintech",
+      "text2": "Fintech clients often require help with company formation, licensing and regulatory compliance, and intellectual property protection. They may also need assistance with contract drafting and negotiation, as well as fundraising and investment advice.",
+      "title3": "Software development",
+      "text3": "Clients in the software development industry often require assistance with intellectual property protection, licensing agreements, and contract negotiation. They may also need help with company formation and business account opening.",
+      "title4": "Cryptocurrency",
+      "text4": "Clients in the cryptocurrency industry require assistance with licensing, regulatory compliance, intellectual property protection, and contract negotiation. They may also need help with company formation and fundraising advice."
+    }
   }
 }
