@@ -1,12 +1,13 @@
+"use client"
 import Image from "next/image"
 import styles from "./style.module.css"
-import Link from "next/link"
 import LocalSwitcher from "../local-switcher"
 import { navLinks } from "@/links/Links"
 import { useTranslations } from "next-intl"
+import { Link } from "@/navigation"
 
 
-const Header = () => {
+const Header = ({ locale }: { locale: string }) => {
   const links = navLinks();
   const t = useTranslations("Header")
   return (
@@ -25,7 +26,7 @@ const Header = () => {
               }
             </li>
             <Link className={`${styles.logInLink} ${styles.fonts}`} href="/">{t("login")}</Link>
-            <LocalSwitcher />
+            <LocalSwitcher locale={locale} />
           </ul>
         </div>
       </div>
