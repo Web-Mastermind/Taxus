@@ -6,7 +6,7 @@ export const navLinks = () => {
   return [
     { id: 1, to: "/", title: t("services") },
     { id: 2, to: "/", title: t("banking") },
-    { id: 3, to: "/", title: t("about") },
+    { id: 3, to: "/about", title: t("about") },
     { id: 4, to: "/", title: t("blog") },
     { id: 5, to: "/", title: t("contact") }
   ];
@@ -137,7 +137,7 @@ export const footer = () => {
         { id: 5, text: t("services.text5"), to: "/" }
       ],
       Company: [
-        { id: 1, text: t("company.text1"), to: "/" },
+        { id: 1, text: t("company.text1"), to: "/about" },
         { id: 2, text: t("company.text2"), to: "/" },
         { id: 3, text: t("company.text3"), to: "/" },
         { id: 4, text: t("company.text4"), to: "/" },
@@ -152,3 +152,19 @@ export const footer = () => {
     }
   };
 }
+
+// export const aboutPage = [
+//   { id: 1, title: "Our expertise", text: "Our expertise covers a broad range of areas, including corporate law, intellectual property, banking and finance, and international IT business." },
+//   { id: 2, title: "Our team", text: "Our team is composed of professionals with diverse backgrounds, including lawyers, business consultants, and finance experts. This multidisciplinary approach allows us to provide a comprehensive and integrated service to our clients." },
+//   { id: 3, title: "Our clients", text: "We work with businesses of all sizes, from startups to multinational corporations, and provide customized solutions to meet their specific needs." }
+// ]
+
+export const aboutPage = () => {
+  const t = useTranslations("aboutPage");
+
+  return [
+    { id: 1, title: t("pageSubItems.title1"), text: t("pageSubItems.text1") },
+    { id: 2, title: t("pageSubItems.title2"), text: t("pageSubItems.text2") },
+    { id: 3, title: t("pageSubItems.title3"), text: t("pageSubItems.text3") }
+  ]
+};
