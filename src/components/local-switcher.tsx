@@ -1,31 +1,23 @@
 "use client"
-import { useLocale } from 'next-intl';
-import { useRouter } from 'next/navigation';
-import { ChangeEvent, useTransition } from 'react'
+import { usePathname, useRouter } from "next/navigation";
+import { ChangeEvent } from "react";
 
-const LocalSwitcher = () => {
-
-  const [isPending, startTransition] = useTransition()
-
+const LocalSwitcher = ({ locale }: { locale: string }) => {
+  const pathname = usePathname();
   const router = useRouter();
 
-  const localActive = useLocale();
-
-  const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
-
-    const nextLocale = e.target.value;
-
-    startTransition(() => {
-      router.replace(`/${nextLocale}`);
-    });
+  const changeHandler = (event: ChangeEvent<HTMLSelectElement>) => {
+    const newLocale = event.target.value as string;
+    const path = pathname.split("/").slice(2).join("/");
+    router.push(`/${newLocale}/${path}`)
   }
 
   return (
     <div>
       <label>
-        <select style={{ background: "transparent", color: "white" }} defaultValue={localActive} onChange={onSelectChange} disabled={isPending}>
-          <option value='az'>AZ</option>
+        <select value={locale} style={{ background: "transparent", color: "white" }} onChange={changeHandler}>
           <option value='en'>EN</option>
+          <option value='az'>AZ</option>
           <option value='ru'>RU</option>
         </select>
       </label>
