@@ -1,0 +1,23 @@
+.reviewBottomContainer {
+  margin-top: 20rem;
+}
+
+.CTA {
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  padding: 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CTATitleItems {
+  color: #fff;
+  font: 2rem "Montserrat-ExtraBold", sans-serif;
+}
+
+.CTATextItems {
+  color: #fff;
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  width: 43.75rem;
+}
