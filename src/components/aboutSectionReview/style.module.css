@@ -1,0 +1,72 @@
+.aboutSectionReview {
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.sectionItems {
+  position: relative;
+  background-color: #1b1b1b;
+}
+
+.reviewsTextsItems {
+  padding: 6.813rem 0 12.75rem;
+}
+
+.sectionText {
+  color: #fff;
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+  text-align: center;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  text-align: center;
+  margin: 1rem 0 5rem;
+}
+
+.customersContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  top: 18rem;
+}
+
+.customers {
+  width: 23.75rem;
+  background-color: #fff;
+  padding: 35px 40px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.reviewsIcon {
+  color: #1a1a1a;
+  font: 5rem/140% "Montserrat-Bold", sans-serif;
+}
+
+.reviewsText {
+  font: 1.125rem/140% "Montserrat-Regular", sans-serif;
+}
+
+.customersImg {
+  display: flex;
+  align-items: center;
+  margin-top: 1.219rem;
+}
+
+.reviewsImage {
+  margin-right: 1.25rem;
+}
+
+.reviewName {
+  font: 1.25rem/140% "Montserrat-Bold", sans-serif;
+}
+
+.reviewJob {
+  font: 1.125rem "Montserrat-Regular", sans-serif;
+}
