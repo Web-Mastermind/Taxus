@@ -4,6 +4,9 @@ import { aboutPage } from "@/links/Links"
 import ContactUs from "@/components/mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 import Industries from "@/components/aboutSectionIndustries/Industries"
+import Awards from "@/components/aboutSectionAwards/Awards"
+import History from "@/components/aboutSectionHistory/History"
+import AboutReview from "@/components/aboutSectionReview/AboutReview"
 
 const about = () => {
   const about = aboutPage();
@@ -42,6 +45,9 @@ const about = () => {
         </div>
       </section>
       <Industries />
+      <Awards />
+      <History />
+      <AboutReview />
     </>
   )
 }
