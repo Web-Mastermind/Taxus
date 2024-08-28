@@ -1,8 +1,8 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import Link from "next/link"
 import { useTranslations } from "next-intl"
 import { footer } from "@/links/Links"
+import { Link } from "@/navigation"
 
 const Footer = () => {
   const t = useTranslations("footer")
