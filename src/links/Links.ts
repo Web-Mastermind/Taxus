@@ -172,4 +172,15 @@ export const aboutSectionIndustries = () => {
     { id: 3, title: t("IndustriesSubItems.title3"), text: t("IndustriesSubItems.text3") },
     { id: 4, title: t("IndustriesSubItems.title4"), text: t("IndustriesSubItems.text4") }
   ]
-}
+};
+
+export const aboutSectionHistory = () => {
+  const t = useTranslations("aboutSectionBenefits");
+
+  return [
+    { id: 1, img: "/assets/icons/TargetIcon.svg", title: t("aboutBenefitsSubItems.title1"), text: t("aboutBenefitsSubItems.text1") },
+    { id: 2, img: "/assets/icons/CaseIcon.svg", title: t("aboutBenefitsSubItems.title2"), text: t("aboutBenefitsSubItems.text2") },
+    { id: 3, img: "/assets/icons/ShieldIcon.svg", title: t("aboutBenefitsSubItems.title3"), text: t("aboutBenefitsSubItems.text3") },
+    { id: 4, img: "/assets/icons/CostIcon.svg", title: t("aboutBenefitsSubItems.title4"), text: t("aboutBenefitsSubItems.text4") }
+  ]
+};
