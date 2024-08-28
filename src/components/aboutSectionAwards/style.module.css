@@ -1,0 +1,24 @@
+.sectionAwards {
+  background-color: #1a1a1a;
+  padding: 6rem 0;
+  position: relative;
+  z-index: 5;
+}
+
+.sectionItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionText {
+  color: #fff;
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  max-width: 30rem;
+}
