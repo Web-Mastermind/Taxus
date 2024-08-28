@@ -1,8 +1,8 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import ContactUs from "../mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 import { reviewsSection } from "@/links/Links"
+import ReviewComponent from "../reviewComponent/ReviewComponent"
 
 const Reviews = () => {
   const t = useTranslations("reviewSection")
@@ -39,17 +39,7 @@ const Reviews = () => {
             }
           </div>
         </div>
-        <div className="container">
-          <div className={styles.reviewBottomContainer}>
-            <div className={styles.CTA}>
-              <div className={styles.CTAText}>
-                <h3 className={styles.CTATitleItems}>{t("sectionTitle2")}</h3>
-                <p className={styles.CTATextItems}>{t("sectionText2")} </p>
-              </div>
-              <ContactUs />
-            </div>
-          </div>
-        </div>
+        <ReviewComponent title={t("sectionTitle2")} text={t("sectionText2")} />
       </div>
     </section>
   )
