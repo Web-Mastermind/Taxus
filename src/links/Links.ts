@@ -5,7 +5,7 @@ export const navLinks = () => {
 
   return [
     { id: 1, to: "/", title: t("services") },
-    { id: 2, to: "/", title: t("banking") },
+    { id: 2, to: "/banking", title: t("banking") },
     { id: 3, to: "/about", title: t("about") },
     { id: 4, to: "/", title: t("blog") },
     { id: 5, to: "/", title: t("contact") }
