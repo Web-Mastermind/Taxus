@@ -1,0 +1,31 @@
+.bankingMain {
+  background: url(../../../../public/assets/img/BankingPageImg.png) no-repeat center top/ cover;
+  min-height: 100vh;
+  padding-bottom: 7rem;
+}
+
+.pageItems {
+  padding-top: 5rem;
+}
+
+.pageTitle {
+  color: var(--primary, #c94d00);
+  font: 3.5rem "Prata-Regular", sans-serif;
+  margin-top: 8.188rem;
+}
+
+.pageSubTitle {
+  color: #fff;
+  font: 3.5rem/140% "Montserrat-Bold", sans-serif;
+  max-width: 43.375rem;
+  margin-bottom: 2.875rem;
+}
+
+.lorem {
+  color: #6b6b6b;
+  font: 1.125rem/140% "Montserrat-Regular", sans-serif;
+}
+
+.contactItem {
+  margin: 7rem 0 0 4rem;
+}
