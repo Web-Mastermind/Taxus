@@ -1,0 +1,72 @@
+.sectionHistory {
+  position: relative;
+  background-color: #1a1a1a;
+  padding: 7rem 0;
+  border-bottom: 1px solid #6b6b6b;
+}
+
+.sectionHistory::after {
+  content: '';
+  position: absolute;
+  background: url("../../../public/assets/img/ServicesTriangleV2.png") no-repeat center right/ cover;
+  width: 52.91rem;
+  height: 78.91rem;
+  right: 0;
+  top: -27.5rem;
+}
+
+.sectionText,
+.sectionSecondText {
+  color: #fff;
+  font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
+  text-align: center;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin: 1rem 0 3.5rem;
+  text-align: center;
+}
+
+.sectionSubText {
+  color: #fff;
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  max-width: 48.75rem;
+  margin-inline: auto;
+}
+
+.sectionSubText:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.sectionSecondText {
+  margin-top: 15rem;
+}
+
+.benefitsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionBenefitsItems {
+  max-width: 17.5rem;
+}
+
+.sectionBenefitsTitle {
+  color: #fff;
+  font: 2rem "Montserrat-ExtraBold", sans-serif;
+  margin: 1.875rem 0;
+}
+
+.sectionBenefitsText {
+  color: #6b6b6b;
+  font: 1.125rem/140% "Montserrat-Regular", sans-serif;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
