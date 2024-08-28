@@ -211,5 +211,26 @@
   "aboutSectionAwards": {
     "sectionText": "Awards",
     "sectionTitle": "We develop professionally to meet all the needs of our clients"
+  },
+  "aboutSectionHistory": {
+    "sectionText": "History",
+    "sectionTitle": "Why choose Taxus?",
+    "sectionSubText": "Taxus was founded in 2018 by a team of professionals with extensive experience in legal and financial accompaniment of different types of IT business. Our team has a combined experience of over 15 years, gathering trusted and professional advisors in legal, financial and marketing spheres. Since our founding, we have helped numerous clients establish and grow their online businesses, providing expert guidance and solutions to meet their unique needs.",
+    "sectionSubText2": "Our goal is to be a trusted partner to our clients, working closely with them to understand their unique challenges and goals, and providing tailored solutions that deliver real results. We believe that our approach to legal technology should be an enabler for business growth, and we are passionate about helping our clients harness its power."
+  },
+  "aboutSectionBenefits": {
+    "aboutBenefitsText": "Benefits",
+    "aboutBenefitsTitle": "Why choose Taxus?",
+    "aboutBenefitsTitle2": "Join our clients and partners ",
+    "aboutBenefitsSubItems": {
+      "title1": "Customized solutions",
+      "text1": "Our expertise is tailored to the unique needs of the IT industry, with a focus on providing practical solutions, not just consultations.",
+      "title2": "Expertise",
+      "text2": "We combine legal, financial, and industry knowledge to deliver comprehensive and effective services.",
+      "title3": "Confidentiality",
+      "text3": "Confidentiality and security are paramount to us, and we take all necessary measures to ensure the protection of your sensitive information.",
+      "title4": "Partnership",
+      "text4": "At Taxus, we believe in building strong and lasting relationships with our clients based on trust, honesty, and transparency."
+    }
   }
 }

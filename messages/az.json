@@ -211,5 +211,26 @@
   "aboutSectionAwards": {
     "sectionText": "Mükafatlar",
     "sectionTitle": "Biz müştərilərimizin bütün ehtiyaclarını ödəmək üçün peşəkar şəkildə inkişaf edirik"
+  },
+  "aboutSectionHistory": {
+    "sectionText": "Tarix",
+    "sectionTitle": "Niyə Taxus-u seçməlisiniz?",
+    "sectionSubText": "Taxus 2018-ci ildə müxtəlif İT biznes növlərinin hüquqi və maliyyə müşayiəti üzrə geniş təcrübəyə malik peşəkarlar komandası tərəfindən təsis edilib. Komandamız hüquq, maliyyə və marketinq sahələrində etibarlı və peşəkar məsləhətçiləri toplayan 15 ildən artıq bir təcrübəyə malikdir. Yarandığımız gündən biz çoxsaylı müştərilərə onlayn bizneslərini qurmağa və inkişaf etdirməyə kömək etmişik, onların unikal ehtiyaclarını ödəmək üçün ekspert rəhbərliyi və həllər təqdim etmişik.",
+    "sectionSubText2": "Məqsədimiz müştərilərimiz üçün etibarlı tərəfdaş olmaq, onların unikal problemlərini və məqsədlərini başa düşmək üçün onlarla yaxından işləmək və real nəticələr verən xüsusi həllər təqdim etməkdir. İnanırıq ki, hüquqi texnologiyaya yanaşmamız biznesin inkişafı üçün stimul olmalıdır və biz müştərilərimizə onun gücündən istifadə etməkdə kömək etməkdə həvəsliyik."
+  },
+  "aboutSectionBenefits": {
+    "aboutBenefitsText": "Üstünlüklər",
+    "aboutBenefitsTitle": "Niyə Taxus-u seçməlisiniz?",
+    "aboutBenefitsTitle2": "Müştərilərimizə və tərəfdaşlarımıza qoşulun",
+    "aboutBenefitsSubItems": {
+      "title1": "Fərdi həllər",
+      "text1": "Bizim təcrübəmiz İT sənayesinin unikal ehtiyaclarına uyğunlaşdırılıb və diqqəti yalnız məsləhətləşmələrə deyil, praktik həllərin təmin edilməsinə yönəldir.",
+      "title2": "Mütəxəssis",
+      "text2": "Biz hərtərəfli və effektiv xidmətlər göstərmək üçün hüquqi, maliyyə və sənaye biliklərini birləşdiririk.",
+      "title3": "Məxfilik",
+      "text3": "Məxfilik və təhlükəsizlik bizim üçün hər şeydən üstündür və biz sizin həssas məlumatlarınızın qorunmasını təmin etmək üçün bütün lazımi tədbirləri görürük.",
+      "title4": "Tərəfdaşlıq",
+      "text4": "Taxus-da biz müştərilərimizlə inam, dürüstlük və şəffaflığa əsaslanan güclü və davamlı əlaqələr qurmağa inanırıq."
+    }
   }
 }
