@@ -40,7 +40,9 @@ const AboutReview = () => {
             }
           </div>
         </div>
-        <ReviewComponent title={t2("aboutBenefitsTitle2")} />
+        <div className={styles.previewComponent}>
+          <ReviewComponent title={t2("aboutBenefitsTitle2")} />
+        </div>
       </div>
     </section>
   )
