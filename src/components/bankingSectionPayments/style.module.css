@@ -1,0 +1,59 @@
+.sectionPayments {
+  padding-bottom: 7rem;
+}
+
+.sectionTopTexts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionTextItems {
+  max-width: 29.875rem;
+}
+
+.sectionText {
+  color: #1a1a1a;
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+}
+
+.sectionTopRightTextsContainer {
+  max-width: 36.25rem;
+}
+
+.sectionTopRightTextsItems {
+  display: flex;
+}
+
+.sectionRightTitle {
+  color: #1a1a1a;
+  font: 2rem "Montserrat-ExtraBold", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.diamondIcon {
+  color: var(--primary, #c94d00);
+  margin-right: 1.5rem;
+}
+
+.rightTextItems,
+.rightTextSubItems {
+  color: rgba(0, 0, 0, 2);
+  font: 1rem/140% "Montserrat-Bold", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.rightTextSubItems {
+  font-family: "Montserrat-Regular", sans-serif;
+  line-height: 160%;
+  margin-bottom: 2rem;
+}
+
+.previewComponent {
+  margin-top: 7rem;
+}
