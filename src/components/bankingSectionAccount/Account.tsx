@@ -1,9 +1,13 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import { bankingSectionAccounts, bankingSectionComponent } from "@/links/Links"
+import { bankingSectionAccounts, bankingSectionAccountsRight } from "@/links/Links"
 import Payments from "../bankingSectionPayments/Payments"
+import { useTranslations } from "next-intl"
 
 const Account = () => {
+  const t = useTranslations("bankingSectionCards");
+  const account = bankingSectionAccounts();
+  const rigtTexts = bankingSectionAccountsRight();
   return (
     <>
       <section className={styles.sectionAccount}>
@@ -11,7 +15,7 @@ const Account = () => {
           <div className={styles.sectionItems}>
             <div className={styles.cardsContainer}>
               {
-                bankingSectionAccounts.map(({ id, img, title, text }) => {
+                account.map(({ id, img, title, text }) => {
                   return (
                     <div key={id} className={styles.cards}>
                       <h4 className={styles.cardTitle}>{title}</h4>
@@ -24,13 +28,13 @@ const Account = () => {
             </div>
             <div className={styles.sectionTopTexts}>
               <div className={styles.sectionTextItems}>
-                <p className={styles.sectionText}>Account</p>
-                <h2 className={styles.sectionTitle}>Take control over your finances effortlessly with Taxus Banking</h2>
+                <p className={styles.sectionText}>{t("aboutCardsText")}</p>
+                <h2 className={styles.sectionTitle}>{t("aboutCardsTitle")}</h2>
               </div>
               <div className={styles.sectionTopRightTextsContainer}>
-                <h2 className={styles.sectionRightTitle}>We offer:</h2>
+                <h2 className={styles.sectionRightTitle}>{t("aboutCardsSubTitle")}</h2>
                 {
-                  bankingSectionComponent.map(({ id, title, text }) => {
+                  rigtTexts.map(({ id, title, text }) => {
                     return (
                       <div key={id} className={styles.sectionTopRightTextsItems}>
                         <span className={styles.diamondIcon}>&#9670;</span>
