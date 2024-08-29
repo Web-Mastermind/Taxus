@@ -1,7 +1,6 @@
 .bankingMain {
   background: url(../../../../public/assets/img/BankingPageImg.png) no-repeat center top/ cover;
   min-height: 100vh;
-  padding-bottom: 7rem;
 }
 
 .pageItems {
