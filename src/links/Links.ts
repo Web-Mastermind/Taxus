@@ -186,24 +186,33 @@ export const aboutSectionHistory = () => {
 };
 
 
-export const bankingSectionAccounts = [
-  { id: 1, img: "/assets/icons/OfficeIcon.svg", title: "Business Accounts", text: "Your Business Account, wherever you are" },
-  { id: 2, img: "/assets/icons/EarthIcon.svg", title: "Worldwide Payments", text: "International Business Payments" },
-  { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: "Business Escrow ", text: "Safeguard Your Transactions " },
-  { id: 4, img: "/assets/icons/FinanceLogo.svg", title: "Corporate Cards ", text: "Create cardholders and issue your new cards!" }
-]
+export const bankingSectionAccounts = () => {
+  const t = useTranslations("bankingSectionCards");
+  return [
+    { id: 1, img: "/assets/icons/OfficeIcon.svg", title: t("aboutCardsSubItems.title1"), text: t("aboutCardsSubItems.text1") },
+    { id: 2, img: "/assets/icons/EarthIcon.svg", title: t("aboutCardsSubItems.title2"), text: t("aboutCardsSubItems.text2") },
+    { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: t("aboutCardsSubItems.title3"), text: t("aboutCardsSubItems.text3") },
+    { id: 4, img: "/assets/icons/FinanceLogo.svg", title: t("aboutCardsSubItems.title4"), text: t("aboutCardsSubItems.text4") }
+  ]
+}
 
-export const bankingSectionComponent = [
-  { id: 1, title: "Open an IBAN accounts", text: "Get your own IBAN accounts to easily manage your everyday" },
-  { id: 2, title: "Manage your money entirely onlin", text: "Enjoy the convenience of online banking without ever needing to visit a branch." },
-  { id: 3, title: "Instant Account Number Issuing", text: "Get your account number immediately and start managing your finances without delay" },
-  { id: 4, title: "Multi-Currency Accounts", text: "Easily handle multiple currencies in a single account, perfect for global transactions and international customers" }
-]
+export const bankingSectionAccountsRight = () => {
+  const t = useTranslations("bankingSectionOffer");
+  return [
+    { id: 1, title: t("title1"), text: t("text1") },
+    { id: 2, title: t("title2"), text: t("text2") },
+    { id: 3, title: t("title3"), text: t("text3") },
+    { id: 4, title: t("title4"), text: t("text4") }
+  ]
+}
 
-export const bankingSectionComponentPayments = [
-  { id: 1, title: "Instant Euro Transfers", text: "Send and receive EUR instantly with the SEPA network." },
-  { id: 2, title: "Cross border SWIFT payments", text: "We offer fast, secure, and transparent cross-border transfers through the SWIFT network, the global standard for international money transfers." },
-  { id: 3, title: "Save Time with Bulk Payments", text: "Reduce costs and streamline transactions with bulk payments." },
-  { id: 4, title: "Manage Foreign Exchange (FX)", text: "Buy, sell, and transfer foreign currencies conveniently." },
-  { id: 5, title: "Local Uk Payents ", text: "Effortless transactions in GBP, leveraging Faster Payments, CHAPS, and Direct Debits " }
-]
+export const bankingSectionComponentPayments = () => {
+  const t = useTranslations("bankingSectionPayments");
+  return [
+    { id: 1, title: t("aboutPaymentsSubItems.title1"), text: t("aboutPaymentsSubItems.text1") },
+    { id: 2, title: t("aboutPaymentsSubItems.title2"), text: t("aboutPaymentsSubItems.text2") },
+    { id: 3, title: t("aboutPaymentsSubItems.title3"), text: t("aboutPaymentsSubItems.text3") },
+    { id: 4, title: t("aboutPaymentsSubItems.title4"), text: t("aboutPaymentsSubItems.text4") },
+    { id: 5, title: t("aboutPaymentsSubItems.title5"), text: t("aboutPaymentsSubItems.text5") },
+  ]
+}
