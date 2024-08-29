@@ -236,5 +236,48 @@
   "bankingPage": {
     "sectionTitle": "Taxus bankçılığı",
     "sectionSubTitle": "Müvəffəqiyyət nəsilləri üçün tərəfdaşlıq"
+  },
+  "bankingSectionCards": {
+    "aboutCardsText": "Hesab",
+    "aboutCardsTitle": "Taxus Banking ilə maliyyənizə asanlıqla nəzarət edin",
+    "aboutCardsSubTitle": "Təklif edirik:",
+    "aboutCardsSubItems": {
+      "title1": "Biznes Hesabları",
+      "text1": "Harada olursunuzsa olun, Biznes Hesabınız",
+      "title2": "Ümumdünya Ödənişləri",
+      "text2": "Beynəlxalq Biznes Ödənişlərinizi Sadələşdirin",
+      "title3": "Biznes əmanəti",
+      "text3": "Əməliyyatlarınızı qoruyun",
+      "title4": "Korporativ Kartlar",
+      "text4": "Kart sahibləri yaradın və yeni kartlarınızı buraxın!"
+    }
+  },
+  "bankingSectionOffer": {
+    "title1": "IBAN hesabları açılması",
+    "text1": "Gündəlik işlərinizi asanlıqla idarə etmək üçün öz IBAN hesablarınızı əldə edin",
+    "title2": "Pulunuzu tamamilə onlayn idarə edin",
+    "text2": "Heç vaxt filiala getmədən onlayn bankçılığın rahatlığından həzz alın.",
+    "title3": "Ani Hesab Nömrəsinin Verilməsi",
+    "text3": "Dərhal hesab nömrənizi alın və gecikmədən maliyyənizi idarə etməyə başlayın",
+    "title4": "Multivalyuta hesabları",
+    "text4": "Qlobal əməliyyatlar və beynəlxalq müştərilər üçün mükəmməl olan bir hesabda birdən çox valyutanı asanlıqla idarə edin"
+  },
+  "bankingSectionPayments": {
+    "aboutPaymentsText": "Ödənişlər",
+    "aboutPaymentsTitle": "Qlobal maliyyənizi idarə etməyin asanlığını və səmərəliliyini hiss edin",
+    "aboutPaymentsSubTitle": "Təklif edirik:",
+    "aboutPaymentsSubText": "Maneəsiz beynəlxalq iş əməliyyatlarına giriş",
+    "aboutPaymentsSubItems": {
+      "title1": "Ani Avro köçürmələri",
+      "text1": "SEPA şəbəkəsi ilə dərhal avro göndərin və qəbul edin.",
+      "title2": "Sərhədlərarası SWIFT ödənişləri",
+      "text2": "Biz beynəlxalq pul köçürmələri üçün qlobal standart olan SWIFT şəbəkəsi vasitəsilə sürətli, təhlükəsiz və şəffaf transsərhəd köçürmələri təklif edirik.",
+      "title3": "Toplu Ödənişlərlə Zamana qənaət edin",
+      "text3": "Xərcləri azaldın və toplu ödənişlərlə əməliyyatları sadələşdirin.",
+      "title4": "Xarici valyutanı idarə edin (FX)",
+      "text4": "Xarici valyutaları rahatlıqla alın, satın və köçürün.",
+      "title5": "Yerli Böyük Britaniya Ödənişləri ",
+      "text5": "Daha sürətli ödənişlər, CHAPS və birbaşa debitlərdən istifadə edərək GBP-də asan əməliyyatlar"
+    }
   }
 }

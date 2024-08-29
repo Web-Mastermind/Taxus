@@ -236,5 +236,48 @@
   "bankingPage": {
     "sectionTitle": "Taxus Banking",
     "sectionSubTitle": "Partnering for Generations of Success"
+  },
+  "bankingSectionCards": {
+    "aboutCardsText": "Account",
+    "aboutCardsTitle": "Take control over your finances effortlessly with Taxus Banking",
+    "aboutCardsSubTitle": "We offer:",
+    "aboutCardsSubItems": {
+      "title1": "Business Accounts",
+      "text1": "Your Business Account, wherever you are",
+      "title2": "Worldwide Payments",
+      "text2": "Streamline Your International Business Payments",
+      "title3": "Business Escrow",
+      "text3": "Safeguard Your Transactions",
+      "title4": "Corporate Cards",
+      "text4": "Create cardholders and issue your new cards!"
+    }
+  },
+  "bankingSectionOffer": {
+    "title1": "Open an IBAN accounts",
+    "text1": "Get your own IBAN accounts to easily manage your everyday",
+    "title2": "Manage your money entirely onlin",
+    "text2": "Enjoy the convenience of online banking without ever needing to visit a branch.",
+    "title3": "Instant Account Number Issuing",
+    "text3": "Get your account number immediately and start managing your finances without delay",
+    "title4": "Multi-Currency Accounts",
+    "text4": "Easily handle multiple currencies in a single account, perfect for global transactions and international customers"
+  },
+  "bankingSectionPayments": {
+    "aboutPaymentsText": "Payments",
+    "aboutPaymentsTitle": "Experience the ease and efficiency of managing your global finances",
+    "aboutPaymentsSubTitle": "We offer:",
+    "aboutPaymentsSubText": "Your gateway to seamless international business transactions",
+    "aboutPaymentsSubItems": {
+      "title1": "Instant Euro Transfers",
+      "text1": "Send and receive EUR instantly with the SEPA network.",
+      "title2": "Cross border SWIFT payments",
+      "text2": "We offer fast, secure, and transparent cross-border transfers through the SWIFT network, the global standard for international money transfers.",
+      "title3": "Save Time with Bulk Payments",
+      "text3": "Reduce costs and streamline transactions with bulk payments.",
+      "title4": "Manage Foreign Exchange (FX)",
+      "text4": "Buy, sell, and transfer foreign currencies conveniently.",
+      "title5": "Local Uk Payents ",
+      "text5": "Effortless transactions in GBP, leveraging Faster Payments, CHAPS, and Direct Debits "
+    }
   }
 }
