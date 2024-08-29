@@ -70,3 +70,7 @@
 .reviewJob {
   font: 1.125rem "Montserrat-Regular", sans-serif;
 }
+
+.previewComponent {
+  margin-top: 20rem;
+}
