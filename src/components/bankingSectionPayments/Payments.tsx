@@ -1,21 +1,24 @@
 import { bankingSectionComponentPayments } from "@/links/Links"
 import styles from "./style.module.css"
 import ReviewComponent from "../reviewComponent/ReviewComponent"
+import { useTranslations } from "next-intl"
 
 const Payments = () => {
+  const t = useTranslations("bankingSectionPayments");
+  const payments = bankingSectionComponentPayments();
   return (
     <section className={styles.sectionPayments}>
       <div className="container">
         <div className={styles.sectionItems}>
           <div className={styles.sectionTopTexts}>
             <div className={styles.sectionTextItems}>
-              <p className={styles.sectionText}>Payments</p>
-              <h2 className={styles.sectionTitle}>Experience the ease and efficiency of managing your global finances</h2>
+              <p className={styles.sectionText}>{t("aboutPaymentsText")}</p>
+              <h2 className={styles.sectionTitle}>{t("aboutPaymentsTitle")}</h2>
             </div>
             <div className={styles.sectionTopRightTextsContainer}>
-              <h2 className={styles.sectionRightTitle}>We offer:</h2>
+              <h2 className={styles.sectionRightTitle}>{t("aboutPaymentsSubTitle")}</h2>
               {
-                bankingSectionComponentPayments.map(({ id, title, text }) => {
+                payments.map(({ id, title, text }) => {
                   return (
                     <div key={id} className={styles.sectionTopRightTextsItems}>
                       <span className={styles.diamondIcon}>&#9670;</span>
@@ -30,7 +33,7 @@ const Payments = () => {
             </div>
           </div>
           <div className={styles.previewComponent}>
-            <ReviewComponent title="Your gateway to seamless international business transactions" text="" />
+            <ReviewComponent title={t("aboutPaymentsSubText")} text="" />
           </div>
         </div>
       </div>
