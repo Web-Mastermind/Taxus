@@ -39,7 +39,9 @@ const Reviews = () => {
             }
           </div>
         </div>
-        <ReviewComponent title={t("sectionTitle2")} text={t("sectionText2")} />
+        <div className={styles.previewComponent}>
+          <ReviewComponent title={t("sectionTitle2")} text={t("sectionText2")} />
+        </div>
       </div>
     </section>
   )
