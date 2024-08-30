@@ -279,5 +279,23 @@
       "title5": "Local Uk Payents ",
       "text5": "Effortless transactions in GBP, leveraging Faster Payments, CHAPS, and Direct Debits "
     }
+  },
+  "bankingSectionPrivate": {
+    "aboutPrivateText": "Private Banking",
+    "aboutPrivateTitle": "Exclusive Offer for Business Clients",
+    "aboutPrivateSubTitle": "Taxus Law & Finance is pleased to offer its business clients an exclusive service – Private Banking. This personalized, closed banking service is available only to individuals and stakeholders associated with businesses that Taxus Banking services.",
+    "aboutPrivateSubText": "Benefits of Private Banking:",
+    "aboutPrivateSubItems": {
+      "title1": "Exclusive Access",
+      "text1": "Available only to individuals and stakeholders associated with businesses serviced by Taxus Banking.",
+      "title2": "Personalized Service:",
+      "text2": "Tailored banking solutions to meet your unique financial needs.",
+      "title3": "Dedicated Support:",
+      "text3": "Access to a dedicated banking team for personalized assistance.",
+      "title4": "Enhanced Security:",
+      "text4": "High-level security measures to protect your financial information.",
+      "title5": "Convenient Management:",
+      "text5": "Streamlined management of your financial activities with ease and efficiency."
+    }
   }
 }

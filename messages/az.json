@@ -266,7 +266,7 @@
     "aboutPaymentsText": "Ödənişlər",
     "aboutPaymentsTitle": "Qlobal maliyyənizi idarə etməyin asanlığını və səmərəliliyini hiss edin",
     "aboutPaymentsSubTitle": "Təklif edirik:",
-    "aboutPaymentsSubText": "Maneəsiz beynəlxalq iş əməliyyatlarına giriş",
+    "aboutPaymentsSubText": "Maneəsiz beynəlxalq iş əməliyyatlarına giriş edin",
     "aboutPaymentsSubItems": {
       "title1": "Ani Avro köçürmələri",
       "text1": "SEPA şəbəkəsi ilə dərhal avro göndərin və qəbul edin.",
@@ -278,6 +278,24 @@
       "text4": "Xarici valyutaları rahatlıqla alın, satın və köçürün.",
       "title5": "Yerli Böyük Britaniya Ödənişləri ",
       "text5": "Daha sürətli ödənişlər, CHAPS və birbaşa debitlərdən istifadə edərək GBP-də asan əməliyyatlar"
+    }
+  },
+  "bankingSectionPrivate": {
+    "aboutPrivateText": "Şəxsi Bankçılıq",
+    "aboutPrivateTitle": "Biznes Müştəriləri üçün Eksklüziv Təklif",
+    "aboutPrivateSubTitle": "Taxus Law & Finance öz biznes müştərilərinə eksklüziv xidmət - Private Banking təklif etməkdən məmnundur. Bu fərdiləşdirilmiş, qapalı bank xidməti yalnız Taxus Banking xidmətləri göstərən bizneslərlə əlaqəli fiziki şəxslər və maraqlı tərəflər üçün əlçatandır.",
+    "aboutPrivateSubText": "Şəxsi Bankçılığın üstünlükləri:",
+    "aboutPrivateSubItems": {
+      "title1": "Eksklüziv giriş",
+      "text1": "Yalnız Taxus Banking tərəfindən xidmət göstərilən bizneslərlə əlaqəli fiziki şəxslər və maraqlı tərəflər üçün əlçatandır.",
+      "title2": "Fərdiləşdirilmiş Xidmət:",
+      "text2": "Unikal maliyyə ehtiyaclarınızı ödəmək üçün xüsusi bank həlləri.",
+      "title3": "Xüsusi Dəstək:",
+      "text3": "Fərdi yardım üçün xüsusi bank komandasına daxil olun.",
+      "title4": "Təkmil təhlükəsizlik:",
+      "text4": "Maliyyə məlumatlarınızı qorumaq üçün yüksək səviyyəli təhlükəsizlik tədbirləri.",
+      "title5": "Rahat İdarəetmə:",
+      "text5": "Maliyyə fəaliyyətlərinizin asan və səmərəli idarə olunması."
     }
   }
 }
