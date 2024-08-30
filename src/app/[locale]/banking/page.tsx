@@ -2,6 +2,7 @@ import ContactUs from "@/components/mainbutton/ContactUs"
 import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
 import Account from "@/components/bankingSectionAccount/Account"
+import Private from "@/components/bankingSectionPrivate/Private"
 
 const page = () => {
   const t = useTranslations("bankingPage")
@@ -20,6 +21,7 @@ const page = () => {
         </div>
       </section>
       <Account />
+      <Private />
     </>
   )
 }
