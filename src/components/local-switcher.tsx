@@ -16,9 +16,9 @@ const LocalSwitcher = ({ locale }: { locale: string }) => {
     <div>
       <label>
         <select value={locale} style={{ background: "transparent", color: "white" }} onChange={changeHandler}>
-          <option value='en'>EN</option>
-          <option value='az'>AZ</option>
-          <option value='ru'>RU</option>
+          <option style={{ background: "#1b1b1b" }} value='en'>EN</option>
+          <option style={{ background: "#1b1b1b" }} value='az'>AZ</option>
+          <option style={{ background: "#1b1b1b" }} value='ru'>RU</option>
         </select>
       </label>
     </div>
