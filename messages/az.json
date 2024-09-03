@@ -297,5 +297,38 @@
       "title5": "Rahat İdarəetmə:",
       "text5": "Maliyyə fəaliyyətlərinizin asan və səmərəli idarə olunması."
     }
+  },
+  "bankingSectionEscrow": {
+    "aboutEscrowText": "Biznes əmanəti",
+    "aboutEscrowTitle": "Beynəlxalq əməliyyatlarınızın qorunması",
+    "aboutEscrowSubTitle": "Təhlükəsiz əmanət xidmətimiz Taxus Business Escrow ilə biznes əməliyyatlarınız üçün rahatlığı təmin edin. Bu necə işləyir:",
+    "aboutEscrowSubText": "Taxus Business Escrow ilə siz öz vəsaitlərinizin hər addımda qorunduğunu bilərək işinizi inamla apara bilərsiniz.",
+    "aboutEscrowSubItems": {
+      "title1": "Biznes əmanəti",
+      "text1": "Sövdələşmədə həm alıcı, həm də satıcını qoruyan neytral vasitəçi kimi çıxış edir.",
+      "title2": "Alıcı Müdafiəsi",
+      "text2": "Satıcı müqavilədə göstərildiyi kimi öhdəliklərini yerinə yetirənə qədər vəsaitləriniz Taxus tərəfindən təhlükəsiz şəkildə saxlanılır.",
+      "title3": "Satıcı zəmanəti",
+      "text3": "Göndərmə sübutu yoxlanıldıqdan sonra Taxus dərhal ödənişinizi satıcıya göndərir."
+    }
+  },
+  "bankingSectionPartner": {
+    "SectionPartnerText": "Təkmilləşdirilmiş Bank Partnyorunuz",
+    "SectionPartnerTitle": "Taxus: Güclü Bank Partnyorunuz",
+    "SectionPartnerSubTitle": "Taxus Bank xidmətlərini təqdim edirik:",
+    "SectionPartnerSubItems": {
+      "title1": "Zəhmətsiz Hesab Quraşdırma:",
+      "text1": "Maliyyənizi səmərəli şəkildə idarə etmək üçün unikal hesab nömrələrini asanlıqla əldə edin.",
+      "title2": "Qlobal Çatdırılma:",
+      "text2": "Bizim rahat multivalyuta hesablarımızla bir çox valyutada vəsaitləri idarə edin.",
+      "title3": "Problemsiz Beynəlxalq Ödənişlər:",
+      "text3": "SWIFT və SEPA vasitəsilə asanlıqla transsərhəd ödənişləri göndərin və qəbul edin.",
+      "title4": "Əlverişli valyuta məzənnələri:",
+      "text4": "Maliyyə əməliyyatlarınızı optimallaşdırmaq üçün valyutaları rəqabətli məzənnələrlə çevirin.",
+      "title5": "Çevik Hesab Strukturları:",
+      "text5": "Xüsusi ehtiyaclarınıza və təşkilat iyerarxiyanıza uyğun çox səviyyəli hesab strukturları yaradın.",
+      "title6": "Təkmilləşdirilmiş Kolleksiyalar:",
+      "text6": "Qarşıdan gələn ödənişlərin yığılması xüsusiyyətimizlə ödənişlərin qəbulu prosesini sadələşdirin."
+    }
   }
 }

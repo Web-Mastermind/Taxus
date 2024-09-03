@@ -297,5 +297,38 @@
       "title5": "Convenient Management:",
       "text5": "Streamlined management of your financial activities with ease and efficiency."
     }
+  },
+  "bankingSectionEscrow": {
+    "aboutEscrowText": "Business Escrow",
+    "aboutEscrowTitle": "Safeguard Your International Transactions",
+    "aboutEscrowSubTitle": "Ensure peace of mind for your business transactions with Taxus Business Escrow our secure escrow service. Here's how it works:",
+    "aboutEscrowSubText": "With Taxus Business Escrow, you can conduct business with confidence, knowing that your funds are protected every step of the way.",
+    "aboutEscrowSubItems": {
+      "title1": "Business Escrow",
+      "text1": "Acts as a neutral intermediary, safeguarding both the buyer and seller in a transaction.",
+      "title2": "Buyer Protection",
+      "text2": "Your funds are held securely by Taxus until the seller fulfills their obligations as outlined in the agreement.",
+      "title3": "Seller Assurance",
+      "text3": "Once proof of shipment is verified, Taxus promptly releases your payment to the seller."
+    }
+  },
+  "bankingSectionPartner": {
+    "SectionPartnerText": "Your Streamlined Banking Partner",
+    "SectionPartnerTitle": "Taxus: Your Powerful Banking Partner",
+    "SectionPartnerSubTitle": "Introducing Taxus Banking Services:",
+    "SectionPartnerSubItems": {
+      "title1": "Effortless Account Setup:",
+      "text1": "Easily obtain unique account numbers to efficiently manage your finances.",
+      "title2": "Global Reach:",
+      "text2": "Manage funds in multiple currencies with our convenient multi-currency accounts.",
+      "title3": "Seamless International Payments:",
+      "text3": "Send and receive cross-border payments easily via SWIFT and SEPA.",
+      "title4": "Favorable Exchange Rates:",
+      "text4": "Convert currencies at competitive rates to optimize your financial transactions.",
+      "title5": "Flexible Account Structures:",
+      "text5": "Establish multi-level account structures to suit your specific needs and organizational hierarchy.",
+      "title6": "Streamlined Collections:",
+      "text6": "Simplify the process of receiving payments with our upcoming payment collection feature."
+    }
   }
 }
