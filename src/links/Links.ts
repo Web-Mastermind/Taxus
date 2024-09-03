@@ -225,6 +225,28 @@ export const bankingSectionPrivate = () => {
     { id: 2, title: t("aboutPrivateSubItems.title2"), text: t("aboutPrivateSubItems.text2") },
     { id: 3, title: t("aboutPrivateSubItems.title3"), text: t("aboutPrivateSubItems.text3") },
     { id: 4, title: t("aboutPrivateSubItems.title4"), text: t("aboutPrivateSubItems.text4") },
-    { id: 5, title: t("aboutPrivateSubItems.title5"), text: t("aboutPrivateSubItems.text5") },
+    { id: 5, title: t("aboutPrivateSubItems.title5"), text: t("aboutPrivateSubItems.text5") }
+  ]
+}
+
+export const bankingSectionEscrow = () => {
+  const t = useTranslations("bankingSectionEscrow");
+  return [
+    { id: 1, img: "/assets/icons/ShieldIcon.svg", title: t("aboutEscrowSubItems.title1"), text: t("aboutEscrowSubItems.text1") },
+    { id: 2, img: "/assets/icons/SafeBoxIcon.svg", title: t("aboutEscrowSubItems.title2"), text: t("aboutEscrowSubItems.text2") },
+    { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: t("aboutEscrowSubItems.title3"), text: t("aboutEscrowSubItems.text3") }
+  ]
+}
+
+export const bankingSectionPartner = () => {
+  const t = useTranslations("bankingSectionPartner");
+
+  return [
+    { id: 1, title: t("SectionPartnerSubItems.title1"), text: t("SectionPartnerSubItems.text1") },
+    { id: 2, title: t("SectionPartnerSubItems.title2"), text: t("SectionPartnerSubItems.text2") },
+    { id: 3, title: t("SectionPartnerSubItems.title3"), text: t("SectionPartnerSubItems.text3") },
+    { id: 4, title: t("SectionPartnerSubItems.title4"), text: t("SectionPartnerSubItems.text4") },
+    { id: 5, title: t("SectionPartnerSubItems.title5"), text: t("SectionPartnerSubItems.text5") },
+    { id: 6, title: t("SectionPartnerSubItems.title6"), text: t("SectionPartnerSubItems.text6") }
   ]
 }
