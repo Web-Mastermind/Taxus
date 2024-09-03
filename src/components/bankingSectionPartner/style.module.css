@@ -1,0 +1,59 @@
+.sectionPartner {
+  padding: 5rem;
+  background-color: #F0EDEE;
+}
+
+.sectionItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionLeftContainer {
+  max-width: 30rem;
+}
+
+.sectionText {
+  color: #1a1a1a;
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+}
+
+.sectionRightContainer {
+  max-width: 36.25rem;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin: 1rem 0 3rem;
+}
+
+.sectionRightTitle {
+  color: #1a1a1a;
+  font: 2rem "Montserrat-ExtraBold", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.sectionRightMainItems {
+  display: flex;
+}
+
+.diamondIcon {
+  color: var(--primary, #c94d00);
+  margin-right: 1.5rem;
+}
+
+.rightTextItems,
+.rightTextSubItems {
+  font: 1rem/140% "Montserrat-Bold", sans-serif;
+  color: rgba(0, 0, 0, 2);
+}
+
+.rightTextItems {
+  margin-bottom: 0.5rem;
+}
+
+.rightTextSubItems {
+  font-family: "Montserrat-Regular", sans-serif;
+  line-height: 160%;
+  margin-bottom: 2rem;
+}
