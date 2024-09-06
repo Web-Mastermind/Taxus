@@ -1,0 +1,73 @@
+.sectionFees {
+  padding: 5rem 0;
+}
+
+.sectionText {
+  color: #1a1a1a;
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+  text-align: center;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.sectionSubText {
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  text-align: center;
+  margin-inline: auto;
+  color: rgba(0, 0, 0, 2);
+  max-width: 30rem;
+}
+
+.sectionTableContainer {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionTHTextLeft {
+  text-align: left;
+}
+
+.sectionTH,
+.sectionTHTextLeft {
+  font: 1rem "Montserrat-Bold", sans-serif;
+  padding-bottom: 15px;
+}
+
+.sectionTD {
+  width: 26.8rem;
+  padding: 10px 4.438rem 10px 10px;
+}
+
+.sectionTD,
+.sectionTDPrice {
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.sectionTDPrice {
+  text-align: center;
+  padding-inline: 11px;
+}
+
+.secondTable {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.sectionFooter {
+  padding-inline: 8rem;
+  margin-top: 4rem;
+  text-align: justify;
+}
+
+.sectionEndText {
+  color: #6b6b6b;
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+}
