@@ -250,3 +250,18 @@ export const bankingSectionPartner = () => {
     { id: 6, title: t("SectionPartnerSubItems.title6"), text: t("SectionPartnerSubItems.text6") }
   ]
 }
+
+export const bankingSectionFees = () => {
+  const t = useTranslations("bankingSectionFees");
+  return [
+    { id: 1, title: t("SectionFeesTableItems.title1"), priceUK: t("SectionFeesTableItems.tableUKPrice1"), priceEU: t("SectionFeesTableItems.tableUEPrice1"), priceWorld: t("SectionFeesTableItems.worldPrice1"), priceRisk: "Lorem Ipsum" },
+    { id: 2, title: t("SectionFeesTableItems.title2"), priceUK: t("SectionFeesTableItems.tableUKPrice2"), priceEU: t("SectionFeesTableItems.tableUEPrice2"), priceWorld: t("SectionFeesTableItems.worldPrice2"), priceRisk: "Lorem Ipsum" },
+    { id: 3, title: t("SectionFeesTableItems.title3"), priceUK: t("SectionFeesTableItems.tableUKPrice3"), priceEU: t("SectionFeesTableItems.tableUEPrice3"), priceWorld: t("SectionFeesTableItems.worldPrice3"), priceRisk: "Lorem Ipsum" },
+    { id: 4, title: t("SectionFeesTableItems.title4"), priceUK: t("SectionFeesTableItems.tableUKPrice4"), priceEU: t("SectionFeesTableItems.tableUEPrice4"), priceWorld: t("SectionFeesTableItems.worldPrice4"), priceRisk: "Lorem Ipsum" },
+    { id: 5, title: t("SectionFeesTableItems.title5"), priceUK: t("SectionFeesTableItems.tableUKPrice5"), priceEU: t("SectionFeesTableItems.tableUEPrice5"), priceWorld: t("SectionFeesTableItems.worldPrice5"), priceRisk: "Lorem Ipsum" },
+    { id: 6, title: t("SectionFeesTableItems.title6"), priceUK: t("SectionFeesTableItems.tableUKPrice6"), priceEU: t("SectionFeesTableItems.tableUEPrice6"), priceWorld: t("SectionFeesTableItems.worldPrice6"), priceRisk: "Lorem Ipsum" },
+    { id: 7, title: t("SectionFeesTableItems.title7"), priceUK: t("SectionFeesTableItems.tableUKPrice7"), priceEU: t("SectionFeesTableItems.tableUEPrice7"), priceWorld: t("SectionFeesTableItems.worldPrice7"), priceRisk: "Lorem Ipsum" },
+    { id: 8, title: t("SectionFeesTableItems.title8"), priceUK: t("SectionFeesTableItems.tableUKPrice8"), priceEU: t("SectionFeesTableItems.tableUEPrice8"), priceWorld: t("SectionFeesTableItems.worldPrice8"), priceRisk: "Lorem Ipsum" },
+    { id: 9, title: t("SectionFeesTableItems.title9"), priceUK: t("SectionFeesTableItems.tableUKPrice9"), priceEU: t("SectionFeesTableItems.tableUEPrice9"), priceWorld: t("SectionFeesTableItems.worldPrice9"), priceRisk: "Lorem Ipsum" }
+  ]
+}
