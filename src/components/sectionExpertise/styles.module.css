@@ -3,8 +3,11 @@
   padding: 7rem 0;
 }
 
-.sectionItems {
+.colorWhite {
   color: #FFF;
+}
+
+.sectionItems {
   text-align: center;
 }
 
@@ -13,9 +16,14 @@
   margin-bottom: 1rem;
 }
 
+.fontMregular {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
 .expertiseTitle {
-  color: #c94d00;
-  font: 2.875rem/140% "Montserrat-Regular", sans-serif;
+  color: var(--primary, #c94d00);
+  font-size: 2.875rem;
+  line-height: 140%;
 }
 
 .sectionSecondItemsContainer {
@@ -32,12 +40,12 @@
 }
 
 .sectionSubTitle {
-  color: #fff;
   font: 2rem "Montserrat-ExtraBold", sans-serif;
   margin-bottom: 1.875rem;;
 }
 
 .sectionSubText {
-  color: #6b6b6b;
-  font: 1rem/140% "Montserrat-Regular", sans-serif;
+  color: var(--Grey, #6b6b6b);
+  font-size: 1rem;
+  line-height: 140%;
 }
