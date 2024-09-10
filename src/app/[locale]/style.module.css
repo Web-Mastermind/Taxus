@@ -4,14 +4,27 @@
   padding-top: 12rem;
 }
 
-.mainTitle {
-  font: 3.5rem "Prata-Regular", sans-serif;
+.fonFamily {
+  font-family: "Prata-Regular", sans-serif;
+}
+
+.colorPrimary {
   color: var(--primary, #c94d00);
 }
 
-.mainTexts {
+.mainTitle {
+  font-size: 3.5rem;
+}
+
+.flex {
   display: flex;
+}
+
+.alignCenter {
   align-items: center;
+}
+
+.mainTexts {
   margin-top: 14px;
 }
 
@@ -19,9 +32,20 @@
   margin-right: 2.8rem;
 }
 
+.colorWhite {
+  color: #fff;
+}
+
+.fontMregular {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
+.textCenter {
+  text-align: center;
+}
+
 .mainSubTitle,
 .mainSubSecondTitle {
-  color: #fff;
   font: 4.25rem "Montserrat-Bold", sans-serif;
 }
 
@@ -30,9 +54,10 @@
 }
 
 .mainTextItem {
-  color: #6b6b6b;
+  color: var(--Grey, #6B6B6B);
   max-width: 30rem;
-  font: 1.125rem/140% "Montserrat-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 140%;
 }
 
 .buttonContainer {
@@ -40,7 +65,6 @@
 }
 
 .rightContainer {
-  display: flex;
   justify-content: center;
   margin-left: 29rem;
 }
@@ -50,15 +74,11 @@
 }
 
 .mainRightTitle {
-  color: var(--primary, #c94d00);
-  font: 2rem "Prata-Regular", sans-serif;
-  text-align: center;
+  font-size: 2rem;
 }
 
 .mainRightText {
-  color: #fff;
-  font: 0.938rem "Montserrat-Regular", sans-serif;
-  text-align: center;
+  font-size: 0.938rem;
   max-width: 8.2rem;
 }
 
@@ -73,8 +93,6 @@
 
 .logos {
   margin-top: 5.75rem;
-  display: flex;
-  align-items: center;
   overflow: hidden;
   background: rgba(201, 77, 0, 15%);
   white-space: nowrap;
@@ -85,13 +103,10 @@
 }
 
 .logosSlide {
-  display: flex;
-  align-items: center;
   animation: 60s slide infinite linear;
 }
 
 .logosSlide p {
-  color: white;
   font: 1.125rem/140% "Montserrat-Regular", sans-serif;
   margin-inline: 44.75px;
   padding: 18px 0;
