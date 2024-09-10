@@ -21,24 +21,24 @@ const page = () => {
         <div className="container">
           <div className={styles.mainItems}>
             <div className={styles.leftContainer}>
-              <h1 className={styles.mainTitle}>{t("title")}</h1>
-              <div className={styles.mainTexts}>
+              <h1 className={`${styles.mainTitle} ${styles.fonFamily} ${styles.colorPrimary}`}>{t("title")}</h1>
+              <div className={`${styles.mainTexts} ${styles.flex} ${styles.alignCenter}`}>
                 <Image className={styles.mainIcon} src="/assets/icons/arrow.svg" alt="Arrow Icon" width={55} height={53} />
-                <h2 className={styles.mainSubTitle}>{t("subtitle")}</h2>
+                <h2 className={`${styles.mainSubTitle} ${styles.colorWhite}`}>{t("subtitle")}</h2>
               </div>
-              <h2 className={styles.mainSubSecondTitle}>{t("text")}</h2>
-              <p className={styles.mainTextItem}>{t("secontext")}</p>
+              <h2 className={`${styles.mainSubSecondTitle} ${styles.colorWhite}`}>{t("text")}</h2>
+              <p className={`${styles.mainTextItem} ${styles.fontMregular}`}>{t("secontext")}</p>
               <div className={styles.buttonContainer}>
                 <ContactUs />
               </div>
             </div>
-            <div className={styles.rightContainer}>
+            <div className={`${styles.rightContainer} ${styles.flex}`}>
               {
                 exp.map(({ id, text, subTexts }) => {
                   return (
                     <div key={id} className={styles.mainRightItems}>
-                      <p className={styles.mainRightTitle}>{text}</p>
-                      <p className={styles.mainRightText}>{subTexts}</p>
+                      <p className={`${styles.mainRightTitle} ${styles.fonFamily} ${styles.colorPrimary} ${styles.textCenter}`}>{text}</p>
+                      <p className={`${styles.mainRightText} ${styles.colorWhite} ${styles.fontMregular} ${styles.textCenter}`}>{subTexts}</p>
                     </div>
                   )
                 })
@@ -46,39 +46,39 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className={styles.logos}>
-          <div className={styles.logosSlide}>
-            <p>{t("registration")}</p>
-            <p>&bull;</p>
-            <p>{t("accaunts")}</p>
-            <p>&bull;</p>
-            <p>{t("license")}</p>
-            <p>&bull;</p>
-            <p>{t("payment")}</p>
-            <p>&bull;</p>
-            <p>{t("audit")}</p>
-            <p>&bull;</p>
-            <p>{t("drafting")}</p>
-            <p>&bull;</p>
-            <p>{t("corporate")}</p>
-            <p>&bull;</p>
+        <div className={`${styles.logos} ${styles.flex} ${styles.alignCenter}`}>
+          <div className={`${styles.logosSlide} ${styles.flex} ${styles.alignCenter}`}>
+            <p className={styles.colorWhite}>{t("registration")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("accaunts")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("license")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("payment")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("audit")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("drafting")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("corporate")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
           </div>
 
-          <div className={styles.logosSlide}>
-            <p>{t("registration")}</p>
-            <p>&bull;</p>
-            <p>{t("accaunts")}</p>
-            <p>&bull;</p>
-            <p>{t("license")}</p>
-            <p>&bull;</p>
-            <p>{t("payment")}</p>
-            <p>&bull;</p>
-            <p>{t("audit")}</p>
-            <p>&bull;</p>
-            <p>{t("drafting")}</p>
-            <p>&bull;</p>
-            <p>{t("corporate")}</p>
-            <p>&bull;</p>
+          <div className={`${styles.logosSlide} ${styles.flex} ${styles.alignCenter}`}>
+            <p className={styles.colorWhite}>{t("registration")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("accaunts")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("license")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("payment")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("audit")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("drafting")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
+            <p className={styles.colorWhite}>{t("corporate")}</p>
+            <p className={styles.colorWhite}>&bull;</p>
           </div>
         </div>
       </main>
