@@ -1,6 +1,9 @@
-.servicesSection {
+.relative {
   position: relative;
-  background-color: #1a1a1a;
+}
+
+.servicesSection {
+  background-color: var(--Dark-grey, #1A1A1A);
   padding: 5rem 0;
 }
 
@@ -30,8 +33,11 @@
   text-align: center;
 }
 
+.colorWhite {
+  color: #fff;
+}
+
 .servicesText {
-  color: #FFF;
   font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
 }
 
@@ -42,9 +48,12 @@
   margin: 1rem auto 0;
 }
 
+.flex {
+  display: flex;
+}
+
 .sectionMainContainer {
   margin-top: 6rem;
-  display: flex;
   flex-wrap: wrap;
   gap: 5rem;
 }
@@ -53,23 +62,34 @@
   max-width: 20rem;
 }
 
-.servicesItemTitle {
-  color: #fff;
-  font: 2rem "Montserrat-ExtraBold", sans-serif;
+.fontMExtram {
+  font-family: "Montserrat-ExtraBold", sans-serif;
+}
+
+.servicesItemTitle,
+.subMainTitle {
+  font-size: 2rem;
 }
 
 .itemLine {
   margin: 1.875rem 0;
 }
 
+.fontMregular {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
+.fontSize {
+  font-size: 1rem;
+}
+
 .servicesItemText {
-  color: #6b6b6b;
-  font: 1rem/140% "Montserrat-Regular", sans-serif;
+  color: var(--Grey, #6b6b6b);
+  line-height: 140%;
   margin-bottom: 1.875rem;
 }
 
 .servicesItemLink {
-  color: #fff;
   font: 1rem "Montserrat-Medium", sans-serif;
   border: 1px solid #FFF;
   border-radius: 25px;
@@ -77,9 +97,7 @@
 }
 
 .sectionSubMainContainer {
-  position: relative;
   background-color: #FFF;
-  display: flex;
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
@@ -92,13 +110,14 @@
   width: 43.75rem;
 }
 
+.colorDarkGrey {
+  color: var(--Dark-grey, #1a1a1a);
+}
+
 .subMainTitle {
-  color: #1a1a1a;
-  font: 2rem "Montserrat-ExtraBold", sans-serif;
   margin-bottom: 1.875rem;
 }
 
 .subMainText {
-  color: #1a1a1a;
-  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  line-height: 160%;
 }
