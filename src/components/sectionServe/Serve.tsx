@@ -12,8 +12,8 @@ const Serve = () => {
       <div className="container">
         <div className={styles.sectionItems}>
           <div className={styles.sectionLeftContainer}>
-            <p className={styles.sectionText}>{t("firstTexts.serveMainText")}</p>
-            <h2 className={styles.sectionTitle}>{t("firstTexts.serveMainTitle")}</h2>
+            <p className={`${styles.sectionText} ${styles.colorDarkGrey}`}>{t("firstTexts.serveMainText")}</p>
+            <h2 className={`${styles.sectionTitle} ${styles.colorPrimary}`}>{t("firstTexts.serveMainTitle")}</h2>
             <Image className={styles.sectionImage} src="/assets/img/BusinessPeople.png" alt="Business People Image" width={480} height={300} />
           </div>
           <div className={styles.sectionRightContainer}>
@@ -21,8 +21,8 @@ const Serve = () => {
               serve.map(({ id, icon, text }) => {
                 return (
                   <div key={id} className={styles.rightContainerItems}>
-                    <span className={styles.diamondIcon}>{icon}</span>
-                    <p className={styles.sectionSubText}>{text}</p>
+                    <span className={`${styles.diamondIcon} ${styles.colorPrimary}`}>{icon}</span>
+                    <p className={`${styles.sectionSubText} ${styles.colorDarkGrey}`}>{text}</p>
                   </div>
                 )
               })
