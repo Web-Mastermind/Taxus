@@ -1,5 +1,5 @@
 .expertiseSection {
-  background-color: #1a1a1a;
+  background-color: var(--Dark-grey, #1A1A1A);
   padding: 7rem 0;
 }
 
