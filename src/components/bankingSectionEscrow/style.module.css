@@ -1,14 +1,17 @@
 .sectionEscrow {
-  background-color: #1a1a1a;
+  background-color: var(--Dark-grey, #1A1A1A);
   padding: 5rem 0;
 }
 
-.sectionTextItems {
+.textCenter {
   text-align: center;
 }
 
-.sectionText {
+.colorWhite {
   color: #fff;
+}
+
+.sectionText {
   font: 1.5rem "Montserrat-SemiBold", sans-serif;
 }
 
@@ -19,17 +22,18 @@
 }
 
 .sectionSubText {
-  color: #6b6b6b;
-  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  color: var(--Grey, #6B6B6B);
   max-width: 42.5rem;
   margin-inline: auto;
 }
 
-.sectionCardsItems {
+.flex {
   display: flex;
-  justify-content: center;
+  justify-content: center
+}
+
+.sectionCardsItems {
   gap: 0 1.25rem;
-  text-align: center;
   margin-top: 5rem;
 }
 
@@ -41,29 +45,25 @@
   max-width: 17.5rem;
 }
 
+.colorDarkGrey {
+  color: var(--Dark-grey, #1A1A1A);
+}
+
 .cardTitle {
-  color: #1a1a1a;
   font: 2rem "Montserrat-ExtraBold", sans-serif;
 }
 
 .cardText {
-  color: #1a1a1a;
   font: 1.125rem/140% "Montserrat-Regular", sans-serif;
   margin: 30px 0;
 }
 
 .sectionSubTextItems {
-  text-align: center;
   max-width: 36.25rem;
   margin: 5rem auto 1.875rem;
 }
 
-.sectionFooterText {
-  color: #fff;
+.sectionFooterText,
+.sectionSubText {
   font: 1rem/160% "Montserrat-Regular", sans-serif;
-}
-
-.contactItem {
-  display: flex;
-  justify-content: center;
 }
