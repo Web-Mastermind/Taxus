@@ -2,8 +2,7 @@
   padding: 7rem 0;
 }
 
-.sectionItems,
-.rightContainerItems {
+.flex {
   display: flex;
 }
 
@@ -11,8 +10,11 @@
   width: 36.875rem;
 }
 
+.colorDarkGrey {
+  color: var(--Dark-grey, #1A1A1A);
+}
+
 .sectionText {
-  color: #1a1a1a;
   font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
 }
 
@@ -35,7 +37,7 @@
   content: '';
   width: 2.5px;
   height: 110px;
-  background: #1a1a1a;
+  background: var(--Dark-grey, #1A1A1A);
   bottom: 0;
   left: 28px;
 }
@@ -44,12 +46,15 @@
   width: 29rem;
 }
 
+.fontRegular {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
 .sectionSpan {
   color: #fff;
-  font: 1.875rem "Montserrat-Regular", sans-serif;
-  background: #1a1a1a;
+  font-size: 1.875rem;
+  background: var(--Dark-grey, #1A1A1A);
   border-radius: 10px;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 2.286rem 5.75rem 0;
@@ -58,13 +63,12 @@
 }
 
 .rightContainerItemTitle {
-  color: #1a1a1a;
   font: 1.5rem/140% "Montserrat-ExtraBold", sans-serif;
   margin-bottom: 1rem;
 }
 
 .rightContainerItemText {
-  color: #1a1a1a;
-  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 160%;
   width: 30rem;
 }
