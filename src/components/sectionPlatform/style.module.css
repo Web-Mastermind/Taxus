@@ -1,7 +1,7 @@
 .sectionPlatform {
   position: relative;
   padding: 7rem 0;
-  background-color: #1a1a1a;
+  background-color: var(--Dark-grey, #1a1a1a);
   z-index: 2;
 }
 
@@ -26,8 +26,11 @@
   max-width: 36.25rem;
 }
 
+.colorWhite {
+  color: #FFF
+}
+
 .platformText {
-  color: #fff;
   font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
 }
 
@@ -38,12 +41,10 @@
 }
 
 .platformSubText {
-  color: #fff;
   font: 1rem/160% "Montserrat-Regular", sans-serif;
 }
 
 .platformLinkItem {
-  color: #fff;
   font: 1rem "Montserrat-Medium", sans-serif;
   border: 1px solid #FFF;
   border-radius: 25px;
