@@ -17,28 +17,33 @@
 }
 
 .sectionItems {
-  background-color: #1b1b1b;
+  background-color: var(--Dark-grey, #1A1A1A);
 }
 
 .reviewsTextsItems {
   padding: 6.813rem 0 12.75rem;
 }
 
+.textCenter {
+  text-align: center;
+}
+
 .sectionText {
   color: #fff;
   font: 1.5rem "Montserrat-SemiBold", sans-serif;
-  text-align: center;
 }
 
 .sectionTitle {
   color: var(--primary, #c94d00);
   font: 2.875rem/140% "Prata-Regular", sans-serif;
-  text-align: center;
   margin: 1rem 0 6.313rem;
 }
 
-.customersContainer {
+.flex {
   display: flex;
+}
+
+.customersContainer {
   justify-content: center;
   gap: 0 20px;
   position: absolute;
@@ -57,7 +62,7 @@
 }
 
 .reviewsIcon {
-  color: #1a1a1a;
+  color: var(--Dark-grey, #1A1A1A);
   font: 5rem/140% "Montserrat-Bold", sans-serif;
 }
 
@@ -66,7 +71,6 @@
 }
 
 .customersImg {
-  display: flex;
   align-items: center;
   margin-top: 1.219rem;
 }
@@ -85,27 +89,6 @@
 
 .reviewBottomContainer {
   margin-top: 20rem;
-}
-
-.CTA {
-  background-color: #1a1a1a;
-  border-radius: 20px;
-  padding: 50px 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.CTATitleItems {
-  color: #fff;
-  font: 2rem "Montserrat-ExtraBold", sans-serif;
-}
-
-.CTATextItems {
-  color: #fff;
-  font: 1rem/160% "Montserrat-Regular", sans-serif;
-  margin-top: 1.875rem;
-  width: 43.75rem;
 }
 
 .previewComponent {
