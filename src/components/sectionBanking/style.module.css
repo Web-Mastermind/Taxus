@@ -2,30 +2,34 @@
   background-color: #f0edee;;
 }
 
-.sectionItems {
+.flex {
   display: flex;
-  /* align-items: center; */
 }
 
 .bankingTexts {
   margin-left: 3.125rem;
 }
 
+.colorDarkGrey {
+  color: var(--Dark-grey, #1a1a1a);
+}
+
 .bankingMainText {
-  color: #1a1a1a;
   margin: 8.375rem 0 1rem;
   font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
 }
 
+.colorPrimary {
+ color: var(--primary, #c94d00);
+}
+
 .bankingMainTitle {
-  color: var(--primary, #c94d00);
   font: 2.875rem/140% "Prata-Regular", sans-serif;
   width: 34rem;
   margin-bottom: 2.438rem;
 }
 
 .bankingTextContainer {
-  display: flex;
   align-items: center;
 }
 
@@ -35,18 +39,15 @@
 
 .textDecor {
   margin-right: 1.5rem;
-  color: var(--primary, #c94d00);
 }
 
 .bankingSubTexts {
-  color: #1a1a1a;
   font: 1rem/160% "Montserrat-Regular", sans-serif;
 }
 
 .bankingLinkItem {
-  color: #1a1a1a;
   font: 1rem "Montserrat-Medium", sans-serif;
-  border: 1px solid #1a1a1a;
+  border: 1px solid var(--Dark-grey, #1a1a1a);
   border-radius: 25px;
   padding: 10px 15px;
   margin-top: 3.25rem;
