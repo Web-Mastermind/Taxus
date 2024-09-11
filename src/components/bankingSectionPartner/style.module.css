@@ -3,8 +3,11 @@
   background-color: #F0EDEE;
 }
 
-.sectionItems {
+.flex {
   display: flex;
+}
+
+.sectionItems {
   justify-content: space-between;
 }
 
@@ -12,8 +15,11 @@
   max-width: 30rem;
 }
 
+.colorDarkGrey {
+  color: var(--Dark-grey, #1A1A1A);
+}
+
 .sectionText {
-  color: #1a1a1a;
   font: 1.5rem "Montserrat-SemiBold", sans-serif;
 }
 
@@ -21,24 +27,21 @@
   max-width: 36.25rem;
 }
 
-.sectionTitle {
+.colorPrimary {
   color: var(--primary, #c94d00);
+}
+
+.sectionTitle {
   font: 2.875rem/140% "Prata-Regular", sans-serif;
   margin: 1rem 0 3rem;
 }
 
 .sectionRightTitle {
-  color: #1a1a1a;
   font: 2rem "Montserrat-ExtraBold", sans-serif;
   margin-bottom: 2rem;
 }
 
-.sectionRightMainItems {
-  display: flex;
-}
-
 .diamondIcon {
-  color: var(--primary, #c94d00);
   margin-right: 1.5rem;
 }
 
