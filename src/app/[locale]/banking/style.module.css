@@ -21,7 +21,7 @@
 }
 
 .lorem {
-  color: #6b6b6b;
+  color: var(--Grey, #6B6B6B);
   font: 1.125rem/140% "Montserrat-Regular", sans-serif;
 }
 
