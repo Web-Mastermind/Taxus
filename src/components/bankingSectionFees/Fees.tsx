@@ -9,10 +9,10 @@ const Fees = () => {
     <section className={styles.sectionFees}>
       <div className="container">
         <div className={styles.sectionItems}>
-          <p className={styles.sectionText}>{t("SectionFeesText")}</p>
-          <h3 className={styles.sectionTitle}>{t("SectionFeesTitle")}</h3>
-          <p className={styles.sectionSubText}>{t("SectionFeesSubTitle")}</p>
-          <div className={styles.sectionTableContainer}>
+          <p className={`${styles.sectionText} ${styles.textCenter}`}>{t("SectionFeesText")}</p>
+          <h3 className={`${styles.sectionTitle} ${styles.textCenter}`}>{t("SectionFeesTitle")}</h3>
+          <p className={`${styles.sectionSubText} ${styles.textCenter} ${styles.fontAll}`}>{t("SectionFeesSubTitle")}</p>
+          <div className={`${styles.sectionTableContainer} ${styles.flex}`}>
             <table className={styles.sectionTableMain}>
               <thead className={styles.sectionTHead}>
                 <tr className={styles.sectionTR}>
@@ -28,11 +28,11 @@ const Fees = () => {
                   fees.map(({ id, title, priceUK, priceEU, priceWorld, priceRisk }) => {
                     return (
                       <tr key={id} className={styles.sectionTR}>
-                        <td className={styles.sectionTD}>{title}</td>
-                        <td className={styles.sectionTDPrice}>{priceUK}</td>
-                        <td className={styles.sectionTDPrice}>{priceEU}</td>
-                        <td className={styles.sectionTDPrice}>{priceWorld}</td>
-                        <td className={styles.sectionTDPrice}>{priceRisk}</td>
+                        <td className={`${styles.sectionTD} ${styles.fontAll}`}>{title}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceUK}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceEU}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceWorld}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceRisk}</td>
                       </tr>
                     )
                   })
@@ -40,7 +40,7 @@ const Fees = () => {
               </tbody>
             </table>
           </div>
-          <div className={styles.secondTable}>
+          <div className={`${styles.secondTable} ${styles.flex}`}>
             <table className={styles.sectionTableMain}>
               <thead className={styles.sectionTHead}>
                 <tr className={styles.sectionTR}>
@@ -56,11 +56,11 @@ const Fees = () => {
                   fees.map(({ id, title, priceUK, priceEU, priceWorld, priceRisk }) => {
                     return (
                       <tr key={id} className={styles.sectionTR}>
-                        <td className={styles.sectionTD}>{title}</td>
-                        <td className={styles.sectionTDPrice}>{priceUK}</td>
-                        <td className={styles.sectionTDPrice}>{priceEU}</td>
-                        <td className={styles.sectionTDPrice}>{priceWorld}</td>
-                        <td className={styles.sectionTDPrice}>{priceRisk}</td>
+                        <td className={`${styles.sectionTD} ${styles.fontAll}`}>{title}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceUK}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceEU}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceWorld}</td>
+                        <td className={`${styles.sectionTDPrice} ${styles.textCenter} ${styles.fontAll}`}>{priceRisk}</td>
                       </tr>
                     )
                   })
@@ -69,7 +69,7 @@ const Fees = () => {
             </table>
           </div>
           <div className={styles.sectionFooter}>
-            <p className={styles.sectionEndText}>{t("SectionFeesFooterTitle")}</p>
+            <p className={`${styles.sectionEndText} ${styles.fontAll}`}>{t("SectionFeesFooterTitle")}</p>
           </div>
         </div>
       </div>
