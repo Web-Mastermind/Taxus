@@ -10,21 +10,21 @@ const Payments = () => {
     <section className={styles.sectionPayments}>
       <div className="container">
         <div className={styles.sectionItems}>
-          <div className={styles.sectionTopTexts}>
+          <div className={`${styles.sectionTopTexts} ${styles.flex}`}>
             <div className={styles.sectionTextItems}>
-              <p className={styles.sectionText}>{t("aboutPaymentsText")}</p>
-              <h2 className={styles.sectionTitle}>{t("aboutPaymentsTitle")}</h2>
+              <p className={`${styles.sectionText} ${styles.colorDarkGrey}`}>{t("aboutPaymentsText")}</p>
+              <h2 className={`${styles.sectionTitle} ${styles.colorPrimary}`}>{t("aboutPaymentsTitle")}</h2>
             </div>
             <div className={styles.sectionTopRightTextsContainer}>
-              <h2 className={styles.sectionRightTitle}>{t("aboutPaymentsSubTitle")}</h2>
+              <h2 className={`${styles.sectionRightTitle} ${styles.colorDarkGrey} ${styles.marginBottom}`}>{t("aboutPaymentsSubTitle")}</h2>
               {
                 payments.map(({ id, title, text }) => {
                   return (
-                    <div key={id} className={styles.sectionTopRightTextsItems}>
-                      <span className={styles.diamondIcon}>&#9670;</span>
+                    <div key={id} className={`${styles.sectionTopRightTextsItems} ${styles.flex}`}>
+                      <span className={`${styles.diamondIcon} ${styles.colorPrimary}`}>&#9670;</span>
                       <div className={styles.sectionRightTexts}>
                         <p className={styles.rightTextItems}>{title}</p>
-                        <p className={styles.rightTextSubItems}>{text}</p>
+                        <p className={`${styles.rightTextSubItems} ${styles.marginBottom}`}>{text}</p>
                       </div>
                     </div>
                   )
