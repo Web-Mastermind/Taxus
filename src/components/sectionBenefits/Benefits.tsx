@@ -11,8 +11,8 @@ const Benefits = () => {
     <section className={styles.sectionBenefits}>
       <div className="container">
         <div className={styles.sectionTexts}>
-          <p className={styles.sectionText}>{t("sectionText")}</p>
-          <h2 className={styles.sectionTitle}>{t("sectionTitle")}</h2>
+          <p className={`${styles.sectionText} ${styles.colorWhite} ${styles.textCenter}`}>{t("sectionText")}</p>
+          <h2 className={`${styles.sectionTitle} ${styles.textCenter}`}>{t("sectionTitle")}</h2>
         </div>
         <div className={styles.sectionItemsMain}>
           {
@@ -20,7 +20,7 @@ const Benefits = () => {
               return (
                 <div key={id} className={styles.sectionItems}>
                   <Image className={styles.sectionIcon} src={img} alt="Team icon" width={55.85} height={60} />
-                  <h2 className={styles.sectionSubTitle}>{title}</h2>
+                  <h2 className={`${styles.sectionSubTitle} ${styles.colorWhite}`}>{title}</h2>
                   <p className={styles.sectionSubText}>{text}</p>
                 </div>
               )
