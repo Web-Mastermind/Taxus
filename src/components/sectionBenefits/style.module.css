@@ -1,19 +1,24 @@
 .sectionBenefits {
   padding: 7rem 0;
-  background-color: #1a1a1a;
-  border-bottom: 1px solid #6b6b6b;
+  background-color: var(--Dark-grey, #1A1A1A);
+  border-bottom: 1px solid var(--Grey, #6B6B6B);
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.textCenter {
+  text-align: center;
 }
 
 .sectionText {
-  color: #fff;
   font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
-  text-align: center;
 }
 
 .sectionTitle {
   color: var(--primary, #c94d00);
   font: 2.875rem/140% "Prata-Regular", sans-serif;
-  text-align: center;
   margin: 1rem 0 5rem;
 }
 
@@ -27,12 +32,11 @@
 }
 
 .sectionSubTitle {
-  color: #fff;
   font: 2rem "Montserrat-ExtraBold", sans-serif;
   margin: 1.875rem 0;
 }
 
 .sectionSubText {
-  color: #6b6b6b;
+  color: var(--Grey, #6B6B6B);
   font: 1rem/140% "Montserrat-Regular", sans-serif;
 }
