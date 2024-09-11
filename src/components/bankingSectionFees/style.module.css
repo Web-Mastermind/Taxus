@@ -2,31 +2,38 @@
   padding: 5rem 0;
 }
 
-.sectionText {
-  color: #1a1a1a;
-  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+.textCenter {
   text-align: center;
+}
+
+.sectionText {
+  color: var(--Dark-grey, #1A1A1A);
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
 }
 
 .sectionTitle {
   color: var(--primary, #c94d00);
   font: 2.875rem/140% "Prata-Regular", sans-serif;
-  text-align: center;
   margin: 1rem 0 2rem;
 }
 
-.sectionSubText {
+.fontAll {
   font: 1rem/160% "Montserrat-Regular", sans-serif;
-  text-align: center;
+}
+
+.sectionSubText {
   margin-inline: auto;
   color: rgba(0, 0, 0, 2);
   max-width: 30rem;
 }
 
-.sectionTableContainer {
-  margin-top: 3.5rem;
+.flex {
   display: flex;
   justify-content: center;
+}
+
+.sectionTableContainer {
+  margin-top: 3.5rem;
 }
 
 .sectionTHTextLeft {
@@ -46,18 +53,14 @@
 
 .sectionTD,
 .sectionTDPrice {
-  font: 1rem/160% "Montserrat-Regular", sans-serif;
   background-color: #f5f5f5;
 }
 
 .sectionTDPrice {
-  text-align: center;
   padding-inline: 11px;
 }
 
 .secondTable {
-  display: flex;
-  justify-content: center;
   margin-top: 15px;
 }
 
@@ -68,6 +71,5 @@
 }
 
 .sectionEndText {
-  color: #6b6b6b;
-  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  color: var(--Grey, #6B6B6B);
 }
