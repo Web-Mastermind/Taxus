@@ -1,8 +1,8 @@
 .sectionHistory {
   position: relative;
-  background-color: #1a1a1a;
+  background-color: var(--Dark-grey, #1A1A1A);
   padding: 7rem 0;
-  border-bottom: 1px solid #6b6b6b;
+  border-bottom: 1px solid var(--Grey, #6B6B6B);
 }
 
 .sectionHistory::after {
@@ -15,22 +15,26 @@
   top: -27.5rem;
 }
 
+.colorWhite {
+  color: #fff;
+}
+
+.textCenter {
+  text-align: center;
+}
+
 .sectionText,
 .sectionSecondText {
-  color: #fff;
   font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
-  text-align: center;
 }
 
 .sectionTitle {
   color: var(--primary, #c94d00);
   font: 2.875rem/140% "Prata-Regular", sans-serif;
   margin: 1rem 0 3.5rem;
-  text-align: center;
 }
 
 .sectionSubText {
-  color: #fff;
   font: 1rem/160% "Montserrat-Regular", sans-serif;
   max-width: 48.75rem;
   margin-inline: auto;
@@ -44,8 +48,11 @@
   margin-top: 15rem;
 }
 
-.benefitsContainer {
+.flex {
   display: flex;
+}
+
+.benefitsContainer {
   justify-content: space-between;
 }
 
@@ -54,18 +61,16 @@
 }
 
 .sectionBenefitsTitle {
-  color: #fff;
   font: 2rem "Montserrat-ExtraBold", sans-serif;
   margin: 1.875rem 0;
 }
 
 .sectionBenefitsText {
-  color: #6b6b6b;
+  color: var(--Grey, #6B6B6B);
   font: 1.125rem/140% "Montserrat-Regular", sans-serif;
 }
 
 .contactItem {
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 6rem;
