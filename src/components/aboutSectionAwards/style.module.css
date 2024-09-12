@@ -1,5 +1,5 @@
 .sectionAwards {
-  background-color: #1a1a1a;
+  background-color: var(--Dark-grey, #1A1A1A);
   padding: 6rem 0;
   position: relative;
   z-index: 5;
