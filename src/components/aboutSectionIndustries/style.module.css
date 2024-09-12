@@ -8,8 +8,11 @@
   max-width: 30rem;
 }
 
+.colorDarkGrey {
+  color: var(--Dark-grey, #1A1A1A);
+}
+
 .sectionLeftText {
-  color: #1a1a1a;
   font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
 }
 
@@ -19,9 +22,12 @@
   margin: 1rem 0 2rem;
 }
 
-.sectionLeftSubText {
-  color: #6b6b6b;
+.fonAll {
   font: 1rem/160% "Montserrat-Regular", sans-serif;
+}
+
+.sectionLeftSubText {
+  color: var(--Grey, #6B6B6B);
   margin-bottom: 6.438rem;
 }
 
@@ -30,12 +36,10 @@
 }
 
 .sectionRightTitle {
-  color: #1a1a1a;
   font: 2rem "Montserrat-ExtraBold", sans-serif;
 }
 
 .sectionRightText {
-  color: #1a1a1a;
-  font: 1rem/140% "Montserrat-Regular", sans-serif;
+  line-height: 140%;
   margin: 1.875rem 0 4rem;
 }
