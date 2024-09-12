@@ -4,10 +4,13 @@
   padding-bottom: 7rem;
 }
 
-.pageItems {
-  padding-top: 5rem;
+.flex {
   display: flex;
   justify-content: space-between;
+}
+
+.pageItems {
+  padding-top: 5rem;
 }
 
 .pageLeftItems {
@@ -15,8 +18,11 @@
   max-width: 34.375rem;
 }
 
-.pageText {
+.colorWhite {
   color: #fff;
+}
+
+.pageText {
   font: 1.5rem "Montserrat-SemiBold", sans-serif;
 }
 
@@ -28,18 +34,12 @@
 
 .pageSubText,
 .aboutPageSubText{
-  color: #6b6b6b;
+  color: var(--Grey, #6B6B6B);
   font: 1rem/160% "Montserrat-Regular", sans-serif;
 }
 
 .pageRightItems {
   padding-top: 6.875rem;
-}
-
-.pageSubItemsMain,
-.pageSubItem {
-  display: flex;
-  justify-content: space-between;
 }
 
 .aboutPageSubItems {
@@ -49,7 +49,6 @@
 
 .aboutPageSubTitle,
 .pageSubTextItem {
-  color: #fff;
   font: 2rem "Montserrat-ExtraBold", sans-serif;
 }
 
@@ -71,6 +70,6 @@
 }
 
 .pageSubTextItem {
-  color: #1a1a1a;
+  color: var(--Dark-grey, #1A1A1A);
   max-width: 37.5rem;
 }
