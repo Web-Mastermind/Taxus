@@ -11,9 +11,9 @@ const Industries = () => {
       <div className="container">
         <div className={styles.sectionItems}>
           <div className={styles.sectionLeftItems}>
-            <p className={styles.sectionLeftText}>{t("IndustriesText")}</p>
+            <p className={`${styles.sectionLeftText} ${styles.colorDarkGrey}`}>{t("IndustriesText")}</p>
             <h3 className={styles.sectionLeftTitle}>{t("IndustriesTitle")}</h3>
-            <p className={styles.sectionLeftSubText}>{t("IndustriesSubText")}</p>
+            <p className={`${styles.sectionLeftSubText} ${styles.colorDarkGrey} ${styles.fonAll}`}>{t("IndustriesSubText")}</p>
             <ContactUs />
           </div>
           <div className={styles.sectionRightItemsContainer}>
@@ -22,7 +22,7 @@ const Industries = () => {
                 return (
                   <div key={id} className={styles.sectionRightItems}>
                     <h4 className={styles.sectionRightTitle}>{title}</h4>
-                    <p className={styles.sectionRightText}>{text}</p>
+                    <p className={`${styles.sectionRightText} ${styles.colorDarkGrey} ${styles.fonAll}`}>{text}</p>
                   </div>
                 )
               })
