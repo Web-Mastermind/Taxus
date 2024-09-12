@@ -15,9 +15,9 @@ const about = () => {
     <>
       <section className={styles.pageAbout}>
         <div className="container">
-          <div className={styles.pageItems}>
+          <div className={`${styles.pageItems} ${styles.flex}`}>
             <div className={styles.pageLeftItems}>
-              <p className={styles.pageText}>{t("pageText")}</p>
+              <p className={`${styles.pageText} ${styles.colorWhite}`}>{t("pageText")}</p>
               <h2 className={styles.pageTitle}>{t("pageTitle")}</h2>
               <p className={styles.pageSubText}>{t("pageSubText")}</p>
             </div>
@@ -25,12 +25,12 @@ const about = () => {
               <Image className={styles.pageImage} src="/assets/img/AboutPageLadyImg.png" alt="Lady Image" width={501} height={646} />
             </div>
           </div>
-          <div className={styles.pageSubItemsMain}>
+          <div className={`${styles.pageSubItemsMain} ${styles.flex}`}>
             {
               about.map(({ id, title, text }) => {
                 return (
                   <div key={id} className={styles.aboutPageSubItems}>
-                    <h2 className={styles.aboutPageSubTitle}>{title}</h2>
+                    <h2 className={`${styles.aboutPageSubTitle} ${styles.colorWhite}`}>{title}</h2>
                     <Image className={styles.itemLine} src="/assets/icons/Line.svg" alt="Underline" width={50} height={5} />
                     <p className={styles.aboutPageSubText}>{text}</p>
                   </div>
@@ -38,8 +38,8 @@ const about = () => {
               })
             }
           </div>
-          <div className={styles.pageSubItem}>
-            <p className={styles.pageSubTextItem}>{t("pageEndText")}</p>
+          <div className={`${styles.pageSubItem} ${styles.flex}`}>
+            <p className={`${styles.pageSubTextItem} ${styles.colorWhite}`}>{t("pageEndText")}</p>
             <ContactUs />
           </div>
         </div>
