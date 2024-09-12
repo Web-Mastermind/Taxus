@@ -1,10 +1,12 @@
-.aboutSectionReview {
+.relative {
   position: relative;
+}
+
+.aboutSectionReview {
   padding-bottom: 5rem;
 }
 
 .sectionItems {
-  position: relative;
   background-color: #1b1b1b;
 }
 
@@ -12,21 +14,26 @@
   padding: 6.813rem 0 12.75rem;
 }
 
+.textCenter {
+  text-align: center;
+}
+
 .sectionText {
   color: #fff;
   font: 1.5rem "Montserrat-SemiBold", sans-serif;
-  text-align: center;
 }
 
 .sectionTitle {
   color: var(--primary, #c94d00);
   font: 2.875rem/140% "Prata-Regular", sans-serif;
-  text-align: center;
   margin: 1rem 0 5rem;
 }
 
-.customersContainer {
+.flex {
   display: flex;
+}
+
+.customersContainer {
   justify-content: center;
   gap: 0 20px;
   position: absolute;
@@ -45,16 +52,19 @@
 }
 
 .reviewsIcon {
-  color: #1a1a1a;
+  color: var(--Dark-grey, #1A1A1A);
   font: 5rem/140% "Montserrat-Bold", sans-serif;
 }
 
+.fontAll {
+  font: 1.125rem "Montserrat-Regular", sans-serif;
+}
+
 .reviewsText {
-  font: 1.125rem/140% "Montserrat-Regular", sans-serif;
+  line-height: 140%;
 }
 
 .customersImg {
-  display: flex;
   align-items: center;
   margin-top: 1.219rem;
 }
@@ -65,10 +75,6 @@
 
 .reviewName {
   font: 1.25rem/140% "Montserrat-Bold", sans-serif;
-}
-
-.reviewJob {
-  font: 1.125rem "Montserrat-Regular", sans-serif;
 }
 
 .previewComponent {
