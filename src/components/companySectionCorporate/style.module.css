@@ -1,0 +1,50 @@
+.sectionItems {
+  margin-top: 11.5rem;
+}
+
+.sectionTextItems {
+  text-align: center;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.sectionText {
+  font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin: 1rem 0 6.25rem;
+}
+
+.sectionSubItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionSubText {
+  max-width: 15.625rem;
+}
+
+.sectionSubTitle {
+  font: 2rem "Montserrat-ExtraBold", sans-serif;
+}
+
+.itemLine {
+  margin-block: 1.875rem;
+}
+
+.sectionSubText,
+.sectionEndText {
+  color: var(--Grey, #6B6B6B);
+  font: 1rem/140% "Montserrat-Regular", sans-serif;
+}
+
+.sectionEndText {
+  color: #EBEBEB;
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+}
