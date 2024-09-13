@@ -12,8 +12,8 @@ const Services = () => {
     <section className={`${styles.servicesSection} ${styles.relative}`}>
       <div className="container">
         <div className={styles.servicesItems}>
-          <p className={`${styles.servicesText} ${styles.colorWhite}`}>{t("sectionText")}</p>
-          <h4 className={styles.servicesTitle}>{t("sectionTitle")}</h4>
+          <p className={`${styles.servicesText} ${styles.colorWhite}`}>{t("SectionText")}</p>
+          <h4 className={styles.servicesTitle}>{t("SectionTitle")}</h4>
         </div>
         <div className={`${styles.sectionMainContainer} ${styles.flex}`}>
           {

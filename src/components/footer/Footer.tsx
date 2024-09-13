@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className={styles.footerRightItems}>
             <div className={styles.footerRightItemsTexts}>
-              <h6 className={styles.footerLinks}>{t("services.Title")}</h6>
+              <h6 className={styles.footerLinks}>{t("Services.Title")}</h6>
               {
                 footerLinks.FooterItems.Services.map(({ id, text, to }) => {
                   return (
@@ -34,7 +34,7 @@ const Footer = () => {
               }
             </div>
             <div className={styles.footerRightItemsTexts}>
-              <h6 className={styles.footerLinks}>{t("company.Title")}</h6>
+              <h6 className={styles.footerLinks}>{t("Company.Title")}</h6>
               {
                 footerLinks.FooterItems.Company.map(({ id, text, to }) => {
                   return (
@@ -46,7 +46,7 @@ const Footer = () => {
               }
             </div>
             <div className={styles.footerRightItemsTexts}>
-              <h6 className={styles.footerLinks}>{t("legal.Title")}</h6>
+              <h6 className={styles.footerLinks}>{t("Legal.Title")}</h6>
               {
                 footerLinks.FooterItems.Legal.map(({ id, text, to }) => {
                   return (
