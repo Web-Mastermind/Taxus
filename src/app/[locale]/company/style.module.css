@@ -1,0 +1,30 @@
+.CompanyPage {
+  background: url(../../../../public/assets/img/CompanyRegImg.png) no-repeat center top/ cover;
+  min-height: 100vh;
+}
+
+.pageItems {
+  position: relative;
+  padding-top: 16.75rem;
+  display: flex;
+}
+
+.pageTitle {
+  color: #fff;
+  font: 3.5rem/140% "Montserrat-Bold", sans-serif;
+  max-width: 43.375rem;
+}
+
+.pageText {
+  color: var(--Grey, #6B6B6B);
+  font: 1.125rem/140% "Montserrat-Regular", sans-serif;
+  max-width: 36.188rem;
+  margin: 2.688rem 0 3.938rem;
+}
+
+.pageImage {
+  position: absolute;
+  content: '';
+  right: 1rem;
+  top: 14.688rem;
+}
