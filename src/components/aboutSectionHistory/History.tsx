@@ -1,13 +1,13 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import { aboutSectionHistory } from "@/links/Links"
+import { AboutSectionHistory } from "@/links/Links"
 import ContactUs from "../mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 
 const History = () => {
   const t = useTranslations("AboutSectionHistory");
   const t2 = useTranslations("AboutSectionBenefits");
-  const History = aboutSectionHistory();
+  const History = AboutSectionHistory();
   return (
     <section className={styles.sectionHistory}>
       <div className="container">

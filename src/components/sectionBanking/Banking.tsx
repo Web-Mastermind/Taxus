@@ -1,13 +1,13 @@
 import Image from "next/image"
 import styles from "./style.module.css"
 import sectionImage from "../../../public/assets/img/BankingImage.png"
-import { bankingSection } from "@/links/Links"
+import { BankingSection } from "@/links/Links"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
 
 const Banking = () => {
   const t = useTranslations("BankingSection")
-  const banking = bankingSection();
+  const banking = BankingSection();
   return (
     <article className={styles.sectionBanking}>
       <div className={`${styles.sectionItems} ${styles.flex}`}>

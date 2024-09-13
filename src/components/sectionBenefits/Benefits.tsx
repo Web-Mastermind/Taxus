@@ -1,11 +1,11 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import { benefitsSection } from "@/links/Links"
+import { BenefitsSection } from "@/links/Links"
 import { useTranslations } from "next-intl"
 
 const Benefits = () => {
   const t = useTranslations("BenefitsSection")
-  const benefits = benefitsSection();
+  const benefits = BenefitsSection();
 
   return (
     <section className={styles.sectionBenefits}>

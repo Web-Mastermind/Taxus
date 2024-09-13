@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-export const navLinks = () => {
+export const NavLinks = () => {
   const t = useTranslations("Header");
 
   return [
@@ -12,7 +12,7 @@ export const navLinks = () => {
   ];
 };
 
-export const experience = () => {
+export const Experience = () => {
   const t = useTranslations("Main");
 
   return [
@@ -23,7 +23,7 @@ export const experience = () => {
   ];
 };
 
-export const expertise = () => {
+export const ExpertiseLinks = () => {
   const t = useTranslations("ExpertiseSection");
 
   return [
@@ -34,7 +34,7 @@ export const expertise = () => {
   ];
 };
 
-export const serveSection = () => {
+export const ServeSection = () => {
   const t = useTranslations("ServeSection");
 
   return [
@@ -53,7 +53,7 @@ export const serveSection = () => {
   ];
 };
 
-export const servicesSection = () => {
+export const ServicesSection = () => {
   const t = useTranslations("ServicesSection");
 
   return [
@@ -68,7 +68,7 @@ export const servicesSection = () => {
   ];
 };
 
-export const bankingSection = () => {
+export const BankingSection = () => {
   const t = useTranslations("BankingSection")
 
   return [
@@ -79,7 +79,7 @@ export const bankingSection = () => {
   ]
 };
 
-export const processSection = () => {
+export const ProcessSection = () => {
   const t = useTranslations("ProcessSection");
 
   return [
@@ -92,7 +92,7 @@ export const processSection = () => {
   ];
 };
 
-export const benefitsSection = () => {
+export const BenefitsSection = () => {
   const t = useTranslations("BenefitsSection");
 
   return [
@@ -103,7 +103,7 @@ export const benefitsSection = () => {
   ]
 };
 
-export const reviewsSection = () => {
+export const ReviewsSection = () => {
   const t = useTranslations("ReviewSection");
 
   return [
@@ -113,11 +113,11 @@ export const reviewsSection = () => {
   ]
 };
 
-export const footer = () => {
+export const FooterLink = () => {
   const t = useTranslations("Footer");
 
   return {
-    footerItems: {
+    FooterItems: {
       Services: [
         { id: 1, text: t("Services.text1"), to: "/company" },
         { id: 2, text: t("Services.text2"), to: "/" },
@@ -142,7 +142,7 @@ export const footer = () => {
   };
 }
 
-export const aboutPage = () => {
+export const AboutPage = () => {
   const t = useTranslations("AboutPage");
 
   return [
@@ -152,7 +152,7 @@ export const aboutPage = () => {
   ]
 };
 
-export const aboutSectionIndustries = () => {
+export const AboutSectionIndustries = () => {
   const t = useTranslations("AboutSectionIndustries")
 
   return [
@@ -163,7 +163,7 @@ export const aboutSectionIndustries = () => {
   ]
 };
 
-export const aboutSectionHistory = () => {
+export const AboutSectionHistory = () => {
   const t = useTranslations("AboutSectionBenefits");
 
   return [
@@ -175,7 +175,7 @@ export const aboutSectionHistory = () => {
 };
 
 
-export const bankingSectionAccounts = () => {
+export const BankingSectionAccounts = () => {
   const t = useTranslations("BankingSectionCards");
   return [
     { id: 1, img: "/assets/icons/OfficeIcon.svg", title: t("AboutCardsSubItems.title1"), text: t("AboutCardsSubItems.text1") },
@@ -185,7 +185,7 @@ export const bankingSectionAccounts = () => {
   ]
 }
 
-export const bankingSectionAccountsRight = () => {
+export const BankingSectionAccountsRight = () => {
   const t = useTranslations("BankingSectionOffer");
   return [
     { id: 1, title: t("title1"), text: t("text1") },
@@ -195,7 +195,7 @@ export const bankingSectionAccountsRight = () => {
   ]
 }
 
-export const bankingSectionComponentPayments = () => {
+export const BankingSectionComponentPayments = () => {
   const t = useTranslations("BankingSectionPayments");
   return [
     { id: 1, title: t("AboutPaymentsSubItems.title1"), text: t("AboutPaymentsSubItems.text1") },
@@ -217,7 +217,7 @@ export const bankingSectionComponentPayments = () => {
 //   { id: 8, title: "IP & TM registration", text: "Intellectual property is a valuable asset for any IT company. With our help, you can protect your trademark or logo in your country or around the world.", to: "/" }
 // ]
 
-export const bankingSectionPrivate = () => {
+export const BankingSectionPrivate = () => {
   const t = useTranslations("BankingSectionPrivate");
 
   return [
@@ -229,7 +229,7 @@ export const bankingSectionPrivate = () => {
   ]
 }
 
-export const bankingSectionEscrow = () => {
+export const BankingSectionEscrow = () => {
   const t = useTranslations("BankingSectionEscrow");
   return [
     { id: 1, img: "/assets/icons/ShieldIcon.svg", title: t("AboutEscrowSubItems.title1"), text: t("AboutEscrowSubItems.text1") },
@@ -238,7 +238,7 @@ export const bankingSectionEscrow = () => {
   ]
 }
 
-export const bankingSectionPartner = () => {
+export const BankingSectionPartner = () => {
   const t = useTranslations("BankingSectionPartner");
 
   return [
@@ -251,7 +251,7 @@ export const bankingSectionPartner = () => {
   ]
 }
 
-export const bankingSectionFees = () => {
+export const BankingSectionFees = () => {
   const t = useTranslations("BankingSectionFees");
   return [
     { id: 1, title: t("SectionFeesTableItems.title1"), priceUK: t("SectionFeesTableItems.tableUKPrice1"), priceEU: t("SectionFeesTableItems.tableUEPrice1"), priceWorld: t("SectionFeesTableItems.worldPrice1"), priceRisk: "Lorem Ipsum" },

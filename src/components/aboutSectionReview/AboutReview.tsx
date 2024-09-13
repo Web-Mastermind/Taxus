@@ -1,13 +1,13 @@
 import { useTranslations } from "next-intl";
 import styles from "./style.module.css"
-import { reviewsSection } from "@/links/Links";
+import { ReviewsSection } from "@/links/Links";
 import Image from "next/image";
 import ReviewComponent from "../reviewComponent/ReviewComponent";
 
 const AboutReview = () => {
   const t = useTranslations("ReviewSection")
   const t2 = useTranslations("AboutSectionBenefits")
-  const review = reviewsSection();
+  const review = ReviewsSection();
   return (
     <section className={`${styles.aboutSectionReview} ${styles.relative}`}>
       <div className={`${styles.sectionItems} ${styles.relative}`}>

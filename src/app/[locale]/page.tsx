@@ -3,7 +3,7 @@ import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
 import ContactUs from "@/components/mainbutton/ContactUs"
 import Expertise from "../../components/sectionExpertise/Expertise"
-import { experience } from "@/links/Links"
+import { Experience } from "@/links/Links"
 import Serve from "@/components/sectionServe/Serve"
 import Services from "@/components/sectionServices/Services"
 import Banking from "@/components/sectionBanking/Banking"
@@ -13,7 +13,7 @@ import Benefits from "@/components/sectionBenefits/Benefits"
 import Reviews from "@/components/sectionReviews/Reviews"
 
 const page = () => {
-  const exp = experience();
+  const exp = Experience();
   const t = useTranslations("Main")
   return (
     <>

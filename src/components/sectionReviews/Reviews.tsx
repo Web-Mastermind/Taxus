@@ -1,12 +1,12 @@
 import Image from "next/image"
 import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
-import { reviewsSection } from "@/links/Links"
+import { ReviewsSection } from "@/links/Links"
 import ReviewComponent from "../reviewComponent/ReviewComponent"
 
 const Reviews = () => {
   const t = useTranslations("ReviewSection")
-  const review = reviewsSection();
+  const review = ReviewsSection();
   return (
     <section className={styles.sectionReviews}>
       <div className={styles.sectionItems}>

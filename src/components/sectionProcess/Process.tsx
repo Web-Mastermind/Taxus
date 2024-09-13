@@ -1,11 +1,11 @@
 import Image from "next/image"
 import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
-import { processSection } from "@/links/Links"
+import { ProcessSection } from "@/links/Links"
 
 const Process = () => {
   const t = useTranslations("ProcessSection")
-  const Process = processSection();
+  const Process = ProcessSection();
   return (
     <section className={styles.sectionProcess}>
       <div className="container">

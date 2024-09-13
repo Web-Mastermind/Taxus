@@ -1,6 +1,6 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import { aboutPage } from "@/links/Links"
+import { AboutPage } from "@/links/Links"
 import ContactUs from "@/components/mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 import Industries from "@/components/aboutSectionIndustries/Industries"
@@ -9,7 +9,7 @@ import History from "@/components/aboutSectionHistory/History"
 import AboutReview from "@/components/aboutSectionReview/AboutReview"
 
 const About = () => {
-  const about = aboutPage();
+  const about = AboutPage();
   const t = useTranslations("AboutPage")
   return (
     <>

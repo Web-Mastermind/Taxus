@@ -1,11 +1,11 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import { bankingSectionPartner } from "@/links/Links"
+import { BankingSectionPartner } from "@/links/Links"
 import { useTranslations } from "next-intl"
 
 const Partner = () => {
   const t = useTranslations("BankingSectionPartner");
-  const partner = bankingSectionPartner();
+  const partner = BankingSectionPartner();
   return (
     <section className={styles.sectionPartner}>
       <div className="container">

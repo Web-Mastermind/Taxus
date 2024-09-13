@@ -1,10 +1,10 @@
-import { bankingSectionFees } from "@/links/Links"
+import { BankingSectionFees } from "@/links/Links"
 import styles from "./style.module.css"
 import { useTranslations } from "next-intl";
 
 const Fees = () => {
   const t = useTranslations("BankingSectionFees");
-  const fees = bankingSectionFees();
+  const fees = BankingSectionFees();
   return (
     <section className={styles.sectionFees}>
       <div className="container">

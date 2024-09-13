@@ -2,13 +2,13 @@
 import Image from "next/image"
 import styles from "./style.module.css"
 import LocalSwitcher from "../local-switcher"
-import { navLinks } from "@/links/Links"
+import { NavLinks } from "@/links/Links"
 import { useTranslations } from "next-intl"
 import { Link } from "@/navigation"
 
 
 const Header = ({ locale }: { locale: string }) => {
-  const links = navLinks();
+  const links = NavLinks();
   const t = useTranslations("Header")
   return (
     <header className={styles.header}>

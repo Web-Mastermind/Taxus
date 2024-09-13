@@ -1,11 +1,11 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import { serveSection } from "@/links/Links"
+import { ServeSection } from "@/links/Links"
 import ContactUs from "../mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 
 const Serve = () => {
-  const serve = serveSection();
+  const serve = ServeSection();
   const t = useTranslations("ServeSection")
   return (
     <section className={styles.serveSection}>

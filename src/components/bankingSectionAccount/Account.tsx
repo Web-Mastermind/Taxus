@@ -1,13 +1,13 @@
 import Image from "next/image"
 import styles from "./style.module.css"
-import { bankingSectionAccounts, bankingSectionAccountsRight } from "@/links/Links"
+import { BankingSectionAccounts, BankingSectionAccountsRight } from "@/links/Links"
 import Payments from "../bankingSectionPayments/Payments"
 import { useTranslations } from "next-intl"
 
 const Account = () => {
   const t = useTranslations("BankingSectionCards");
-  const account = bankingSectionAccounts();
-  const rigtTexts = bankingSectionAccountsRight();
+  const account = BankingSectionAccounts();
+  const rigtTexts = BankingSectionAccountsRight();
   return (
     <>
       <section className={styles.sectionAccount}>

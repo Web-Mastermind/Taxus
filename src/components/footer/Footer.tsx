@@ -1,12 +1,12 @@
 import Image from "next/image"
 import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
-import { footer } from "@/links/Links"
+import { FooterLink } from "@/links/Links"
 import { Link } from "@/navigation"
 
 const Footer = () => {
   const t = useTranslations("Footer")
-  const footerLinks = footer();
+  const footerLinks = FooterLink();
   return (
     <footer className={styles.footer}>
       <div className="container">
@@ -24,7 +24,7 @@ const Footer = () => {
             <div className={styles.footerRightItemsTexts}>
               <h6 className={styles.footerLinks}>{t("services.Title")}</h6>
               {
-                footerLinks.footerItems.Services.map(({ id, text, to }) => {
+                footerLinks.FooterItems.Services.map(({ id, text, to }) => {
                   return (
                     <div key={id} className={styles.linksMain}>
                       <Link className={styles.footerServicesItems} href={to}>{text}</Link>
@@ -36,7 +36,7 @@ const Footer = () => {
             <div className={styles.footerRightItemsTexts}>
               <h6 className={styles.footerLinks}>{t("company.Title")}</h6>
               {
-                footerLinks.footerItems.Company.map(({ id, text, to }) => {
+                footerLinks.FooterItems.Company.map(({ id, text, to }) => {
                   return (
                     <div key={id} className={styles.linksMain}>
                       <Link className={styles.footerServicesItems} href={to}>{text}</Link>
@@ -48,7 +48,7 @@ const Footer = () => {
             <div className={styles.footerRightItemsTexts}>
               <h6 className={styles.footerLinks}>{t("legal.Title")}</h6>
               {
-                footerLinks.footerItems.Legal.map(({ id, text, to }) => {
+                footerLinks.FooterItems.Legal.map(({ id, text, to }) => {
                   return (
                     <div key={id} className={styles.linksMain}>
                       <Link className={styles.footerServicesItems} href={to}>{text}</Link>

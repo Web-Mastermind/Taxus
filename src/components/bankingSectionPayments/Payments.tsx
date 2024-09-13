@@ -1,11 +1,11 @@
-import { bankingSectionComponentPayments } from "@/links/Links"
+import { BankingSectionComponentPayments } from "@/links/Links"
 import styles from "./style.module.css"
 import ReviewComponent from "../reviewComponent/ReviewComponent"
 import { useTranslations } from "next-intl"
 
 const Payments = () => {
   const t = useTranslations("BankingSectionPayments");
-  const payments = bankingSectionComponentPayments();
+  const payments = BankingSectionComponentPayments();
   return (
     <section className={styles.sectionPayments}>
       <div className="container">

@@ -1,10 +1,10 @@
 import Image from "next/image"
 import styles from "./styles.module.css"
 import { useTranslations } from "next-intl"
-import { expertise } from "@/links/Links"
+import { ExpertiseLinks } from "@/links/Links"
 
 const Expertise = () => {
-  const inc = expertise();
+  const inc = ExpertiseLinks();
   const t = useTranslations("ExpertiseSection")
   return (
     <section className={styles.expertiseSection}>

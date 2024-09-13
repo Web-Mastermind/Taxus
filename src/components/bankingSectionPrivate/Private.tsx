@@ -1,11 +1,11 @@
-import { bankingSectionPrivate } from "@/links/Links"
+import { BankingSectionPrivate } from "@/links/Links"
 import styles from "./style.module.css"
 import ContactUs from "../mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 
 const Private = () => {
   const t = useTranslations("BankingSectionPrivate");
-  const privat = bankingSectionPrivate();
+  const privat = BankingSectionPrivate();
   return (
     <section className={styles.sectionPrivate}>
       <div className="container">

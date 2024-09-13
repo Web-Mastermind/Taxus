@@ -1,13 +1,13 @@
 import Image from "next/image"
 import styles from "./style.module.css"
 import Link from "next/link"
-import { servicesSection } from "@/links/Links"
+import { ServicesSection } from "@/links/Links"
 import { useTranslations } from "next-intl"
 import ContactUs from "../mainbutton/ContactUs"
 
 const Services = () => {
   const t = useTranslations("ServicesSection")
-  const services = servicesSection();
+  const services = ServicesSection();
   return (
     <section className={`${styles.servicesSection} ${styles.relative}`}>
       <div className="container">

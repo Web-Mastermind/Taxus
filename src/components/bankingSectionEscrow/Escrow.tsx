@@ -2,11 +2,11 @@ import Image from "next/image"
 import styles from "./style.module.css"
 import ContactUs from "../mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
-import { bankingSectionEscrow } from "@/links/Links"
+import { BankingSectionEscrow } from "@/links/Links"
 
 const Escrow = () => {
   const t = useTranslations("BankingSectionEscrow");
-  const escrow = bankingSectionEscrow();
+  const escrow = BankingSectionEscrow();
   return (
     <section className={styles.sectionEscrow}>
       <div className="container">

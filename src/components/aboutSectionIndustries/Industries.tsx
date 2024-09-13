@@ -1,11 +1,11 @@
-import { aboutSectionIndustries } from "@/links/Links"
+import { AboutSectionIndustries } from "@/links/Links"
 import ContactUs from "../mainbutton/ContactUs"
 import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
 
 const Industries = () => {
   const t = useTranslations("AboutSectionIndustries")
-  const industries = aboutSectionIndustries();
+  const industries = AboutSectionIndustries();
   return (
     <section className={styles.sectionIndustries}>
       <div className="container">
