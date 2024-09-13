@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl"
 import ContactUs from "../mainbutton/ContactUs"
 
 const Services = () => {
-  const t = useTranslations("servicesSection")
+  const t = useTranslations("ServicesSection")
   const services = servicesSection();
   return (
     <section className={`${styles.servicesSection} ${styles.relative}`}>

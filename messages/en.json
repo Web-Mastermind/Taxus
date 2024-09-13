@@ -31,7 +31,7 @@
   "Components": {
     "button": "Contact us"
   },
-  "expertiseSection": {
+  "ExpertiseSection": {
     "SectionFirstTexts": {
       "expertiseMainText": "Expertise",
       "expertiseMainTitle": "Our expertise includes",
@@ -51,8 +51,8 @@
       "expertiseText": "We help IT businesses expand their operations internationally, including setting up subsidiaries, joint ventures, and other business structures. We provide advice on regulatory compliance, tax planning, and other international business matters."
     }
   },
-  "serveSection": {
-    "firstTexts": {
+  "ServeSection": {
+    "FirstTexts": {
       "serveMainText": "Who we serve",
       "serveMainTitle": "The areas of our expertise are as diverse as the verticals of IT business are"
     },
@@ -71,9 +71,9 @@
       "text12": "Marketing platforms"
     }
   },
-  "servicesSection": {
-    "sectionText": "Services",
-    "sectionTitle": "We realize your IT business idea in legal and financial structure",
+  "ServicesSection": {
+    "SectionText": "Services",
+    "SectionTitle": "We realize your IT business idea in legal and financial structure",
     "Services": {
       "title1": "Company registration",
       "text1": "We ensure the processes of setting up and maintenance of a company, as well as search for local personnel, sale of ready-made companies, and liquidations.",
@@ -96,7 +96,7 @@
       "businessText": "We know from experience that it is important to clearly define the request -to provide the highest quality and timely service."
     }
   },
-  "bankingSection": {
+  "BankingSection": {
     "sectionText": "Taxus Banking",
     "sectionTitle": "Your streamlined Banking Partner",
     "subText1": "Business Account",
@@ -105,16 +105,16 @@
     "subText4": "Exclusive Offer for Business Clients",
     "bankingLink": "Learn more"
   },
-  "platformSection": {
+  "PlatformSection": {
     "sectionText": "Taxus Administrative Platform",
     "sectionTitle": "Easily track the process of creating and processing your tasks",
     "subText": "Legal and financial health of your business at your finger TAPs. The one platform to manage and track all corporate and financial tasks of your business. Our solution helps organize all your corporate structures, documents, invoices, deadlines and alerts into one place.",
     "platformLink": "Learn more"
   },
-  "processSection": {
+  "ProcessSection": {
     "sectionText": "Process",
     "sectionTitle": "How our process works",
-    "process": {
+    "Process": {
       "title1": "Business consulting",
       "text1": "We are open for a call or a chat session. It is important for us to immerse ourselves in the needs of your business.",
       "title2": "Offers with bespoke solutions",
@@ -129,7 +129,7 @@
       "text6": "We're here to help once you have any legal or financial questions. Our team can be outsourced as your in-house legal department."
     }
   },
-  "benefitsSection": {
+  "BenefitsSection": {
     "sectionText": "Benefits",
     "sectionTitle": "What makes us stand out",
     "Benefits": {
@@ -143,7 +143,7 @@
       "text4": "We're dedicated to achieving results for our clients, whether that means successfully registering a company or protecting your IP from infringement"
     }
   },
-  "reviewSection": {
+  "ReviewSection": {
     "sectionText": "Reviews",
     "sectionTitle": "Our customers say about us",
     "sectionTitle2": "Looking for Custom pricing?",
@@ -154,8 +154,8 @@
       "text3": "Outstanding and highly recommended! We were able to accomplish exactly what we needed, in a short time period. Above and beyond, exceeded our expectations. AAA+++"
     }
   },
-  "footer": {
-    "services": {
+  "Footer": {
+    "Services": {
       "Title": "Services",
       "text1": "Company Registration",
       "text2": "Payment solution",
@@ -163,7 +163,7 @@
       "text4": "Contract Drafting",
       "text5": "TM registration"
     },
-    "company": {
+    "Company": {
       "Title": "Company",
       "text1": "About Us",
       "text2": "Taxus AP",
@@ -172,19 +172,19 @@
       "text5": "Blog",
       "text6": "FAQ"
     },
-    "legal": {
+    "Legal": {
       "Title": "Legal",
       "text1": "Cookie Policy",
       "text2": "Terms of Use",
       "text3": "Privacy Police"
     }
   },
-  "aboutPage": {
+  "AboutPage": {
     "pageText": "About Us",
     "pageTitle": "Welcome to Taxus, your trusted partner in bespoke business solutions for the IT industry",
     "pageSubText": "With a perfect blend of legal, financial, and marketing expertise, we offer a one-stop-shop service that ranges from company registration to contract drafting.",
     "pageEndText": "Your gateway to easy international business set up",
-    "pageSubItems": {
+    "PageSubItems": {
       "title1": "Our expertise",
       "text1": "Our expertise covers a broad range of areas, including corporate law, intellectual property, banking and finance, and international IT business.",
       "title2": "Our team",
@@ -193,7 +193,7 @@
       "text3": "We work with businesses of all sizes, from startups to multinational corporations, and provide customized solutions to meet their specific needs."
     }
   },
-  "aboutSectionIndustries": {
+  "AboutSectionIndustries": {
     "IndustriesText": "Industries",
     "IndustriesTitle": "Who we serve",
     "IndustriesSubText": "At Taxus, we understand that every IT business is unique, and that’s why we provide tailor-made solutions that perfectly fit the needs of our clients",
@@ -208,21 +208,21 @@
       "text4": "Clients in the cryptocurrency industry require assistance with licensing, regulatory compliance, intellectual property protection, and contract negotiation. They may also need help with company formation and fundraising advice."
     }
   },
-  "aboutSectionAwards": {
+  "AboutSectionAwards": {
     "sectionText": "Awards",
     "sectionTitle": "We develop professionally to meet all the needs of our clients"
   },
-  "aboutSectionHistory": {
+  "AboutSectionHistory": {
     "sectionText": "History",
     "sectionTitle": "Why choose Taxus?",
     "sectionSubText": "Taxus was founded in 2018 by a team of professionals with extensive experience in legal and financial accompaniment of different types of IT business. Our team has a combined experience of over 15 years, gathering trusted and professional advisors in legal, financial and marketing spheres. Since our founding, we have helped numerous clients establish and grow their online businesses, providing expert guidance and solutions to meet their unique needs.",
     "sectionSubText2": "Our goal is to be a trusted partner to our clients, working closely with them to understand their unique challenges and goals, and providing tailored solutions that deliver real results. We believe that our approach to legal technology should be an enabler for business growth, and we are passionate about helping our clients harness its power."
   },
-  "aboutSectionBenefits": {
+  "AboutSectionBenefits": {
     "aboutBenefitsText": "Benefits",
     "aboutBenefitsTitle": "Why choose Taxus?",
     "aboutBenefitsTitle2": "Join our clients and partners ",
-    "aboutBenefitsSubItems": {
+    "AboutBenefitsSubItems": {
       "title1": "Customized solutions",
       "text1": "Our expertise is tailored to the unique needs of the IT industry, with a focus on providing practical solutions, not just consultations.",
       "title2": "Expertise",
@@ -233,15 +233,15 @@
       "text4": "At Taxus, we believe in building strong and lasting relationships with our clients based on trust, honesty, and transparency."
     }
   },
-  "bankingPage": {
+  "BankingPage": {
     "sectionTitle": "Taxus Banking",
     "sectionSubTitle": "Partnering for Generations of Success"
   },
-  "bankingSectionCards": {
+  "BankingSectionCards": {
     "aboutCardsText": "Account",
     "aboutCardsTitle": "Take control over your finances effortlessly with Taxus Banking",
     "aboutCardsSubTitle": "We offer:",
-    "aboutCardsSubItems": {
+    "AboutCardsSubItems": {
       "title1": "Business Accounts",
       "text1": "Your Business Account, wherever you are",
       "title2": "Worldwide Payments",
@@ -252,7 +252,7 @@
       "text4": "Create cardholders and issue your new cards!"
     }
   },
-  "bankingSectionOffer": {
+  "BankingSectionOffer": {
     "title1": "Open an IBAN accounts",
     "text1": "Get your own IBAN accounts to easily manage your everyday",
     "title2": "Manage your money entirely onlin",
@@ -262,12 +262,12 @@
     "title4": "Multi-Currency Accounts",
     "text4": "Easily handle multiple currencies in a single account, perfect for global transactions and international customers"
   },
-  "bankingSectionPayments": {
+  "BankingSectionPayments": {
     "aboutPaymentsText": "Payments",
     "aboutPaymentsTitle": "Experience the ease and efficiency of managing your global finances",
     "aboutPaymentsSubTitle": "We offer:",
     "aboutPaymentsSubText": "Your gateway to seamless international business transactions",
-    "aboutPaymentsSubItems": {
+    "AboutPaymentsSubItems": {
       "title1": "Instant Euro Transfers",
       "text1": "Send and receive EUR instantly with the SEPA network.",
       "title2": "Cross border SWIFT payments",
@@ -280,12 +280,12 @@
       "text5": "Effortless transactions in GBP, leveraging Faster Payments, CHAPS, and Direct Debits "
     }
   },
-  "bankingSectionPrivate": {
+  "BankingSectionPrivate": {
     "aboutPrivateText": "Private Banking",
     "aboutPrivateTitle": "Exclusive Offer for Business Clients",
     "aboutPrivateSubTitle": "Taxus Law & Finance is pleased to offer its business clients an exclusive service – Private Banking. This personalized, closed banking service is available only to individuals and stakeholders associated with businesses that Taxus Banking services.",
     "aboutPrivateSubText": "Benefits of Private Banking:",
-    "aboutPrivateSubItems": {
+    "AboutPrivateSubItems": {
       "title1": "Exclusive Access",
       "text1": "Available only to individuals and stakeholders associated with businesses serviced by Taxus Banking.",
       "title2": "Personalized Service:",
@@ -298,12 +298,12 @@
       "text5": "Streamlined management of your financial activities with ease and efficiency."
     }
   },
-  "bankingSectionEscrow": {
+  "BankingSectionEscrow": {
     "aboutEscrowText": "Business Escrow",
     "aboutEscrowTitle": "Safeguard Your International Transactions",
     "aboutEscrowSubTitle": "Ensure peace of mind for your business transactions with Taxus Business Escrow our secure escrow service. Here's how it works:",
     "aboutEscrowSubText": "With Taxus Business Escrow, you can conduct business with confidence, knowing that your funds are protected every step of the way.",
-    "aboutEscrowSubItems": {
+    "AboutEscrowSubItems": {
       "title1": "Business Escrow",
       "text1": "Acts as a neutral intermediary, safeguarding both the buyer and seller in a transaction.",
       "title2": "Buyer Protection",
@@ -312,7 +312,7 @@
       "text3": "Once proof of shipment is verified, Taxus promptly releases your payment to the seller."
     }
   },
-  "bankingSectionPartner": {
+  "BankingSectionPartner": {
     "SectionPartnerText": "Your Streamlined Banking Partner",
     "SectionPartnerTitle": "Taxus: Your Powerful Banking Partner",
     "SectionPartnerSubTitle": "Introducing Taxus Banking Services:",
@@ -331,7 +331,7 @@
       "text6": "Simplify the process of receiving payments with our upcoming payment collection feature."
     }
   },
-  "bankingSectionFees": {
+  "BankingSectionFees": {
     "SectionFeesText": "Clients Fees",
     "SectionFeesTitle": "Corporate Fees",
     "SectionFeesSubTitle": "Fee schedule for different types of businesses from different regions (UK, EU, World, and EXCEPTIONAL).",

@@ -5,8 +5,8 @@ import Image from "next/image";
 import ReviewComponent from "../reviewComponent/ReviewComponent";
 
 const AboutReview = () => {
-  const t = useTranslations("reviewSection")
-  const t2 = useTranslations("aboutSectionBenefits")
+  const t = useTranslations("ReviewSection")
+  const t2 = useTranslations("AboutSectionBenefits")
   const review = reviewsSection();
   return (
     <section className={`${styles.aboutSectionReview} ${styles.relative}`}>

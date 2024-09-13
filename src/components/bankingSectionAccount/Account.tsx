@@ -5,7 +5,7 @@ import Payments from "../bankingSectionPayments/Payments"
 import { useTranslations } from "next-intl"
 
 const Account = () => {
-  const t = useTranslations("bankingSectionCards");
+  const t = useTranslations("BankingSectionCards");
   const account = bankingSectionAccounts();
   const rigtTexts = bankingSectionAccountsRight();
   return (

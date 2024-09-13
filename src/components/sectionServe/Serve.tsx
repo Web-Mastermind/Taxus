@@ -6,14 +6,14 @@ import { useTranslations } from "next-intl"
 
 const Serve = () => {
   const serve = serveSection();
-  const t = useTranslations("serveSection")
+  const t = useTranslations("ServeSection")
   return (
     <section className={styles.serveSection}>
       <div className="container">
         <div className={styles.sectionItems}>
           <div className={styles.sectionLeftContainer}>
-            <p className={`${styles.sectionText} ${styles.colorDarkGrey}`}>{t("firstTexts.serveMainText")}</p>
-            <h2 className={`${styles.sectionTitle} ${styles.colorPrimary}`}>{t("firstTexts.serveMainTitle")}</h2>
+            <p className={`${styles.sectionText} ${styles.colorDarkGrey}`}>{t("FirstTexts.serveMainText")}</p>
+            <h2 className={`${styles.sectionTitle} ${styles.colorPrimary}`}>{t("FirstTexts.serveMainTitle")}</h2>
             <Image className={styles.sectionImage} src="/assets/img/BusinessPeople.png" alt="Business People Image" width={480} height={300} />
           </div>
           <div className={styles.sectionRightContainer}>

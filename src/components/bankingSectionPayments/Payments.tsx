@@ -4,7 +4,7 @@ import ReviewComponent from "../reviewComponent/ReviewComponent"
 import { useTranslations } from "next-intl"
 
 const Payments = () => {
-  const t = useTranslations("bankingSectionPayments");
+  const t = useTranslations("BankingSectionPayments");
   const payments = bankingSectionComponentPayments();
   return (
     <section className={styles.sectionPayments}>

@@ -5,7 +5,7 @@ import { expertise } from "@/links/Links"
 
 const Expertise = () => {
   const inc = expertise();
-  const t = useTranslations("expertiseSection")
+  const t = useTranslations("ExpertiseSection")
   return (
     <section className={styles.expertiseSection}>
       <div className="container">

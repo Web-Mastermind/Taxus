@@ -8,7 +8,7 @@ import Partner from "@/components/bankingSectionPartner/Partner"
 import Fees from "@/components/bankingSectionFees/Fees"
 
 const page = () => {
-  const t = useTranslations("bankingPage")
+  const t = useTranslations("BankingPage")
   return (
     <>
       <section className={styles.bankingMain}>

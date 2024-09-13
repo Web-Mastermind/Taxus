@@ -5,7 +5,7 @@ import { footer } from "@/links/Links"
 import { Link } from "@/navigation"
 
 const Footer = () => {
-  const t = useTranslations("footer")
+  const t = useTranslations("Footer")
   const footerLinks = footer();
   return (
     <footer className={styles.footer}>

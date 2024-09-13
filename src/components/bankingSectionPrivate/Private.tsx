@@ -4,7 +4,7 @@ import ContactUs from "../mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 
 const Private = () => {
-  const t = useTranslations("bankingSectionPrivate");
+  const t = useTranslations("BankingSectionPrivate");
   const privat = bankingSectionPrivate();
   return (
     <section className={styles.sectionPrivate}>

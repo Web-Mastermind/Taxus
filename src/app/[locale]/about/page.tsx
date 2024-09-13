@@ -10,7 +10,7 @@ import AboutReview from "@/components/aboutSectionReview/AboutReview"
 
 const about = () => {
   const about = aboutPage();
-  const t = useTranslations("aboutPage")
+  const t = useTranslations("AboutPage")
   return (
     <>
       <section className={styles.pageAbout}>

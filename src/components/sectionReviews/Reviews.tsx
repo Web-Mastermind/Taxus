@@ -5,7 +5,7 @@ import { reviewsSection } from "@/links/Links"
 import ReviewComponent from "../reviewComponent/ReviewComponent"
 
 const Reviews = () => {
-  const t = useTranslations("reviewSection")
+  const t = useTranslations("ReviewSection")
   const review = reviewsSection();
   return (
     <section className={styles.sectionReviews}>

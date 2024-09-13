@@ -3,7 +3,7 @@ import styles from "./style.module.css"
 import { useTranslations } from "next-intl";
 
 const Fees = () => {
-  const t = useTranslations("bankingSectionFees");
+  const t = useTranslations("BankingSectionFees");
   const fees = bankingSectionFees();
   return (
     <section className={styles.sectionFees}>

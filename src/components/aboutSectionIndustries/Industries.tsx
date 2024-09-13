@@ -4,7 +4,7 @@ import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
 
 const Industries = () => {
-  const t = useTranslations("aboutSectionIndustries")
+  const t = useTranslations("AboutSectionIndustries")
   const industries = aboutSectionIndustries();
   return (
     <section className={styles.sectionIndustries}>

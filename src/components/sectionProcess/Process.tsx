@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl"
 import { processSection } from "@/links/Links"
 
 const Process = () => {
-  const t = useTranslations("processSection")
+  const t = useTranslations("ProcessSection")
   const Process = processSection();
   return (
     <section className={styles.sectionProcess}>

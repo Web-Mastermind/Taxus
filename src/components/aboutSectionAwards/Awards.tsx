@@ -3,7 +3,7 @@ import styles from "./style.module.css"
 import { useTranslations } from "next-intl"
 
 const Awards = () => {
-  const t = useTranslations("aboutSectionAwards")
+  const t = useTranslations("AboutSectionAwards")
   return (
     <section className={styles.sectionAwards}>
       <div className="container">

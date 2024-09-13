@@ -5,8 +5,8 @@ import ContactUs from "../mainbutton/ContactUs"
 import { useTranslations } from "next-intl"
 
 const History = () => {
-  const t = useTranslations("aboutSectionHistory");
-  const t2 = useTranslations("aboutSectionBenefits");
+  const t = useTranslations("AboutSectionHistory");
+  const t2 = useTranslations("AboutSectionBenefits");
   const History = aboutSectionHistory();
   return (
     <section className={styles.sectionHistory}>

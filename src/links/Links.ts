@@ -24,7 +24,7 @@ export const experience = () => {
 };
 
 export const expertise = () => {
-  const t = useTranslations("expertiseSection");
+  const t = useTranslations("ExpertiseSection");
 
   return [
     { id: 1, image: "/assets/icons/CaseIcon.svg", alt: "Case Icon", title: t("SectionFirstTexts.expertiseTitle"), text: t("SectionFirstTexts.expertiseText") },
@@ -35,7 +35,7 @@ export const expertise = () => {
 };
 
 export const serveSection = () => {
-  const t = useTranslations("serveSection");
+  const t = useTranslations("ServeSection");
 
   return [
     { id: 1, icon: "◆", text: t("SectionSecondTexts.text1") },
@@ -54,7 +54,7 @@ export const serveSection = () => {
 };
 
 export const servicesSection = () => {
-  const t = useTranslations("servicesSection");
+  const t = useTranslations("ServicesSection");
 
   return [
     { id: 1, title: t("Services.title1"), text: t("Services.text1"), to: "/" },
@@ -69,7 +69,7 @@ export const servicesSection = () => {
 };
 
 export const bankingSection = () => {
-  const t = useTranslations("bankingSection")
+  const t = useTranslations("BankingSection")
 
   return [
     { id: 1, icon: "◆", text: t("subText1") },
@@ -80,20 +80,20 @@ export const bankingSection = () => {
 };
 
 export const processSection = () => {
-  const t = useTranslations("processSection");
+  const t = useTranslations("ProcessSection");
 
   return [
-    { id: 1, count: "1", title: t("process.title1"), text: t("process.text1"), to: "/" },
-    { id: 2, count: "2", title: t("process.title2"), text: t("process.text2"), to: "/" },
-    { id: 3, count: "3", title: t("process.title3"), text: t("process.text3"), to: "/" },
-    { id: 4, count: "4", title: t("process.title4"), text: t("process.text4"), to: "/" },
-    { id: 5, count: "5", title: t("process.title5"), text: t("process.text5"), to: "/" },
-    { id: 6, count: "6", title: t("process.title6"), text: t("process.text6"), to: "/" }
+    { id: 1, count: "1", title: t("Process.title1"), text: t("Process.text1"), to: "/" },
+    { id: 2, count: "2", title: t("Process.title2"), text: t("Process.text2"), to: "/" },
+    { id: 3, count: "3", title: t("Process.title3"), text: t("Process.text3"), to: "/" },
+    { id: 4, count: "4", title: t("Process.title4"), text: t("Process.text4"), to: "/" },
+    { id: 5, count: "5", title: t("Process.title5"), text: t("Process.text5"), to: "/" },
+    { id: 6, count: "6", title: t("Process.title6"), text: t("Process.text6"), to: "/" }
   ];
 };
 
 export const benefitsSection = () => {
-  const t = useTranslations("benefitsSection");
+  const t = useTranslations("BenefitsSection");
 
   return [
     { id: 1, img: "/assets/icons/TeamIcon.svg", title: t("Benefits.title1"), text: t("Benefits.text1") },
@@ -104,7 +104,7 @@ export const benefitsSection = () => {
 };
 
 export const reviewsSection = () => {
-  const t = useTranslations("reviewSection");
+  const t = useTranslations("ReviewSection");
 
   return [
     { id: 1, text: t("Benefits.text1"), name: "Elena S.", job: "CLO" },
@@ -114,46 +114,46 @@ export const reviewsSection = () => {
 };
 
 export const footer = () => {
-  const t = useTranslations("footer");
+  const t = useTranslations("Footer");
 
   return {
     footerItems: {
       Services: [
-        { id: 1, text: t("services.text1"), to: "/company" },
-        { id: 2, text: t("services.text2"), to: "/" },
-        { id: 3, text: t("services.text3"), to: "/" },
-        { id: 4, text: t("services.text4"), to: "/" },
-        { id: 5, text: t("services.text5"), to: "/" }
+        { id: 1, text: t("Services.text1"), to: "/company" },
+        { id: 2, text: t("Services.text2"), to: "/" },
+        { id: 3, text: t("Services.text3"), to: "/" },
+        { id: 4, text: t("Services.text4"), to: "/" },
+        { id: 5, text: t("Services.text5"), to: "/" }
       ],
       Company: [
-        { id: 1, text: t("company.text1"), to: "/about" },
-        { id: 2, text: t("company.text2"), to: "/" },
-        { id: 3, text: t("company.text3"), to: "/" },
-        { id: 4, text: t("company.text4"), to: "/" },
-        { id: 5, text: t("company.text5"), to: "/" },
-        { id: 6, text: t("company.text6"), to: "/" }
+        { id: 1, text: t("Company.text1"), to: "/about" },
+        { id: 2, text: t("Company.text2"), to: "/" },
+        { id: 3, text: t("Company.text3"), to: "/" },
+        { id: 4, text: t("Company.text4"), to: "/" },
+        { id: 5, text: t("Company.text5"), to: "/" },
+        { id: 6, text: t("Company.text6"), to: "/" }
       ],
       Legal: [
-        { id: 1, text: t("legal.text1"), to: "/" },
-        { id: 2, text: t("legal.text2"), to: "/" },
-        { id: 3, text: t("legal.text3"), to: "/" },
+        { id: 1, text: t("Legal.text1"), to: "/" },
+        { id: 2, text: t("Legal.text2"), to: "/" },
+        { id: 3, text: t("Legal.text3"), to: "/" },
       ]
     }
   };
 }
 
 export const aboutPage = () => {
-  const t = useTranslations("aboutPage");
+  const t = useTranslations("AboutPage");
 
   return [
-    { id: 1, title: t("pageSubItems.title1"), text: t("pageSubItems.text1") },
-    { id: 2, title: t("pageSubItems.title2"), text: t("pageSubItems.text2") },
-    { id: 3, title: t("pageSubItems.title3"), text: t("pageSubItems.text3") }
+    { id: 1, title: t("PageSubItems.title1"), text: t("PageSubItems.text1") },
+    { id: 2, title: t("PageSubItems.title2"), text: t("PageSubItems.text2") },
+    { id: 3, title: t("PageSubItems.title3"), text: t("PageSubItems.text3") }
   ]
 };
 
 export const aboutSectionIndustries = () => {
-  const t = useTranslations("aboutSectionIndustries")
+  const t = useTranslations("AboutSectionIndustries")
 
   return [
     { id: 1, title: t("IndustriesSubItems.title1"), text: t("IndustriesSubItems.text1") },
@@ -164,29 +164,29 @@ export const aboutSectionIndustries = () => {
 };
 
 export const aboutSectionHistory = () => {
-  const t = useTranslations("aboutSectionBenefits");
+  const t = useTranslations("AboutSectionBenefits");
 
   return [
-    { id: 1, img: "/assets/icons/TargetIcon.svg", title: t("aboutBenefitsSubItems.title1"), text: t("aboutBenefitsSubItems.text1") },
-    { id: 2, img: "/assets/icons/CaseIcon.svg", title: t("aboutBenefitsSubItems.title2"), text: t("aboutBenefitsSubItems.text2") },
-    { id: 3, img: "/assets/icons/ShieldIcon.svg", title: t("aboutBenefitsSubItems.title3"), text: t("aboutBenefitsSubItems.text3") },
-    { id: 4, img: "/assets/icons/CostIcon.svg", title: t("aboutBenefitsSubItems.title4"), text: t("aboutBenefitsSubItems.text4") }
+    { id: 1, img: "/assets/icons/TargetIcon.svg", title: t("AboutBenefitsSubItems.title1"), text: t("AboutBenefitsSubItems.text1") },
+    { id: 2, img: "/assets/icons/CaseIcon.svg", title: t("AboutBenefitsSubItems.title2"), text: t("AboutBenefitsSubItems.text2") },
+    { id: 3, img: "/assets/icons/ShieldIcon.svg", title: t("AboutBenefitsSubItems.title3"), text: t("AboutBenefitsSubItems.text3") },
+    { id: 4, img: "/assets/icons/CostIcon.svg", title: t("AboutBenefitsSubItems.title4"), text: t("AboutBenefitsSubItems.text4") }
   ]
 };
 
 
 export const bankingSectionAccounts = () => {
-  const t = useTranslations("bankingSectionCards");
+  const t = useTranslations("BankingSectionCards");
   return [
-    { id: 1, img: "/assets/icons/OfficeIcon.svg", title: t("aboutCardsSubItems.title1"), text: t("aboutCardsSubItems.text1") },
-    { id: 2, img: "/assets/icons/EarthIcon.svg", title: t("aboutCardsSubItems.title2"), text: t("aboutCardsSubItems.text2") },
-    { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: t("aboutCardsSubItems.title3"), text: t("aboutCardsSubItems.text3") },
-    { id: 4, img: "/assets/icons/FinanceLogo.svg", title: t("aboutCardsSubItems.title4"), text: t("aboutCardsSubItems.text4") }
+    { id: 1, img: "/assets/icons/OfficeIcon.svg", title: t("AboutCardsSubItems.title1"), text: t("AboutCardsSubItems.text1") },
+    { id: 2, img: "/assets/icons/EarthIcon.svg", title: t("AboutCardsSubItems.title2"), text: t("AboutCardsSubItems.text2") },
+    { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: t("AboutCardsSubItems.title3"), text: t("AboutCardsSubItems.text3") },
+    { id: 4, img: "/assets/icons/FinanceLogo.svg", title: t("AboutCardsSubItems.title4"), text: t("AboutCardsSubItems.text4") }
   ]
 }
 
 export const bankingSectionAccountsRight = () => {
-  const t = useTranslations("bankingSectionOffer");
+  const t = useTranslations("BankingSectionOffer");
   return [
     { id: 1, title: t("title1"), text: t("text1") },
     { id: 2, title: t("title2"), text: t("text2") },
@@ -196,17 +196,17 @@ export const bankingSectionAccountsRight = () => {
 }
 
 export const bankingSectionComponentPayments = () => {
-  const t = useTranslations("bankingSectionPayments");
+  const t = useTranslations("BankingSectionPayments");
   return [
-    { id: 1, title: t("aboutPaymentsSubItems.title1"), text: t("aboutPaymentsSubItems.text1") },
-    { id: 2, title: t("aboutPaymentsSubItems.title2"), text: t("aboutPaymentsSubItems.text2") },
-    { id: 3, title: t("aboutPaymentsSubItems.title3"), text: t("aboutPaymentsSubItems.text3") },
-    { id: 4, title: t("aboutPaymentsSubItems.title4"), text: t("aboutPaymentsSubItems.text4") },
-    { id: 5, title: t("aboutPaymentsSubItems.title5"), text: t("aboutPaymentsSubItems.text5") },
+    { id: 1, title: t("AboutPaymentsSubItems.title1"), text: t("AboutPaymentsSubItems.text1") },
+    { id: 2, title: t("AboutPaymentsSubItems.title2"), text: t("AboutPaymentsSubItems.text2") },
+    { id: 3, title: t("AboutPaymentsSubItems.title3"), text: t("AboutPaymentsSubItems.text3") },
+    { id: 4, title: t("AboutPaymentsSubItems.title4"), text: t("AboutPaymentsSubItems.text4") },
+    { id: 5, title: t("AboutPaymentsSubItems.title5"), text: t("AboutPaymentsSubItems.text5") },
   ]
 }
 
-// export const servicesSection = [
+// export const ServicesSection = [
 //   { id: 1, title: "Company registration", text: "We ensure the processes of setting up and maintenance of a company, as well as search for local personnel, sale of ready-made companies, and liquidations.", to: "/" },
 //   { id: 2, title: "Corporate accounts", text: "We assist in opening both bank and EMI accounts, as well as getting corporate cards and even LEI numbers for investors.", to: "/" },
 //   { id: 3, title: "Obtaining Licenses", text: "Some businesses are under specific state regulations. We accompany you while getting Gaming licenses, EMI licenses and Crypto licenses.", to: "/" },
@@ -218,28 +218,28 @@ export const bankingSectionComponentPayments = () => {
 // ]
 
 export const bankingSectionPrivate = () => {
-  const t = useTranslations("bankingSectionPrivate");
+  const t = useTranslations("BankingSectionPrivate");
 
   return [
-    { id: 1, title: t("aboutPrivateSubItems.title1"), text: t("aboutPrivateSubItems.text1") },
-    { id: 2, title: t("aboutPrivateSubItems.title2"), text: t("aboutPrivateSubItems.text2") },
-    { id: 3, title: t("aboutPrivateSubItems.title3"), text: t("aboutPrivateSubItems.text3") },
-    { id: 4, title: t("aboutPrivateSubItems.title4"), text: t("aboutPrivateSubItems.text4") },
-    { id: 5, title: t("aboutPrivateSubItems.title5"), text: t("aboutPrivateSubItems.text5") }
+    { id: 1, title: t("AboutPrivateSubItems.title1"), text: t("AboutPrivateSubItems.text1") },
+    { id: 2, title: t("AboutPrivateSubItems.title2"), text: t("AboutPrivateSubItems.text2") },
+    { id: 3, title: t("AboutPrivateSubItems.title3"), text: t("AboutPrivateSubItems.text3") },
+    { id: 4, title: t("AboutPrivateSubItems.title4"), text: t("AboutPrivateSubItems.text4") },
+    { id: 5, title: t("AboutPrivateSubItems.title5"), text: t("AboutPrivateSubItems.text5") }
   ]
 }
 
 export const bankingSectionEscrow = () => {
-  const t = useTranslations("bankingSectionEscrow");
+  const t = useTranslations("BankingSectionEscrow");
   return [
-    { id: 1, img: "/assets/icons/ShieldIcon.svg", title: t("aboutEscrowSubItems.title1"), text: t("aboutEscrowSubItems.text1") },
-    { id: 2, img: "/assets/icons/SafeBoxIcon.svg", title: t("aboutEscrowSubItems.title2"), text: t("aboutEscrowSubItems.text2") },
-    { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: t("aboutEscrowSubItems.title3"), text: t("aboutEscrowSubItems.text3") }
+    { id: 1, img: "/assets/icons/ShieldIcon.svg", title: t("AboutEscrowSubItems.title1"), text: t("AboutEscrowSubItems.text1") },
+    { id: 2, img: "/assets/icons/SafeBoxIcon.svg", title: t("AboutEscrowSubItems.title2"), text: t("AboutEscrowSubItems.text2") },
+    { id: 3, img: "/assets/icons/EffectiveIcon.svg", title: t("AboutEscrowSubItems.title3"), text: t("AboutEscrowSubItems.text3") }
   ]
 }
 
 export const bankingSectionPartner = () => {
-  const t = useTranslations("bankingSectionPartner");
+  const t = useTranslations("BankingSectionPartner");
 
   return [
     { id: 1, title: t("SectionPartnerSubItems.title1"), text: t("SectionPartnerSubItems.text1") },
@@ -252,7 +252,7 @@ export const bankingSectionPartner = () => {
 }
 
 export const bankingSectionFees = () => {
-  const t = useTranslations("bankingSectionFees");
+  const t = useTranslations("BankingSectionFees");
   return [
     { id: 1, title: t("SectionFeesTableItems.title1"), priceUK: t("SectionFeesTableItems.tableUKPrice1"), priceEU: t("SectionFeesTableItems.tableUEPrice1"), priceWorld: t("SectionFeesTableItems.worldPrice1"), priceRisk: "Lorem Ipsum" },
     { id: 2, title: t("SectionFeesTableItems.title2"), priceUK: t("SectionFeesTableItems.tableUKPrice2"), priceEU: t("SectionFeesTableItems.tableUEPrice2"), priceWorld: t("SectionFeesTableItems.worldPrice2"), priceRisk: "Lorem Ipsum" },

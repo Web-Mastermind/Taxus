@@ -4,7 +4,7 @@ import { bankingSectionPartner } from "@/links/Links"
 import { useTranslations } from "next-intl"
 
 const Partner = () => {
-  const t = useTranslations("bankingSectionPartner");
+  const t = useTranslations("BankingSectionPartner");
   const partner = bankingSectionPartner();
   return (
     <section className={styles.sectionPartner}>

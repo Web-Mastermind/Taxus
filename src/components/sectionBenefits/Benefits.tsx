@@ -4,7 +4,7 @@ import { benefitsSection } from "@/links/Links"
 import { useTranslations } from "next-intl"
 
 const Benefits = () => {
-  const t = useTranslations("benefitsSection")
+  const t = useTranslations("BenefitsSection")
   const benefits = benefitsSection();
 
   return (

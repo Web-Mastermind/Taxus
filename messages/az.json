@@ -31,7 +31,7 @@
   "Components": {
     "button": "Müraciət et"
   },
-  "expertiseSection": {
+  "ExpertiseSection": {
     "SectionFirstTexts": {
       "expertiseMainText": "Təcrübə",
       "expertiseMainTitle": "Bizim təcrübəmizə daxildir",
@@ -51,8 +51,8 @@
       "expertiseText": "Biz İT şirkətlərinə törəmə müəssisələrin, birgə müəssisələrin və digər biznes strukturlarının yaradılması da daxil olmaqla beynəlxalq miqyasda əməliyyatlarını genişləndirməyə kömək edirik. Biz normativlərə uyğunluq, vergi planlaşdırması və digər beynəlxalq biznes məsələləri üzrə məsləhətlər veririk."
     }
   },
-  "serveSection": {
-    "firstTexts": {
+  "ServeSection": {
+    "FirstTexts": {
       "serveMainText": "Kimə xidmət edirik",
       "serveMainTitle": "Bizim təcrübəmizin sahələri İT biznesinin zirvələri qədər müxtəlifdir"
     },
@@ -71,7 +71,7 @@
       "text12": "Marketinq platformaları"
     }
   },
-  "servicesSection": {
+  "ServicesSection": {
     "sectionText": "Xidmətlər",
     "sectionTitle": "Biz sizin İT biznes ideyanızı hüquqi və maliyyə strukturunda reallaşdırırıq",
     "Services": {
@@ -96,7 +96,7 @@
       "businessText": "Təcrübəmizdən bilirik ki, yüksək keyfiyyətli və vaxtında xidmət göstərmək üçün sorğunuzu aydın şəkildə formalaşdırmaq vacibdir."
     }
   },
-  "bankingSection": {
+  "BankingSection": {
     "sectionText": "Taxus bankçılığı",
     "sectionTitle": "Təkmilləşdirilmiş Bank Partnyorunuz",
     "subText1": "Biznes hesabı",
@@ -105,16 +105,16 @@
     "subText4": "Biznes Müştəriləri üçün Eksklüziv Təklif",
     "bankingLink": "Ətraflı məlumat"
   },
-  "platformSection": {
+  "PlatformSection": {
     "sectionText": "Taxus İnzibati Platforması",
     "sectionTitle": "Tapşırıqlarınızı yaratmaq və emal etmək prosesini asanlıqla izləyin",
     "subText": "Biznesinizin hüquqi və maliyyə sağlamlığı barmağınızda TAP-larda. Biznesinizin bütün korporativ və maliyyə tapşırıqlarını idarə etmək və izləmək üçün tək platforma. Bizim həllimiz bütün korporativ strukturlarınızı, sənədlərinizi, fakturalarınızı, son tarixlərinizi və xəbərdarlıqlarınızı bir yerdə təşkil etməyə kömək edir.",
     "platformLink": "Ətraflı məlumat"
   },
-  "processSection": {
+  "ProcessSection": {
     "sectionText": "Proses",
     "sectionTitle": "Bizim proses necə işləyir",
-    "process": {
+    "Process": {
       "title1": "Biznes məsləhəti",
       "text1": "Zəng və ya söhbət seansına açığıq. Biznesinizin ehtiyaclarına özümüzü qərq etmək bizim üçün vacibdir.",
       "title2": "Sifarişli həllər ilə təkliflər",
@@ -129,7 +129,7 @@
       "text6": "Hər hansı hüquqi və ya maliyyə sualınız olduqda kömək etmək üçün buradayıq. Komandamız daxili hüquq departamentiniz kimi autsorsinqə verilə bilər."
     }
   },
-  "benefitsSection": {
+  "BenefitsSection": {
     "sectionText": "Üstünlüklər",
     "sectionTitle": "Bizi fərqləndirən nədir",
     "Benefits": {
@@ -143,7 +143,7 @@
       "text4": "Müştərilərimiz üçün nəticələr əldə etməyə sadiqik, bu, şirkətin uğurla qeydiyyatdan keçməsi və ya IP-nizi pozuntudan qorumaq deməkdir"
     }
   },
-  "reviewSection": {
+  "ReviewSection": {
     "sectionText": "Rəylər",
     "sectionTitle": "Müştərilərimiz haqqımızda deyirlər",
     "sectionTitle2": "Xüsusi qiymət axtarırsınız?",
@@ -154,8 +154,8 @@
       "text3": "Görkəmli və yüksək tövsiyə edirəm! Qısa müddət ərzində tam olaraq ehtiyacımızı yerinə yetirə bildik. Bütün gözləntilərimizi aşdı. AAA+++"
     }
   },
-  "footer": {
-    "services": {
+  "Footer": {
+    "Services": {
       "Title": "Xidmətlər",
       "text1": "Şirkətin qeydiyyatı",
       "text2": "Ödəniş həlli",
@@ -163,7 +163,7 @@
       "text4": "Müqavilənin tərtibi",
       "text5": "TM qeydiyyatı"
     },
-    "company": {
+    "Company": {
       "Title": "Şirkət",
       "text1": "Haqqımızda",
       "text2": "Taxus AP",
@@ -172,19 +172,19 @@
       "text5": "Bloq",
       "text6": "FAQ"
     },
-    "legal": {
+    "Legal": {
       "Title": "Qanun",
       "text1": "Cookie siyasəti",
       "text2": "İstifadə şərtləri",
       "text3": "Məxfilik"
     }
   },
-  "aboutPage": {
+  "AboutPage": {
     "pageText": "Haqqımızda",
     "pageTitle": "İT sənayesi üçün sifarişli biznes həllərində etibarlı tərəfdaşınız olan Taxus-a xoş gəlmisiniz",
     "pageSubText": "Hüquq, maliyyə və marketinq təcrübəsinin mükəmməl qarışığı ilə biz şirkət qeydiyyatından tutmuş müqavilələrin tərtib edilməsinə qədər bir pəncərədən xidmət təklif edirik.",
     "pageEndText": "Beynəlxalq biznesin sadə təşkili üçün yolunuz",
-    "pageSubItems": {
+    "PageSubItems": {
       "title1": "Bizim təcrübəmiz",
       "text1": "Bizim təcrübəmiz korporativ hüquq, əqli mülkiyyət, bank və maliyyə və beynəlxalq İT biznesi daxil olmaqla, geniş sahələri əhatə edir.",
       "title2": "Komandamız",
@@ -193,7 +193,7 @@
       "text3": "Biz startaplardan tutmuş çoxmillətli korporasiyalara qədər bütün ölçülü bizneslərlə işləyirik və onların xüsusi ehtiyaclarını qarşılamaq üçün fərdi həllər təqdim edirik."
     }
   },
-  "aboutSectionIndustries": {
+  "AboutSectionIndustries": {
     "IndustriesText": "Sənayelər",
     "IndustriesTitle": "Kimə xidmət edirik",
     "IndustriesSubText": "Taxus-da biz başa düşürük ki, hər bir İT biznesi unikaldır və buna görə də biz müştərilərimizin ehtiyaclarına mükəmməl uyğun gələn fərdi həllər təqdim edirik.",
@@ -208,21 +208,21 @@
       "text4": "Kriptovalyuta sənayesindəki müştərilər lisenziyalaşdırma, normativlərə uyğunluq, əqli mülkiyyətin qorunması və müqavilə danışıqları ilə bağlı yardım tələb edir. Onlar həmçinin şirkət yaratmaq və pul yığma məsləhətləri ilə bağlı köməyə ehtiyac duya bilərlər."
     }
   },
-  "aboutSectionAwards": {
+  "AboutSectionAwards": {
     "sectionText": "Mükafatlar",
     "sectionTitle": "Biz müştərilərimizin bütün ehtiyaclarını ödəmək üçün peşəkar şəkildə inkişaf edirik"
   },
-  "aboutSectionHistory": {
+  "AboutSectionHistory": {
     "sectionText": "Tarix",
     "sectionTitle": "Niyə Taxus-u seçməlisiniz?",
     "sectionSubText": "Taxus 2018-ci ildə müxtəlif İT biznes növlərinin hüquqi və maliyyə müşayiəti üzrə geniş təcrübəyə malik peşəkarlar komandası tərəfindən təsis edilib. Komandamız hüquq, maliyyə və marketinq sahələrində etibarlı və peşəkar məsləhətçiləri toplayan 15 ildən artıq bir təcrübəyə malikdir. Yarandığımız gündən biz çoxsaylı müştərilərə onlayn bizneslərini qurmağa və inkişaf etdirməyə kömək etmişik, onların unikal ehtiyaclarını ödəmək üçün ekspert rəhbərliyi və həllər təqdim etmişik.",
     "sectionSubText2": "Məqsədimiz müştərilərimiz üçün etibarlı tərəfdaş olmaq, onların unikal problemlərini və məqsədlərini başa düşmək üçün onlarla yaxından işləmək və real nəticələr verən xüsusi həllər təqdim etməkdir. İnanırıq ki, hüquqi texnologiyaya yanaşmamız biznesin inkişafı üçün stimul olmalıdır və biz müştərilərimizə onun gücündən istifadə etməkdə kömək etməkdə həvəsliyik."
   },
-  "aboutSectionBenefits": {
+  "AboutSectionBenefits": {
     "aboutBenefitsText": "Üstünlüklər",
     "aboutBenefitsTitle": "Niyə Taxus-u seçməlisiniz?",
     "aboutBenefitsTitle2": "Müştərilərimizə və tərəfdaşlarımıza qoşulun",
-    "aboutBenefitsSubItems": {
+    "AboutBenefitsSubItems": {
       "title1": "Fərdi həllər",
       "text1": "Bizim təcrübəmiz İT sənayesinin unikal ehtiyaclarına uyğunlaşdırılıb və diqqəti yalnız məsləhətləşmələrə deyil, praktik həllərin təmin edilməsinə yönəldir.",
       "title2": "Mütəxəssis",
@@ -233,15 +233,15 @@
       "text4": "Taxus-da biz müştərilərimizlə inam, dürüstlük və şəffaflığa əsaslanan güclü və davamlı əlaqələr qurmağa inanırıq."
     }
   },
-  "bankingPage": {
+  "BankingPage": {
     "sectionTitle": "Taxus bankçılığı",
     "sectionSubTitle": "Müvəffəqiyyət nəsilləri üçün tərəfdaşlıq"
   },
-  "bankingSectionCards": {
+  "BankingSectionCards": {
     "aboutCardsText": "Hesab",
     "aboutCardsTitle": "Taxus Banking ilə maliyyənizə asanlıqla nəzarət edin",
     "aboutCardsSubTitle": "Təklif edirik:",
-    "aboutCardsSubItems": {
+    "AboutCardsSubItems": {
       "title1": "Biznes Hesabları",
       "text1": "Harada olursunuzsa olun, Biznes Hesabınız",
       "title2": "Ümumdünya Ödənişləri",
@@ -252,7 +252,7 @@
       "text4": "Kart sahibləri yaradın və yeni kartlarınızı buraxın!"
     }
   },
-  "bankingSectionOffer": {
+  "BankingSectionOffer": {
     "title1": "IBAN hesabları açılması",
     "text1": "Gündəlik işlərinizi asanlıqla idarə etmək üçün öz IBAN hesablarınızı əldə edin",
     "title2": "Pulunuzu tamamilə onlayn idarə edin",
@@ -262,12 +262,12 @@
     "title4": "Multivalyuta hesabları",
     "text4": "Qlobal əməliyyatlar və beynəlxalq müştərilər üçün mükəmməl olan bir hesabda birdən çox valyutanı asanlıqla idarə edin"
   },
-  "bankingSectionPayments": {
+  "BankingSectionPayments": {
     "aboutPaymentsText": "Ödənişlər",
     "aboutPaymentsTitle": "Qlobal maliyyənizi idarə etməyin asanlığını və səmərəliliyini hiss edin",
     "aboutPaymentsSubTitle": "Təklif edirik:",
     "aboutPaymentsSubText": "Maneəsiz beynəlxalq iş əməliyyatlarına giriş edin",
-    "aboutPaymentsSubItems": {
+    "AboutPaymentsSubItems": {
       "title1": "Ani Avro köçürmələri",
       "text1": "SEPA şəbəkəsi ilə dərhal avro göndərin və qəbul edin.",
       "title2": "Sərhədlərarası SWIFT ödənişləri",
@@ -280,12 +280,12 @@
       "text5": "Daha sürətli ödənişlər, CHAPS və birbaşa debitlərdən istifadə edərək GBP-də asan əməliyyatlar"
     }
   },
-  "bankingSectionPrivate": {
+  "BankingSectionPrivate": {
     "aboutPrivateText": "Şəxsi Bankçılıq",
     "aboutPrivateTitle": "Biznes Müştəriləri üçün Eksklüziv Təklif",
     "aboutPrivateSubTitle": "Taxus Law & Finance öz biznes müştərilərinə eksklüziv xidmət - Private Banking təklif etməkdən məmnundur. Bu fərdiləşdirilmiş, qapalı bank xidməti yalnız Taxus Banking xidmətləri göstərən bizneslərlə əlaqəli fiziki şəxslər və maraqlı tərəflər üçün əlçatandır.",
     "aboutPrivateSubText": "Şəxsi Bankçılığın üstünlükləri:",
-    "aboutPrivateSubItems": {
+    "AboutPrivateSubItems": {
       "title1": "Eksklüziv giriş",
       "text1": "Yalnız Taxus Banking tərəfindən xidmət göstərilən bizneslərlə əlaqəli fiziki şəxslər və maraqlı tərəflər üçün əlçatandır.",
       "title2": "Fərdiləşdirilmiş Xidmət:",
@@ -298,12 +298,12 @@
       "text5": "Maliyyə fəaliyyətlərinizin asan və səmərəli idarə olunması."
     }
   },
-  "bankingSectionEscrow": {
+  "BankingSectionEscrow": {
     "aboutEscrowText": "Biznes əmanəti",
     "aboutEscrowTitle": "Beynəlxalq əməliyyatlarınızın qorunması",
     "aboutEscrowSubTitle": "Təhlükəsiz əmanət xidmətimiz Taxus Business Escrow ilə biznes əməliyyatlarınız üçün rahatlığı təmin edin. Bu necə işləyir:",
     "aboutEscrowSubText": "Taxus Business Escrow ilə siz öz vəsaitlərinizin hər addımda qorunduğunu bilərək işinizi inamla apara bilərsiniz.",
-    "aboutEscrowSubItems": {
+    "AboutEscrowSubItems": {
       "title1": "Biznes əmanəti",
       "text1": "Sövdələşmədə həm alıcı, həm də satıcını qoruyan neytral vasitəçi kimi çıxış edir.",
       "title2": "Alıcı Müdafiəsi",
@@ -312,7 +312,7 @@
       "text3": "Göndərmə sübutu yoxlanıldıqdan sonra Taxus dərhal ödənişinizi satıcıya göndərir."
     }
   },
-  "bankingSectionPartner": {
+  "BankingSectionPartner": {
     "SectionPartnerText": "Təkmilləşdirilmiş Bank Partnyorunuz",
     "SectionPartnerTitle": "Taxus: Güclü Bank Partnyorunuz",
     "SectionPartnerSubTitle": "Taxus Bank xidmətlərini təqdim edirik:",
@@ -331,7 +331,7 @@
       "text6": "Qarşıdan gələn ödənişlərin yığılması xüsusiyyətimizlə ödənişlərin qəbulu prosesini sadələşdirin."
     }
   },
-  "bankingSectionFees": {
+  "BankingSectionFees": {
     "SectionFeesText": "Müştərilərin ödənişləri",
     "SectionFeesTitle": "Korporativ ödənişlər",
     "SectionFeesSubTitle": "Fərqli regionlardan (UK, EU, Ümumdünya və EKSKLÜZİV) müxtəlif növ bizneslər üçün tariflər.",

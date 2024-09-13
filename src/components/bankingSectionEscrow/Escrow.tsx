@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl"
 import { bankingSectionEscrow } from "@/links/Links"
 
 const Escrow = () => {
-  const t = useTranslations("bankingSectionEscrow");
+  const t = useTranslations("BankingSectionEscrow");
   const escrow = bankingSectionEscrow();
   return (
     <section className={styles.sectionEscrow}>

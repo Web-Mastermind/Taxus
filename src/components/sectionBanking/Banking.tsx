@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useTranslations } from "next-intl"
 
 const Banking = () => {
-  const t = useTranslations("bankingSection")
+  const t = useTranslations("BankingSection")
   const banking = bankingSection();
   return (
     <article className={styles.sectionBanking}>
