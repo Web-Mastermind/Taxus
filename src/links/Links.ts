@@ -119,7 +119,7 @@ export const footer = () => {
   return {
     footerItems: {
       Services: [
-        { id: 1, text: t("services.text1"), to: "/" },
+        { id: 1, text: t("services.text1"), to: "/company" },
         { id: 2, text: t("services.text2"), to: "/" },
         { id: 3, text: t("services.text3"), to: "/" },
         { id: 4, text: t("services.text4"), to: "/" },
@@ -265,3 +265,10 @@ export const bankingSectionFees = () => {
     { id: 9, title: t("SectionFeesTableItems.title9"), priceUK: t("SectionFeesTableItems.tableUKPrice9"), priceEU: t("SectionFeesTableItems.tableUEPrice9"), priceWorld: t("SectionFeesTableItems.worldPrice9"), priceRisk: "Lorem Ipsum" }
   ]
 }
+
+export const CompanySectionCorporate = [
+  { id: 1, title: "Liability Protection", text: "By setting up a company, you can protect your personal assets from any liabilities that your business may incur. ", subText: "This means that if your company is sued or goes bankrupt, your personal assets (such as your home or savings) will be safe." },
+  { id: 2, title: "Tax Advantages", text: "Depending on the country where you set up your company, you may be able to take advantage of lower tax rates or other tax incentives. ", subText: "This can save you a significant amount of money in taxes each year." },
+  { id: 3, title: "Credibility and Reliability", text: "Having a properly set up company can increase your credibility with clients, partners, and investors. ", subText: "It shows that you are serious about your business and are willing to invest in its long-term success." },
+  { id: 4, title: "Access to New Markets", text: "By setting up a company in a new country, you can gain access to new markets and customers. ", subText: "This can help you expand your business and increase your revenue." }
+]
