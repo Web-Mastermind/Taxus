@@ -12,7 +12,7 @@ import Process from "@/components/sectionProcess/Process"
 import Benefits from "@/components/sectionBenefits/Benefits"
 import Reviews from "@/components/sectionReviews/Reviews"
 
-const page = () => {
+const Main = () => {
   const exp = Experience();
   const t = useTranslations("Main")
   return (
@@ -94,4 +94,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Main

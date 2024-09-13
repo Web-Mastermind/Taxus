@@ -7,7 +7,7 @@ import Escrow from "@/components/bankingSectionEscrow/Escrow"
 import Partner from "@/components/bankingSectionPartner/Partner"
 import Fees from "@/components/bankingSectionFees/Fees"
 
-const page = () => {
+const Banking = () => {
   const t = useTranslations("BankingPage")
   return (
     <>
@@ -32,4 +32,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Banking
