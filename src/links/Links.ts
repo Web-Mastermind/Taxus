@@ -266,9 +266,12 @@ export const BankingSectionFees = () => {
   ]
 }
 
-export const CompanySectionCorporate = [
-  { id: 1, title: "Liability Protection", text: "By setting up a company, you can protect your personal assets from any liabilities that your business may incur. ", subText: "This means that if your company is sued or goes bankrupt, your personal assets (such as your home or savings) will be safe." },
-  { id: 2, title: "Tax Advantages", text: "Depending on the country where you set up your company, you may be able to take advantage of lower tax rates or other tax incentives. ", subText: "This can save you a significant amount of money in taxes each year." },
-  { id: 3, title: "Credibility and Reliability", text: "Having a properly set up company can increase your credibility with clients, partners, and investors. ", subText: "It shows that you are serious about your business and are willing to invest in its long-term success." },
-  { id: 4, title: "Access to New Markets", text: "By setting up a company in a new country, you can gain access to new markets and customers. ", subText: "This can help you expand your business and increase your revenue." }
-]
+export const CompanySectionCorporate = () => {
+  const t = useTranslations("CompanyPage");
+  return [
+    { id: 1, title: t("CompanyPageSubItems.title1"), text: t("CompanyPageSubItems.text1"), subText: t("CompanyPageSubItems.subText1") },
+    { id: 2, title: t("CompanyPageSubItems.title2"), text: t("CompanyPageSubItems.text2"), subText: t("CompanyPageSubItems.subText2") },
+    { id: 3, title: t("CompanyPageSubItems.title3"), text: t("CompanyPageSubItems.text3"), subText: t("CompanyPageSubItems.subText3") },
+    { id: 4, title: t("CompanyPageSubItems.title4"), text: t("CompanyPageSubItems.text4"), subText: t("CompanyPageSubItems.subText4") }
+  ]
+}
