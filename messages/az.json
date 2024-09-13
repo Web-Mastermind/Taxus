@@ -383,5 +383,25 @@
       "worldPrice9": "5% (min 500.00)",
       "tableRisk9": "Lorem Ipsum"
     }
+  },
+  "CompanyPage": {
+    "CompanyPageText": "Şirkətin Qeydiyyatı və Texniki Baxımı",
+    "CompanyPageTitle": "Əgər beynəlxalq İT biznesi ilə məşğul olursunuzsa, düzgün qurulmuş bir şirkətə sahib olmaq bir çox üstünlüklər, o cümlədən məsuliyyətin qorunması, vergi üstünlükləri və müştərilər və tərəfdaşlar arasında artan etibarlılıq təmin edə bilər. Taxus-da biz biznesə dünya ölkələrində öz şirkətlərini qurmaqda və saxlamaqda kömək etməkdə ixtisaslaşırıq. Sizə kömək edə biləcəyimiz bəzi üsullar bunlardır.",
+    "CompanySubPageText": "Korporativ struktur",
+    "CompanySubPageTitle": "Düzgün Şirkət Qurulmasının Faydaları",
+    "CompanyPageSubItems": {
+      "title1": "Məsuliyyətin qorunması",
+      "text1": "Şirkət yaratmaqla siz şəxsi aktivlərinizi biznesinizin üzərinə düşə biləcəyi hər hansı öhdəliklərdən qoruya bilərsiniz.",
+      "subText1": "Bu o deməkdir ki, şirkətiniz məhkəməyə verilərsə və ya müflis olarsa, şəxsi aktivləriniz (məsələn, eviniz və ya əmanətiniz) təhlükəsiz olacaq.",
+      "title2": "Vergi Üstünlükləri",
+      "text2": "Şirkətinizi qurduğunuz ölkədən asılı olaraq, siz aşağı vergi dərəcələrindən və ya digər vergi güzəştlərindən yararlana bilərsiniz.",
+      "subText2": "Bu, hər il vergilərdə əhəmiyyətli miqdarda pula qənaət edə bilər.",
+      "title3": "İnandırıcılıq və etibarlılıq",
+      "text3": "Düzgün qurulmuş bir şirkətə sahib olmaq müştərilər, tərəfdaşlar və investorlar qarşısında etibarınızı artıra bilər.",
+      "subText3": "Bu, işinizə ciddi yanaşdığınızı və onun uzunmüddətli uğuruna sərmayə qoymağa hazır olduğunuzu göstərir.",
+      "title4": "Yeni bazarlara çıxış",
+      "text4": "Yeni ölkədə şirkət qurmaqla siz yeni bazarlara və müştərilərə çıxış əldə edə bilərsiniz.",
+      "subText4": "Bu, biznesinizi genişləndirməyə və gəlirinizi artırmağa kömək edə bilər."
+    }
   }
 }

@@ -383,5 +383,25 @@
       "worldPrice9": "5% (min 500.00)",
       "tableRisk9": "Lorem Ipsum"
     }
+  },
+  "CompanyPage": {
+    "CompanyPageText": "Company Registration and Maintenance",
+    "CompanyPageTitle": "If you’re running an international IT business, having a properly set up company can provide many benefits, including liability protection, tax advantages, and increased credibility with clients and partners. At Taxus, we specialize in helping businesses set up and maintain their companies in countries around the world. Here are some of the ways we can help you.",
+    "CompanySubPageText": "Corporate structure",
+    "CompanySubPageTitle": "Benefits of Proper Company Set Up",
+    "CompanyPageSubItems": {
+      "title1": "Liability Protection",
+      "text1": "By setting up a company, you can protect your personal assets from any liabilities that your business may incur.",
+      "subText1": "This means that if your company is sued or goes bankrupt, your personal assets (such as your home or savings) will be safe.",
+      "title2": "Tax Advantages",
+      "text2": "Depending on the country where you set up your company, you may be able to take advantage of lower tax rates or other tax incentives.",
+      "subText2": "This can save you a significant amount of money in taxes each year.",
+      "title3": "Credibility and Reliability",
+      "text3": "Having a properly set up company can increase your credibility with clients, partners, and investors.",
+      "subText3": "It shows that you are serious about your business and are willing to invest in its long-term success.",
+      "title4": "Access to New Markets",
+      "text4": "By setting up a company in a new country, you can gain access to new markets and customers.",
+      "subText4": "This can help you expand your business and increase your revenue."
+    }
   }
 }
