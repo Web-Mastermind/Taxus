@@ -8,7 +8,7 @@ import Awards from "@/components/aboutSectionAwards/Awards"
 import History from "@/components/aboutSectionHistory/History"
 import AboutReview from "@/components/aboutSectionReview/AboutReview"
 
-const about = () => {
+const About = () => {
   const about = aboutPage();
   const t = useTranslations("AboutPage")
   return (
@@ -52,4 +52,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
