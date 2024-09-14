@@ -1,0 +1,42 @@
+.sectionMaintenance {
+  padding: 5rem 0;
+}
+
+.sectionItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionLeftItems {
+  max-width: 34.563rem;
+}
+
+.leftItemsText {
+  color: var(--Dark-grey, #1A1A1A);
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+}
+
+.leftItemsTitile {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin-top: 1rem;
+}
+
+.sectionRightItems {
+  max-width: 36.25rem;
+}
+
+.RightItemsText,
+.RightItemsSubText {
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+  margin-block: 2rem;
+}
+
+.RightItemsSubText {
+  font-family: "Montserrat-Bold", sans-serif;
+  line-height: 140%;
+}
+
+.buttonContainer {
+  margin: 6rem 0 0 4.5rem;
+}
