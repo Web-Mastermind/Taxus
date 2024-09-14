@@ -4,6 +4,7 @@ import Image from "next/image"
 import Corporate from "@/components/companySectionCorporate/Corporate"
 import { useTranslations } from "next-intl"
 import Registration from "@/components/companySectionRegistration/Registration"
+import Maintenance from "@/components/companySectionMaintenance/Maintenance"
 
 const Company = () => {
   const t = useTranslations("CompanyPage");
@@ -25,6 +26,7 @@ const Company = () => {
         </div>
       </section>
       <Registration />
+      <Maintenance />
     </>
   )
 }
