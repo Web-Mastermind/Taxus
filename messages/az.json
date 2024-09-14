@@ -403,5 +403,39 @@
       "text4": "Yeni ölkədə şirkət qurmaqla siz yeni bazarlara və müştərilərə çıxış əldə edə bilərsiniz.",
       "subText4": "Bu, biznesinizi genişləndirməyə və gəlirinizi artırmağa kömək edə bilər."
     }
+  },
+  "CompanySectionRegistration": {
+    "RegistrationSectionText": "Şirkət Qeydiyyatı",
+    "RegistrationSectionTitle": "Biz 20+ ölkədə şirkət qeydiyyatı xidmətləri göstəririk",
+    "CountriesLeft": {
+      "Title": "Avropa ölkələri:",
+      "text1": "Kipr",
+      "text2": "Çexiya",
+      "text3": "Estoniya",
+      "text4": "Polşa",
+      "text5": "Macarıstan",
+      "text6": "Latviya",
+      "text7": "Malta",
+      "text8": "Böyük Britaniya",
+      "text9": "İrlandiya",
+      "text10": "İsveçrə"
+    },
+    "CountriesCenter": {
+      "Title": "Asiya və Yaxın Şərq:",
+      "text1": "Sinqapur",
+      "text2": "Birləşmiş Ərəb Əmirlikləri",
+      "text3": "Honq Konq",
+      "text4": "İndoneziya",
+      "text5": "Marşal adaları",
+      "text6": "Seyşel adaları"
+    },
+    "CountriesRight": {
+      "Title": "Şimali Amerika və Karib dənizi:",
+      "text1": "Amerika Birləşmiş Ştatları",
+      "text2": "Kanada",
+      "text3": "Beliz",
+      "text4": "Britaniya Virgin Adaları",
+      "text5": "Panama"
+    }
   }
 }

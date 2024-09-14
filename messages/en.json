@@ -403,5 +403,39 @@
       "text4": "By setting up a company in a new country, you can gain access to new markets and customers.",
       "subText4": "This can help you expand your business and increase your revenue."
     }
+  },
+  "CompanySectionRegistration": {
+    "RegistrationSectionText": "Company Registration",
+    "RegistrationSectionTitle": "We provide company registration services in 20+ countries",
+    "CountriesLeft": {
+      "Title": "European Countries:",
+      "text1": "Cyprus",
+      "text2": "Czech Republic",
+      "text3": "Estonia",
+      "text4": "Poland",
+      "text5": "Hungary",
+      "text6": "Latvia",
+      "text7": "Malta",
+      "text8": "United Kingdom",
+      "text9": "Ireland",
+      "text10": "Switzerland"
+    },
+    "CountriesCenter": {
+      "Title": "Asia and the Middle East:",
+      "text1": "Singapore",
+      "text2": "United Arab Emirates",
+      "text3": "Hong Kong",
+      "text4": "Indonesia",
+      "text5": "Marshall Islands",
+      "text6": "Seychelles"
+    },
+    "CountriesRight": {
+      "Title": "North America and the Caribbean:",
+      "text1": "United States",
+      "text2": "Canada",
+      "text3": "Belize",
+      "text4": "British Virgin Islands",
+      "text5": "Panama"
+    }
   }
 }
