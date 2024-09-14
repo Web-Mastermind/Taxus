@@ -275,3 +275,41 @@ export const CompanySectionCorporate = () => {
     { id: 4, title: t("CompanyPageSubItems.title4"), text: t("CompanyPageSubItems.text4"), subText: t("CompanyPageSubItems.subText4") }
   ]
 }
+
+export const CompanySectionRegistrationLeft = () => {
+  const t = useTranslations("CompanySectionRegistration");
+  return [
+    { id: 1, countrie: t("CountriesLeft.text1") },
+    { id: 2, countrie: t("CountriesLeft.text2") },
+    { id: 3, countrie: t("CountriesLeft.text3") },
+    { id: 4, countrie: t("CountriesLeft.text4") },
+    { id: 5, countrie: t("CountriesLeft.text5") },
+    { id: 6, countrie: t("CountriesLeft.text6") },
+    { id: 7, countrie: t("CountriesLeft.text7") },
+    { id: 8, countrie: t("CountriesLeft.text8") },
+    { id: 9, countrie: t("CountriesLeft.text9") },
+    { id: 10, countrie: t("CountriesLeft.text10") }
+  ]
+}
+
+export const CompanySectionRegistrationCenter = () => {
+  const t = useTranslations("CompanySectionRegistration");
+  return [
+    { id: 1, countrie: t("CountriesCenter.text1") },
+    { id: 2, countrie: t("CountriesCenter.text2") },
+    { id: 3, countrie: t("CountriesCenter.text3") },
+    { id: 4, countrie: t("CountriesCenter.text4") },
+    { id: 5, countrie: t("CountriesCenter.text5") },
+    { id: 6, countrie: t("CountriesCenter.text6") }
+  ]
+}
+export const CompanySectionRegistrationRight = () => {
+  const t = useTranslations("CompanySectionRegistration");
+  return [
+    { id: 1, countrie: t("CountriesRight.text1") },
+    { id: 2, countrie: t("CountriesRight.text2") },
+    { id: 3, countrie: t("CountriesRight.text3") },
+    { id: 4, countrie: t("CountriesRight.text4") },
+    { id: 5, countrie: t("CountriesRight.text5") }
+  ]
+}

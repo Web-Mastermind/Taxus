@@ -1,0 +1,56 @@
+.sectionRegistration {
+  padding: 5rem 0;
+  background: url("../../../public/assets/img/RegistrationImg.png") no-repeat center bottom/ cover;
+}
+
+.sectionTextItems {
+  text-align: center;
+}
+
+.colorDarkGrey {
+  color: var(--Dark-grey, #1A1A1A);
+}
+
+.sectionText {
+  font: 1.5rem "Montserrat-SemiBold", sans-serif;
+}
+
+.colorPrimary {
+  color: var(--primary, #c94d00);
+} 
+
+.sectionTitle {
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  max-width: 48.75rem;
+  margin: 1rem auto 6rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.countriesContainer {
+  justify-content: space-between;
+}
+
+.countriesTitle {
+  font: 1.125rem/140% "Montserrat-Bold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+
+.countriesNameItems {
+  align-items: center;
+}
+
+.countriesNameItems:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.diamondIcon {
+  margin-right: 0.5rem;
+}
+
+.countriesName {
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+}
