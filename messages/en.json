@@ -437,5 +437,11 @@
       "text4": "British Virgin Islands",
       "text5": "Panama"
     }
+  },
+  "CompanySectionMaintenance": {
+    "text1": "Company Maintenance",
+    "title1": "We will assist you with ongoing maintenance and compliance",
+    "text2": "Once your company is set up, we can help you with ongoing maintenance and compliance requirements, such as filing annual reports, maintaining corporate records, and keeping up with local regulations.",
+    "text3": "This ensures that your company remains in good standing and avoids any penalties or fines."
   }
 }
