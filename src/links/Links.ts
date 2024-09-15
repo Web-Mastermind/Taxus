@@ -206,17 +206,6 @@ export const BankingSectionComponentPayments = () => {
   ]
 }
 
-// export const ServicesSection = [
-//   { id: 1, title: "Company registration", text: "We ensure the processes of setting up and maintenance of a company, as well as search for local personnel, sale of ready-made companies, and liquidations.", to: "/" },
-//   { id: 2, title: "Corporate accounts", text: "We assist in opening both bank and EMI accounts, as well as getting corporate cards and even LEI numbers for investors.", to: "/" },
-//   { id: 3, title: "Obtaining Licenses", text: "Some businesses are under specific state regulations. We accompany you while getting Gaming licenses, EMI licenses and Crypto licenses.", to: "/" },
-//   { id: 4, title: "Payment processing", text: "The full scope of services relating to merchant account opening with reliable payment systems, PCI DSS certifications, chargeback prevention and KYC verifications for your end-users.", to: "/" },
-//   { id: 5, title: "Accounting & Audit", text: "We take all the hassle of preparation and submission of reports, accounting, and audit procedures. We keep an eye on deadlines for VAT, OSS, and VIES periods to let you concentrate on business.", to: "/" },
-//   { id: 6, title: "Contract review and drafting", text: "No business can operate without proper contracts for every aspect – Documents for Websites, NDA, Marketing Agreements, Consulting Agreements, Software Development Agreements, License Agreements, etc.", to: "/" },
-//   { id: 7, title: "Corporate Structuring", text: "We can enhance your current corporate structure and offer tax planning & asset protection measures.", to: "/" },
-//   { id: 8, title: "IP & TM registration", text: "Intellectual property is a valuable asset for any IT company. With our help, you can protect your trademark or logo in your country or around the world.", to: "/" }
-// ]
-
 export const BankingSectionPrivate = () => {
   const t = useTranslations("BankingSectionPrivate");
 
@@ -311,5 +300,42 @@ export const CompanySectionRegistrationRight = () => {
     { id: 3, countrie: t("CountriesRight.text3") },
     { id: 4, countrie: t("CountriesRight.text4") },
     { id: 5, countrie: t("CountriesRight.text5") }
+  ]
+}
+
+// export const ServicesSection = [
+//   { id: 1, title: "Company registration", text: "We ensure the processes of setting up and maintenance of a company, as well as search for local personnel, sale of ready-made companies, and liquidations.", to: "/" },
+//   { id: 2, title: "Corporate accounts", text: "We assist in opening both bank and EMI accounts, as well as getting corporate cards and even LEI numbers for investors.", to: "/" },
+//   { id: 3, title: "Obtaining Licenses", text: "Some businesses are under specific state regulations. We accompany you while getting Gaming licenses, EMI licenses and Crypto licenses.", to: "/" },
+//   { id: 4, title: "Payment processing", text: "The full scope of services relating to merchant account opening with reliable payment systems, PCI DSS certifications, chargeback prevention and KYC verifications for your end-users.", to: "/" },
+//   { id: 5, title: "Accounting & Audit", text: "We take all the hassle of preparation and submission of reports, accounting, and audit procedures. We keep an eye on deadlines for VAT, OSS, and VIES periods to let you concentrate on business.", to: "/" },
+//   { id: 6, title: "Contract review and drafting", text: "No business can operate without proper contracts for every aspect – Documents for Websites, NDA, Marketing Agreements, Consulting Agreements, Software Development Agreements, License Agreements, etc.", to: "/" },
+//   { id: 7, title: "Corporate Structuring", text: "We can enhance your current corporate structure and offer tax planning & asset protection measures.", to: "/" },
+//   { id: 8, title: "IP & TM registration", text: "Intellectual property is a valuable asset for any IT company. With our help, you can protect your trademark or logo in your country or around the world.", to: "/" }
+// ]
+
+
+export const CompanySectionInclude = () => {
+  const t = useTranslations("CompanySectionInclude");
+  return [
+    { id: 1, text: t("IncludeSectionTextItems.text1") },
+    { id: 2, text: t("IncludeSectionTextItems.text2") },
+    { id: 3, text: t("IncludeSectionTextItems.text3") },
+    { id: 4, text: t("IncludeSectionTextItems.text4") },
+    { id: 5, text: t("IncludeSectionTextItems.text5") },
+    { id: 6, text: t("IncludeSectionTextItems.text6") },
+    { id: 7, text: t("IncludeSectionTextItems.text7"), },
+    { id: 8, text: t("IncludeSectionTextItems.text8"), }
+  ]
+}
+
+export const CompanySectionIncludeEnd = () => {
+  const t = useTranslations("CompanySectionIncludeEnd");
+  return [
+    { id: 1, img: "/assets/icons/TeamIcon.svg", title: t("SectionIncludeEndSubItems.title1"), text: t("SectionIncludeEndSubItems.text1") },
+    { id: 2, img: "/assets/icons/Calendar.svg", title: t("SectionIncludeEndSubItems.title2"), text: t("SectionIncludeEndSubItems.text2") },
+    { id: 3, img: "/assets/icons/TargetIcon.svg", title: t("SectionIncludeEndSubItems.title3"), text: t("SectionIncludeEndSubItems.text3") },
+    { id: 4, img: "/assets/icons/Report.svg", title: t("SectionIncludeEndSubItems.title4"), text: t("SectionIncludeEndSubItems.text4") },
+    { id: 5, img: "/assets/icons/Secure.svg", title: t("SectionIncludeEndSubItems.title5"), text: t("SectionIncludeEndSubItems.text5") }
   ]
 }
