@@ -5,6 +5,7 @@ import Corporate from "@/components/companySectionCorporate/Corporate"
 import { useTranslations } from "next-intl"
 import Registration from "@/components/companySectionRegistration/Registration"
 import Maintenance from "@/components/companySectionMaintenance/Maintenance"
+import Include from "@/components/companySectionInclude/Include"
 
 const Company = () => {
   const t = useTranslations("CompanyPage");
@@ -27,6 +28,7 @@ const Company = () => {
       </section>
       <Registration />
       <Maintenance />
+      <Include />
     </>
   )
 }
