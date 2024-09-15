@@ -443,5 +443,35 @@
     "title1": "Davamlı texniki xidmət və uyğunluqda sizə kömək edəcəyik",
     "text2": "Şirkətiniz qurulduqdan sonra biz sizə illik hesabatların təqdim edilməsi, korporativ qeydlərin aparılması və yerli qaydalara riayət etmək kimi davamlı texniki xidmət və uyğunluq tələblərində kömək edə bilərik.",
     "text3": "Bu, şirkətinizin yaxşı vəziyyətdə qalmasını və hər hansı cəza və ya cərimələrin qarşısını almasını təmin edir."
+  },
+  "CompanySectionInclude": {
+    "IncludeSectionText": "Xidmətlər",
+    "IncludeSectionTitle": "Şirkətimizin Qeydiyyatı və Baxım Xidmətlərinə aşağıdakılar daxildir:",
+    "IncludeSectionTextItems": {
+      "text1": "Biznesiniz üçün düzgün yurisdiksiya və hüquqi formanı seçmək",
+      "text2": "Lazımi sənədlərin və ərizələrin hazırlanması və verilməsi",
+      "text3": "Lazımi lisenziyaların və icazələrin alınmasına köməklik etmək",
+      "text4": "Biznesinizi vergi və sosial təminat məqsədləri üçün qeydiyyatdan keçirin",
+      "text5": "Qeydiyyatdan keçmiş ofis və şirkət katibinin təmin edilməsi (qanunla tələb olunarsa)",
+      "text6": "Korporativ bank hesabının açılması",
+      "text7": "İllik hesabatların və vergi bəyannamələrinin hazırlanması və təqdim edilməsi",
+      "text8": "Hüquq və uyğunluq məsələlərində köməklik"
+    }
+  },
+  "CompanySectionIncludeEnd": {
+    "SectionIncludeEndText": "Üstünlüklər",
+    "SectionIncludeEndTitle": "Şirkətinizin Qeydiyyatı və Baxım Ehtiyacları üçün Taxus-u niyə seçməlisiniz?",
+    "SectionIncludeEndSubItems": {
+      "title1": "Mütəxəssis",
+      "text1": "Peşəkarlardan ibarət komandamız bir çox yurisdiksiyalarda şirkətin qeydiyyatı və texniki xidmətində geniş təcrübəyə malikdir və biz ən son hüquqi və tənzimləyici yeniliklərdən xəbərdar oluruq.",
+      "title2": "Effektivlik",
+      "text2": "Biz başa düşürük ki, vaxt çox vacibdir və biz qeydiyyat və texniki xidmət prosesini mümkün qədər tez və səmərəli şəkildə başa çatdırmağa çalışırıq.",
+      "title3": "Fərdiləşdirilmiş xidmət",
+      "text3": "Biz sizin biznes ehtiyaclarınızı anlamaq və xidmətlərimizi xüsusi tələblərinizə uyğunlaşdırmaq üçün vaxt ayırırıq.",
+      "title4": "Şəffaflıq",
+      "text4": "Biz xidmətlərimiz üçün aydın və ilkin qiymətlər təqdim edirik və bütün proses boyunca sizi məlumatlandırırıq.",
+      "title5": "Etibarlılıq",
+      "text5": "Biz yüksək keyfiyyətli xidmətlər göstərməyə və müştərilərimizlə uzunmüddətli əlaqələr qurmağa sadiqik."
+    }
   }
 }

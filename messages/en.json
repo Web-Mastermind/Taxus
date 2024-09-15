@@ -443,5 +443,35 @@
     "title1": "We will assist you with ongoing maintenance and compliance",
     "text2": "Once your company is set up, we can help you with ongoing maintenance and compliance requirements, such as filing annual reports, maintaining corporate records, and keeping up with local regulations.",
     "text3": "This ensures that your company remains in good standing and avoids any penalties or fines."
+  },
+  "CompanySectionInclude": {
+    "IncludeSectionText": "Services",
+    "IncludeSectionTitle": "Our Company Registration and Maintenance Services include:",
+    "IncludeSectionTextItems": {
+      "text1": "Choosing the right jurisdiction and legal form for your business",
+      "text2": "Preparing and filing the necessary documents and applications",
+      "text3": "Assisting with obtaining the necessary licenses and permits",
+      "text4": "Registering your business for tax and social security purposes",
+      "text5": "Providing a registered office and company secretary (if required by law)",
+      "text6": "Opening a corporate bank account",
+      "text7": "Preparing and filing annual reports and tax returns",
+      "text8": "Assisting with legal and compliance matters"
+    }
+  },
+  "CompanySectionIncludeEnd": {
+    "SectionIncludeEndText": "Benefits",
+    "SectionIncludeEndTitle": "Why choose Taxus for your Company Registration and Maintenance Needs?",
+    "SectionIncludeEndSubItems": {
+      "title1": "Expertise",
+      "text1": "Our team of professionals has extensive experience in company registration and maintenance in multiple jurisdictions, and we stay up-to-date with the latest legal and regulatory developments.",
+      "title2": "Efficiency",
+      "text2": "We understand that time is of the essence, and we strive to complete the registration and maintenance process as quickly and efficiently as possible.",
+      "title3": "Personalized service",
+      "text3": "We take the time to understand your business needs and tailor our services to meet your specific requirements.",
+      "title4": "Transparency",
+      "text4": "We provide clear and upfront pricing for our services, and we keep you informed throughout the entire process.",
+      "title5": "Reliability",
+      "text5": "We are committed to providing high-quality services and building long-term relationships with our clients."
+    }
   }
 }
