@@ -1,0 +1,70 @@
+.sectionInclude {
+  padding-block: 7rem;
+  background-color: var(--Dark-grey, #1A1A1A);
+  position: relative;
+  z-index: 5;
+}
+
+.sectionInclude::before {
+  content: '';
+  position: absolute;
+  background: url("../../../public/assets/img/ServicesTriangleV2.png") no-repeat center right/ cover;
+  width: 52.91rem;
+  height: 78.91rem;
+  right: 0;
+  top: 7.5rem;
+}
+
+.sectionInclude::after {
+  position: absolute;
+  content: '';
+  filter: blur(10rem);
+  background: rgba(201, 77, 0, 0.4);
+  border-radius: 100%;
+  width: 36.94rem;
+  height: 36.94rem;
+  left: -20rem;
+  top: 0rem;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.sectionLeftItems {
+  max-width: 35.875rem;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.sectionText {
+  font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
+}
+
+.colorPrimary {
+  color: var(--primary, #c94d00);
+}
+
+.sectionTitle {
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin-top: 1rem;
+}
+
+.sectionRightItemsText {
+  align-items: center;
+}
+
+.sectionRightItemsText:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.diamondIcon {
+  margin-right: 1.5rem;
+}
+
+.textItem {
+  font: 1rem/160% "Montserrat-Regular", sans-serif;
+}
