@@ -72,8 +72,8 @@
     }
   },
   "ServicesSection": {
-    "sectionText": "Xidmətlər",
-    "sectionTitle": "Biz sizin İT biznes ideyanızı hüquqi və maliyyə strukturunda reallaşdırırıq",
+    "SectionText": "Xidmətlər",
+    "SectionTitle": "Biz sizin İT biznes ideyanızı hüquqi və maliyyə strukturunda reallaşdırırıq",
     "Services": {
       "title1": "Şirkətlərin qeydiyyatları",
       "text1": "Biz şirkətin yaradılması və saxlanması, eləcə də yerli kadrların axtarışı, hazır şirkətlərin satışı, ləğvetmə proseslərini təmin edirik.",
@@ -472,6 +472,22 @@
       "text4": "Biz xidmətlərimiz üçün aydın və ilkin qiymətlər təqdim edirik və bütün proses boyunca sizi məlumatlandırırıq.",
       "title5": "Etibarlılıq",
       "text5": "Biz yüksək keyfiyyətli xidmətlər göstərməyə və müştərilərimizlə uzunmüddətli əlaqələr qurmağa sadiqik."
+    }
+  },
+  "CompanySectionProcess": {
+    "sectionText": "Proses",
+    "sectionTitle": "Necə işləyir",
+    "CompanyProcess": {
+      "title1": "Qısa müsahibə",
+      "text1": "Biz sizə biznesiniz və şirkət qeydiyyatınızdan sizə lazım olanlar haqqında bir neçə sual verməklə başlayacağıq.",
+      "title2": "Proqnozlaşdırılan xərcləri və şərtləri ehtiva edən təklif",
+      "text2": "Ehtiyaclarınızı yaxşı başa düşdükdən sonra biz sizə proqnozlaşdırılan xərcləri və xidmətlərimizin şərtlərini əks etdirən ətraflı təklif təqdim edəcəyik.",
+      "title3": "Siz tələb olunan sənədləri təqdim edirsiniz",
+      "text3": "Qeydiyyat prosesinə başlamaq üçün bizə bəzi əsas sənədləri təqdim etməyimiz lazımdır.",
+      "title4": "Şirkətin birləşməsi",
+      "text4": "Komandamız şirkətinizi seçdiyiniz ölkədə birləşdirmək üçün bütün lazımi addımları atacaq.",
+      "title5": "Siz tam məxfilik şəraitində tam dəsti əldə edirsiniz",
+      "text5": "Şirkətiniz uğurla qeydiyyatdan keçdikdən sonra biznesinizə başlamağınıza kömək etmək üçün sizə bütün lazımi sənədləri və məlumatları göndərəcəyik."
     }
   }
 }

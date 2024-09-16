@@ -473,5 +473,21 @@
       "title5": "Reliability",
       "text5": "We are committed to providing high-quality services and building long-term relationships with our clients."
     }
+  },
+  "CompanySectionProcess": {
+    "sectionText": "Process",
+    "sectionTitle": "How it works",
+    "CompanyProcess": {
+      "title1": "Brief interview",
+      "text1": "We'll start by asking you a few questions about your business and what you need from your company registration.",
+      "title2": "The offer containing the projected costs and terms",
+      "text2": "Once we have a good understanding of your needs, we'll provide you with a detailed offer that outlines the projected costs and terms of our services.",
+      "title3": "You provide the requested documents",
+      "text3": "To get started with the registration process, we'll need you to provide us with some basic documents.",
+      "title4": "Incorporation of the company",
+      "text4": "Our team will take care of all the necessary steps to incorporate your company in the country of your choice.",
+      "title5": "You get the full kit in full confidentiality",
+      "text5": "Once your company has been successfully registered, we'll send you all the necessary documents and information to help you get started with your business."
+    }
   }
 }
