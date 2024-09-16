@@ -1,0 +1,79 @@
+.sectionProcess {
+  padding: 7rem 0;
+  background-color: #F0EDEE;
+}
+
+.flex {
+  display: flex;
+}
+
+.sectionLeftContainer {
+  width: 36.875rem;
+}
+
+.colorDarkGrey {
+  color: var(--Dark-grey, #1A1A1A);
+}
+
+.sectionText {
+  font: 1.5rem/140% "Montserrat-SemiBold", sans-serif;
+}
+
+.sectionTitle {
+  color: var(--primary, #c94d00);
+  font: 2.875rem/140% "Prata-Regular", sans-serif;
+  margin: 1rem 0 3rem;
+}
+
+.sectionRightContainer {
+  margin-left: 7.375rem;
+}
+
+.rightContainerItems{
+  position: relative;
+}
+
+.rightContainerItems:not(:last-child)::after {
+  position: absolute;
+  content: '';
+  width: 2.5px;
+  height: 110px;
+  background: var(--Dark-grey, #1A1A1A);
+  bottom: 0;
+  left: 28px;
+}
+
+.rightContainerTexts {
+  width: 29rem;
+}
+
+.fontRegular {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
+.sectionSpan {
+  color: #fff;
+  font-size: 1.875rem;
+  background: var(--Dark-grey, #1A1A1A);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.286rem 5.75rem 0;
+  width: 60px;
+  height: 60px;
+}
+
+.rightContainerItemTitle {
+  font: 1.5rem/140% "Montserrat-ExtraBold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.rightContainerItemText {
+  font-size: 1rem;
+  line-height: 160%;
+  width: 30rem;
+}
+
+.previewComponent {
+  margin-top: 8.938rem;
+}
