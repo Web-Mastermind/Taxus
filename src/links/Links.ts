@@ -339,3 +339,15 @@ export const CompanySectionIncludeEnd = () => {
     { id: 5, img: "/assets/icons/Secure.svg", title: t("SectionIncludeEndSubItems.title5"), text: t("SectionIncludeEndSubItems.text5") }
   ]
 }
+
+export const CompanySectionProcess = () => {
+  const t = useTranslations("CompanySectionProcess");
+
+  return [
+    { id: 1, count: "1", title: t("CompanyProcess.title1"), text: t("CompanyProcess.text1"), to: "/" },
+    { id: 2, count: "2", title: t("CompanyProcess.title2"), text: t("CompanyProcess.text2"), to: "/" },
+    { id: 3, count: "3", title: t("CompanyProcess.title3"), text: t("CompanyProcess.text3"), to: "/" },
+    { id: 4, count: "4", title: t("CompanyProcess.title4"), text: t("CompanyProcess.text4"), to: "/" },
+    { id: 5, count: "5", title: t("CompanyProcess.title5"), text: t("CompanyProcess.text5"), to: "/" }
+  ];
+};
